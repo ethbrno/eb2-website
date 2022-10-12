@@ -1,0 +1,653 @@
+{
+  "id": "ethbrno2",
+  "name": "ETHBrno",
+  "shortname": "ETHBrno",
+  "description": "ETHBrno² is an annual independent & open community hackathon",
+  "dates": [
+    "2022-11-11",
+    "2022-11-13"
+  ],
+  "places": ["Impact Hub Brno", "Clubco Brno"],
+  "country": "Czech Republic",
+  "links": {
+    "web": "https://ethbrno.cz",
+    "docs": "https://docs.ethbrno.cz/",
+    "twitter": "https://twitter.com/ethbrno",
+    "telegram": "https://t.me/ethbrno",
+    "matrix": "https://matrix.to/#/#ethbrno:gwei.cz"
+  },
+  "schemaVersion": 1,
+  "spec": {
+    "speakers": [
+      {
+        "id": "rachel-rose",
+        "name": "Rachel-Rose O'Leary",
+        "remote": false,
+        "twitter": "lunar_mining",
+        "linkedin": null,
+        "bio": "DarkFi core dev, writer",
+        "orgs": "[DarkFi](https://dark.fi/)",
+        "web": {
+          "name": "DarkFi",
+          "url": "https://dark.fi/"
+        },
+        "tracks": [
+          "lunarpunk",
+          "privacy"
+        ],
+        "country": "us",
+        "desc": "Rachel-Rose O'Leary is a software developer working in anonymity, systems development and cryptography. She was lead tech writer for CoinDesk 2017-2018, covering privacy tech and ethereum. She has a background in digital art and philosophy, and has been writing about crypto since 2015.",
+        "photos": [
+          "web:jpg"
+        ]
+      },
+      {
+        "id": "vorotnikov",
+        "name": "Artem Vorotnikov",
+        "remote":true,
+        "twitter": "vorot93",
+        "linkedin": null,
+        "bio": "Ethereum Core Developer, creator of Akula",
+        "orgs": "[Akula](https://akula.app/)",
+        "web": {
+          "name": "Akula",
+          "url": "https://akula.app/"
+        },
+        "tracks": [
+          "eth2"
+        ],
+        "country": "us",
+        "desc": "Rachel-Rose O'Leary is a software developer working in anonymity, systems development and cryptography. She was lead tech writer for CoinDesk 2017-2018, covering privacy tech and ethereum. She has a background in digital art and philosophy, and has been writing about crypto since 2015.",
+        "photos": [
+          "web:jpg"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "lunarpunk",
+        "name": "Dark side of the cycle",
+        "shortname": "Lunarpunk",
+        "examples": "* anonymous exchanges * Dark Forest infrastructure "
+      },
+      {
+        "id": "privacy",
+        "name": "Privacy",
+        "examples": "* censorship-resistant infrastructure * zero knowledge"
+      },
+      {
+        "id": "eth2",
+        "name": "Post Merge Ethereum",
+        "examples": "* scaling ETH * light clients"
+      }
+    ],
+    "event-types": [
+      {
+        "id": "talk",
+        "name": "Talk"
+      },
+      {
+        "id": "workshop",
+        "name": "Workshop"
+      },
+      {
+        "id": "panel",
+        "name": "Panel Debate",
+        "shortname": "Panel"
+      },
+      {
+        "id": "lightning-series",
+        "name": "Lightning Talks",
+        "shortname": "lightnings",
+        "url": "https://docs.utxo.cz/hlavni-program/formaty-programu#bleskova-prednaska-lightning-talk"
+      },
+      {
+        "id": "other",
+        "name": "Others"
+      }
+    ],
+    "events": [
+      {
+        "id": "o-praci-v-kryptu",
+        "type": "panel",
+        "name": "Z normální práce do krypta",
+        "speakers": [
+          "sona-parke",
+          "stana-mutlova",
+          "denisa-brichtova",
+          "jana-kubatova",
+          "lenka-stawarczyk"
+        ],
+        "track": "zaklady",
+        "duration": 85,
+        "difficulty": "advanced",
+        "tags": [
+          "práce",
+          "lifestyle",
+          "budoucnost",
+          "finanční nezávislost",
+          "ženy"
+        ],
+        "popularity": 0.9,
+        "description": "Největší rozdíly “normální” práce a práce v kryptu? A proč vůbec přecházet? Jsou hlavní motivací obvykle prachy? První práce v kryptu umí být náraz. Mentální i fyzický. Tady se dozvíte, co pomáhá to ustát. A vytušíte, jaké to je, pracovat v kryptu a jestli je to pro vás. A jako bonus se možná i dozvíte kudy na to."
+      },
+      {
+        "id": "btc-vs-altcoiny",
+        "type": "panel",
+        "name": "Bitcoin vs. altcoiny",
+        "speakers": [
+          "libor-flossler",
+          "josef-tetek",
+          "david-stancel"
+        ],
+        "duration": 85,
+        "difficulty": "beginner",
+        "track": "btc",
+        "tags": [
+          "Bitcoin",
+          "Lightning Network",
+          "altcoiny",
+          "DeFi",
+          "finanční svoboda"
+        ],
+        "popularity": 1,
+        "fixed": {
+          "date": "2022-06-05"
+        },
+        "description": "Diskuze bude probíhat mezi Bitcoin maximalistou Pepou Tětkem a Krypto realistou Davidem Stancelem. Cílem prezentace bude otevřená diskuze o parametrech, smysluplnosti, rizicích a potenciálním využití alterntivních kryptoměn v porovnání s Bitcoinem. Diskuzi bude moderovat Libor z Investocky.",
+        "video": {
+          "youtube": "WQLOuZRJbvk"
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "rajska-zahrada",
+        "name": "P1 Rajská zahrada",
+        "types": [
+          "talk",
+          "panel",
+          "lightning-series"
+        ],
+        "capacity": {
+          "seat": 320,
+          "stand": 80
+        },
+        "exclusivity": 1,
+        "times": [
+          "1/09:00-14:00",
+          "1/14:30-19:00",
+          "2/10:00-14:00",
+          "2/15:00-19:00"
+        ],
+        "livestream": true,
+        "streams": [
+          "1/08:45-19:30/jJUn50_iyFI",
+          "2/09:45-19:15/osNm7D1R3rw"
+        ]
+      },
+      {
+        "id": "lustrovy-sal",
+        "name": "P2 Lustrový sál",
+        "types": [
+          "talk",
+          "panel",
+          "lightning-series"
+        ],
+        "capacity": {
+          "seat": 135,
+          "stand": 50
+        },
+        "exclusivity": 0.8,
+        "times": [
+          "1/09:30-13:00",
+          "1/13:30-19:30",
+          "2/10:00-13:00",
+          "2/13:30-18:30"
+        ],
+        "livestream": true,
+        "streams": [
+          "1/09:15-19:30/e73I-rQBozk",
+          "2/09:45-18:30/WCoAJhVLLbM"
+        ]
+      },
+      {
+        "id": "klenbovy-sal",
+        "name": "P3 Klenbový sál",
+        "types": [
+          "talk",
+          "lightning-series"
+        ],
+        "capacity": {
+          "seat": 135,
+          "stand": 50
+        },
+        "exclusivity": 0.6,
+        "times": [
+          "1/09:30-13:00",
+          "1/13:30-19:30",
+          "2/10:00-13:00",
+          "2/13:30-18:30"
+        ],
+        "livestream": true,
+        "streams": [
+          "1/09:15-19:30/tkRVtaCCgwk",
+          "2/09:45-18:30/GZ5FFWTleTk"
+        ]
+      },
+      {
+        "id": "exit-room",
+        "name": "P4 Exit room",
+        "types": [
+          "talk"
+        ],
+        "capacity": {
+          "seat": 70,
+          "stand": 30
+        },
+        "exclusivity": 0.4,
+        "times": [
+          "1/09:30-13:30",
+          "1/14:00-19:30",
+          "2/10:00-13:30",
+          "2/14:00-18:30"
+        ],
+        "livestream": true,
+        "streams": [
+          "1/09:15-19:30/ku_qtzNsotg",
+          "2/09:45-18:30/Gsf9ubuh7rU"
+        ]
+      },
+      {
+        "id": "knihovna",
+        "name": "W1 Knihovna",
+        "types": [
+          "workshop"
+        ],
+        "capacity": {
+          "seat": 40,
+          "stand": 20
+        },
+        "exclusivity": 1,
+        "times": [
+          "1/09:30-13:30",
+          "1/14:00-19:30",
+          "2/10:00-13:30",
+          "2/14:00-18:30"
+        ]
+      },
+      {
+        "id": "white-workshop-room",
+        "name": "W2 Table room",
+        "types": [
+          "workshop"
+        ],
+        "capacity": {
+          "seat": 35,
+          "stand": 15
+        },
+        "exclusivity": 0.5,
+        "times": [
+          "1/09:30-13:30",
+          "1/14:00-19:30",
+          "2/10:00-13:30",
+          "2/14:00-18:30"
+        ]
+      },
+      {
+        "id": "campfire-outdoor",
+        "name": "🔥 C1 Campfire (venku)",
+        "types": [
+          "campfire"
+        ],
+        "capacity": {
+          "seat": 40,
+          "stand": 100
+        },
+        "times": [
+          "1/09:30-12:00",
+          "1/12:30-17:00",
+          "2/10:00-12:00",
+          "2/12:30-18:30"
+        ]
+      },
+      {
+        "id": "campfire-indoor",
+        "name": "🔥 C2 Campfire (uvnitř)",
+        "types": [
+          "campfire"
+        ],
+        "capacity": {
+          "seat": 20,
+          "stand": 80
+        },
+        "times": [
+          "1/09:30-12:00",
+          "1/12:30-19:00",
+          "2/10:00-12:00",
+          "2/12:30-18:00"
+        ]
+      },
+      {
+        "id": "nft-chillout",
+        "name": "NFT chillout",
+        "types": [
+          "nft-event"
+        ],
+        "capacity": {
+          "seat": 30,
+          "stand": 40
+        },
+        "times": [
+          "1/09:30-20:00",
+          "2/10:00-18:00"
+        ],
+        "hidden": true
+      },
+      {
+        "id": "pitevna",
+        "name": "Pitevna",
+        "types": [
+          "other"
+        ],
+        "capacity": {
+          "seat": 0,
+          "stand": 150
+        },
+        "times": [
+          "1/16:00-23:59"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Jaký je časový harmonogram?",
+        "answer": "Časový harmonogram všech přednášek bude zveřejněn nejpozději v pondělí 30. května ráno. Tady je zatím hrubý časový plán:* **Sobota**: 8:00 otevření, 9:00-9:15 zahájení, 9:30-19:30 program, 20:00-02:00+ party* **Neděle**: 9:00 otevření, 10:00-18:30 program, 18:30-19:00 zakončení, 20:00 uzavření"
+      }
+    ],
+    "partners": [
+      {
+        "id": "gweicz",
+        "name": "Gwei.cz",
+        "type": "community",
+        "twitter": "gweicz",
+        "desc": "Ethereum/DeFi/Web3 komunita",
+        "photos": [
+          "twitter:jpg"
+        ]
+      },
+      {
+        "id": "holky-v-kryptu",
+        "name": "Holky v kryptu",
+        "type": "community",
+        "twitter": "holkyvkryptu",
+        "desc": "Komunita pro začínající a mírně pokročilé uživatele",
+        "photos": [
+          "twitter:jpg"
+        ]
+      }
+    ],
+    "team": {
+      "persons": {
+        "tereza": {
+          "name": "Tereza Starostová",
+          "twitter": "tatereza5",
+          "desc": "Zástupce [Holky v Kryptu](https://holkyvkryptu.cz/)"
+        },
+        "tree": {
+          "name": "Tree",
+          "twitter": "treecz",
+          "desc": "Zástupce [Gwei.cz](http://gwei.cz/) a [BohemianDAO](http://bohemiandao.cz/)"
+        },
+        "exez": {
+          "name": "Exez",
+          "twitter": "OndraPulc"
+        },
+        "petr": {
+          "name": "Petr Klein",
+          "twitter": "kleinpetr_com"
+        },
+        "jiri": {
+          "name": "Jiří Čepelka",
+          "twitter": "JiriCepelka"
+        }
+      },
+      "teams": {
+        "core": {
+          "name": "Core",
+          "desc": "Hlavní team který koordinuje ostatní teamy a fakticky reprezentuje konferenci.",
+          "members": [
+            "tree",
+            "tereza",
+            "vojtch"
+          ],
+          "lead": "tereza"
+        },
+        "legal": {
+          "name": "Legal",
+          "desc": "Legální entita (UTXO Foundation, z.s.), právní aspekty, účetnictví atp.",
+          "members": [
+            "tree",
+            "tereza",
+            "simona",
+            "petr"
+          ],
+          "lead": "tereza"
+        },
+        "sponsorship": {
+          "name": "Sponzorství",
+          "parent": "finance",
+          "desc": "Shánění a domlouvání sponzorů.",
+          "members": [
+            "vojtch",
+            "tereza"
+          ],
+          "lead": "vojtch"
+        },
+        "venue": {
+          "name": "Místo konání",
+          "desc": "Vše co se týká místa konání a jeho vybavení.",
+          "members": [
+            "tereza",
+            "tree",
+            "vojtch"
+          ],
+          "lead": "tereza"
+        },
+        "catering": {
+          "name": "Catering",
+          "parent": "venue",
+          "desc": "Řešení jídla pro návštěvníky.",
+          "members": [
+            "tereza",
+            "tree",
+            "vojtch"
+          ],
+          "lead": "tereza"
+        },
+        "program": {
+          "name": "Program",
+          "desc": "Dramaturgie konference - hlavní a doprovodný program.",
+          "members": [
+            "tree",
+            "tereza"
+          ],
+          "lead": "tree"
+        },
+        "speakers": {
+          "name": "Přednášející",
+          "parent": "program",
+          "desc": "Shánění a koordinace přednášejících.",
+          "members": [
+            "tree",
+            "tereza"
+          ],
+          "lead": "tree"
+        },
+        "design": {
+          "name": "Design",
+          "desc": "Vizuální identita apod.",
+          "members": [
+            "tereza",
+            "tree",
+            "exez"
+          ],
+          "lead": "tereza"
+        },
+        "marketing": {
+          "name": "Marketing",
+          "desc": "Aktivity propagující konferenci, sociální sítě.",
+          "members": [
+            "tereza",
+            "tree",
+            "jiri"
+          ],
+          "lead": "tereza"
+        },
+        "web-ticketing": {
+          "name": "Web a ticketing",
+          "desc": "Technická realizace webu a ticketingu (prodej vstupenek).",
+          "members": [
+            "tree",
+            "vojtch"
+          ],
+          "lead": "tree"
+        },
+        "party": {
+          "name": "Party",
+          "parent": "program",
+          "desc": "Společenský večer a party, která se uskuteční v rámci konference.",
+          "members": [
+            "tereza",
+            "tree"
+          ],
+          "lead": "tree"
+        }
+      }
+    },
+    "practical-info": [
+      {
+        "id": "doprava",
+        "name": "Doprava",
+        "text": "Gabriel Loci se nachází na pražském Smíchově na adrese ***Holečkova 106/10, 150 00 Praha 5-Smíchov*** ([mapa](https://goo.gl/maps/RW4gBPZZeDRRLkNk9)).Hlavní vstup do areálu: [GPS 50.074779, 14.396471](https://what3words.com/fandit.%C4%8Detn%C3%A1.hl%C3%ADdka \"GPS 50.074779, 14.396471\") ## Hromadná doprava (MHD)Doporučená velkokapacitní varianta dopravy na místo konání je využít metro na stanici Anděl (linka B) a odtud pěšky 900m, [viz. níže](#pěšky-od-metra-anděl-linka-b). Další varianty jsou přiblížit se o jednu stanici blíže [tramvají](#tramvaj), nebo přijet ke Gabriel Loci nejblíže [autobusem](#autobus), který ale nejezdí tak často a rozhodně nebude velkokapacitní (možné tlačenice).Ceny jízdného v pražské MHD ([web](https://pid.cz/praha/)): 30 minut - 30 Kč, 90 minut - 40 Kč, 24 hodin - 120 Kč, 72 hodin - 330 Kč.Na nákup jízdenky v mobilu a vyhledávání spojení doporučujeme aplikaci [PID Lítačka](https://app.pidlitacka.cz/) ([Android](https://play.google.com/store/apps/details?id=cz.dpp.praguepublictransport), [iOS](https://apps.apple.com/cz/app/pid-litacka/id983071129)).### Pěšky od metra Anděl (linka B)Konference se nachází 900m od stanice metra B \"Anděl\" spojovací lávkou OC Nový Smíchov (z 1. patra) a poté krátkou procházkou parkem Sacré Coeur.Připravili jsme [cestu v Google Maps](https://www.google.com/maps/dir/50.0714086,14.4041228/Kl%C3%A1%C5%A1ter+Svat%C3%A9ho+Gabriela,+Hole%C4%8Dkova+106%2F10,+150+00+Praha+5-Sm%C3%ADchov/@50.0732931,14.3995812,17.53z/data=!4m9!4m8!1m0!1m5!1m1!1s0x470b94ffe90d8bef:0xe44f072ee3ed8c90!2m2!1d14.3960564!2d50.0748648!3e2 \"cestu v google maps\") přímo ze stanice metra až na konferenci.### TramvajNejbližší tramvajová zastávka je [Bertramka](https://goo.gl/maps/FvpgohrsEMzShQLe7). Dostanete se na ní linkami 9, 10, 15, 16, 44.Po výstupu na zastávce Bertramka Vás čeká ještě cca 450 metrů pěšky.  Připravili jsme [cestu v Google Maps](https://www.google.com/maps/dir/Bertramka,+Sm%C3%ADchov,+150+00+Praha+5/50.0747697,14.3964571/@50.0745687,14.3958081,103m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x470b95aace507bb5:0xb36fd7c9183b2e8f!2m2!1d14.392434!2d50.072239!1m0!3e2) přímo ze zastávky až na konferenci.  ### AutobusHromadnou dopravou se k nám nejblíže dostanete [autobusem 176](https://jrportal.dpp.cz/DataFTP/JRPortalData/176/20220523/176_(237_10)T.pdf \"autobusem 176\") ze kterého vystoupíte na zastávce Holečkova a následně půjdete 50 metrů \"z kopce\".Autobus jezdí jednou za 15-20 minut z [autobusové zastávky](https://goo.gl/maps/QRp9pdQ7dduhJJTEA) u metra Karlovo Náměstí (Linka B). Doba jízdy z Karlova náměstí je 15 minut a všechny spoje zajišťuje nízkopodlažní vozidlo.## AutoV Praze 5 jsou modré zóny, **v areálu bohužel nejsou volné parkovací plochy**, doporučujeme auto zaparkovat na záchytných parkovištích P+R Prahy a poté pokračovat MHD - přehled, aktuální obsazenost + ceny celodenního parkování 50-100 Kč, 24 hodin 200 Kč, najdete na této [stránce](https://www.dpp.cz/cestovani/parkovani-p-r).Parking v OC Nový Smíchov je na 5 hodin zdarma o víkendu, Víkendové parkování za 590 Kč V -1. podlaží a v -2. podlaží. Od pátku 16:00 do neděle 18:00. Pro více informací navštivte jejich [web](https://novy-smichov.klepierre.cz/aktualni-akce/akce/parkovani).TIP: Parkování na Praze 13 zdarma (nejsou modré zóny) na sídlišti u metra. Ulice: Petržílkova (metro Hůrka), Ovčí hájek (metro Nové Butovice) -> 10 minut na stanici Anděl.## TaxiDoporučujeme vystoupit u křižovatek *Holečkova / Kobrova* nebo *Holečkova / Švédská*.V Praze fungují taxi aplikace [Uber](https://uber.com/), [Bolt](https://bolt.eu/) nebo [Liftago](https://www.liftago.com/)."
+      },
+      {
+        "id": "jidlo-piti",
+        "name": "Jídlo a pití",
+        "text": "## Hlavní jídlaNa místě bude několik vybraných food trucků, které nabídnou široké spektrum jídel. Krom burgerů se můžete těšit na italskou kuchyni, ale také třeba na barevné veganské sushi.## Menší jídlaFood trucky budou nabízet i menší jídla a dezerty, pokud budete mít chuť na svačinku :)## PitíV celém objektu se bude nacházet několik barů ve kterých bude možné koupit pivo nebo třeba colu. Dostupné bude především pivo Budvar 33, ale samozřejmě také další značky. Večer budou na barech dostupné i drinky.Balená voda bude pro účastníky konference dostupná zdarma při vstupu.## KávaKáva bude dostupná ve vyhrazeném kávovém baru uvnitř a v kavárně venku primárně od značky [Café Reserva](https://www.cafereserva.cz/ \"Café Reserva\")."
+      },
+      {
+        "id": "ubytovani",
+        "name": "Ubytování",
+        "text": "K ubytování jsme pro vás vybrali několik možností v různých cenových kategoriích. ## Kempy a penziony (budget)- [Kemp Drusus](https://drusus.com/), K Řeporyjím 4, 155 00 Praha 13-Třebonice, cena za noc: chatka - 600 Kč, penzion - 900 Kč## Hostely- [Hostel Safestay](https://www.safestay.com/prague-charles-bridge \"Hostel Safestay\") Prague Charles Bridge, Ostrovní 131, 110 00 Nové Město## Hotely- [Hotel Vienna House Andel](https://www.viennahouse.com/andels-prague \"Hotel Vienna House Andel\"), Stroupežnického 3181/21, 150 00 Praha 5-Smíchov, cena za noc 3720 Kč- [Hotel IBIS Andel](https://all.accor.com/hotel/5211/index.en.shtml \"Hotel IBIS Andel\"), Plzeňská 14, 150 00 Praha 5-Smíchov- [Hotel Golf](https://www.hotel-golf.cz/ \"Hotel Golf\"), 215A, Plzeňská 103, Motol, 150 00 Praha 5, cena za noc 3600 KčDalší ubytování najdete na [Google Hotels](https://hotels.google.com/), [Airbnb](https://www.airbnb.com/), [Hotels.com](https://hotels.com/) nebo [Booking.com](https://booking.com/)."
+      }
+    ],
+    "schedule": [
+      {
+        "id": "aq",
+        "date": "2022-06-04",
+        "stage": "rajska-zahrada",
+        "period": {
+          "start": "2022-06-04T07:00:00.000Z",
+          "end": "2022-06-04T07:30:00.000Z"
+        },
+        "event": "opening-ceremony"
+      },
+      {
+        "id": "cs",
+        "date": "2022-06-05",
+        "stage": "white-workshop-room",
+        "period": {
+          "start": "2022-06-05T14:00:00.000Z",
+          "end": "2022-06-05T15:30:00.000Z"
+        },
+        "event": "bezpecnost-workshop"
+      },
+      {
+        "id": "bi",
+        "date": "2022-06-04",
+        "stage": "rajska-zahrada",
+        "period": {
+          "start": "2022-06-04T07:30:00.000Z",
+          "end": "2022-06-04T08:30:00.000Z"
+        },
+        "event": "danove-triky-a-kouzla"
+      },
+      {
+        "id": "bb",
+        "date": "2022-06-04",
+        "stage": "lustrovy-sal",
+        "period": {
+          "start": "2022-06-04T07:30:00.000Z",
+          "end": "2022-06-04T08:30:00.000Z"
+        },
+        "event": "adopce-btc"
+      },
+      {
+        "id": "cy",
+        "date": "2022-06-05",
+        "stage": "knihovna",
+        "period": {
+          "start": "2022-06-05T10:30:00.000Z",
+          "end": "2022-06-05T11:30:00.000Z"
+        },
+        "event": "bleskomat-worskhop"
+      },
+      {
+        "id": "b3",
+        "date": "2022-06-04",
+        "stage": "klenbovy-sal",
+        "period": {
+          "start": "2022-06-04T07:30:00.000Z",
+          "end": "2022-06-04T08:00:00.000Z"
+        },
+        "event": "uvod-near"
+      },
+      {
+        "id": "ac",
+        "date": "2022-06-04",
+        "stage": "exit-room",
+        "period": {
+          "start": "2022-06-04T07:30:00.000Z",
+          "end": "2022-06-04T08:30:00.000Z"
+        },
+        "event": "defi-pro-zacatecniky"
+      },
+      {
+        "id": "d0",
+        "date": "2022-06-04",
+        "stage": "campfire-indoor",
+        "period": {
+          "start": "2022-06-04T16:30:00.000Z",
+          "end": "2022-06-04T17:00:00.000Z"
+        },
+        "event": "idealni-kryptoportfolio"
+      },
+      {
+        "id": "dk",
+        "date": "2022-06-04",
+        "stage": "campfire-indoor",
+        "period": {
+          "start": "2022-06-04T07:30:00.000Z",
+          "end": "2022-06-04T08:30:00.000Z"
+        },
+        "event": "bohemiandao-campfire"
+      }
+    ]
+  },
+  "stats": {
+    "counts": {
+      "speakers": 10,
+      "tracks": 10,
+      "event-types": 7,
+      "events": 182,
+      "stages": 10,
+      "faqs": 6,
+      "partners": 48,
+      "projects": 72,
+      "practical-info": 3,
+      "schedule": 155
+    }
+  },
+  "time": "2022-07-14T03:29:30.958Z"
+}
