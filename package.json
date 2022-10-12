@@ -13,6 +13,7 @@
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.12",
 		"eslint": "^8.16.0",
