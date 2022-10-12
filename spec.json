@@ -44,7 +44,7 @@
       {
         "id": "vorotnikov",
         "name": "Artem Vorotnikov",
-        "remote":true,
+        "remote": true,
         "twitter": "vorot93",
         "linkedin": null,
         "bio": "Ethereum Core Developer, creator of Akula",
@@ -373,24 +373,25 @@
         "tereza": {
           "name": "Tereza Starostová",
           "twitter": "tatereza5",
-          "desc": "Zástupce [Holky v Kryptu](https://holkyvkryptu.cz/)"
+          "desc": "Zástupce [Holky v Kryptu](https://holkyvkryptu.cz/)",
+          "photos": [
+            "twitter:jpg"
+          ]
         },
         "tree": {
           "name": "Tree",
           "twitter": "treecz",
-          "desc": "Zástupce [Gwei.cz](http://gwei.cz/) a [BohemianDAO](http://bohemiandao.cz/)"
+          "desc": "Zástupce [Gwei.cz](http://gwei.cz/) a [BohemianDAO](http://bohemiandao.cz/)",
+          "photos": [
+            "twitter:jpg"
+          ]
         },
         "exez": {
           "name": "Exez",
-          "twitter": "OndraPulc"
-        },
-        "petr": {
-          "name": "Petr Klein",
-          "twitter": "kleinpetr_com"
-        },
-        "jiri": {
-          "name": "Jiří Čepelka",
-          "twitter": "JiriCepelka"
+          "twitter": "OndraPulc",
+          "photos": [
+            "twitter:jpg"
+          ]
         }
       },
       "teams": {
@@ -615,20 +616,5 @@
         "event": "bohemiandao-campfire"
       }
     ]
-  },
-  "stats": {
-    "counts": {
-      "speakers": 10,
-      "tracks": 10,
-      "event-types": 7,
-      "events": 182,
-      "stages": 10,
-      "faqs": 6,
-      "partners": 48,
-      "projects": 72,
-      "practical-info": 3,
-      "schedule": 155
-    }
-  },
-  "time": "2022-07-14T03:29:30.958Z"
+  }
 }
