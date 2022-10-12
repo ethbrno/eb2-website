@@ -1,17 +1,22 @@
 contributors:
 
-- name: Rachel-Rose O'Leary
+- id: rachel-oleary
+  name: Rachel-Rose O'Leary
   twitter: lunar_mining
   bio: DarkFi core dev, writer
   roles: [ speaker ]
+  desc: |
+    Rachel-Rose O’Leary is a core dev at lunarpunk layer 1, DarkFi. She is also co-editor of the philosophy journal Agorism in the 21st Century. As a writer she has published in egirlcapital, CoinDesk, Defiant, Wired and elsewhere under anonymous accounts. She believes privacy is necessary for communities to define their own destinies.
 
-- name: Artem Vorotnikov
+- id: artem-vorotnikov
+  name: Artem Vorotnikov
   twitter: vorot93
   bio: Ethereum Core Developer, creator of Akula
   roles: [ speaker ]
   remote: true
 
-- name: Pavol Luptak
+- id: pavol-luptak
+  name: Pavol Luptak
   nickname: wilder
   twitter: wilderco
   bio: Nethemba, Hacktrophy, liberation.travel
