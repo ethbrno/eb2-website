@@ -31,5 +31,12 @@
       ],
       "remote": true
     }
+  ],
+  "sponsors": [
+    {
+      "id": "ef",
+      "name": "Ethereum Foundation"
+    },
+    { "id": "ut", "name": "UTXO" }
   ]
 }
