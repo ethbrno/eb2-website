@@ -30,41 +30,33 @@
 			<div class="flex justify-center">
 				<a
 					href="https://goo.gl/maps/wutjvk8jCFuDcvSG6"
-					class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 text-lg"
+					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg"
 				>
-					Navigate
+					Map
 				</a>
 			</div>
 		</div>
 		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-			<picture>
-				<source srcSet="/venues/ih1.avif" type="image/avif" />
-				<source srcSet="/venues/ih1.jpg" type="image/jpeg" />
-				<img
-					class="object-cover object-center grayscale hover:grayscale-0"
-					decoding="async"
-					loading="lazy"
-					src="/venues/ih1.jpg"
-					alt="venue"
-				/>
-			</picture>
+			<img
+				class="object-cover object-center "
+				decoding="async"
+				loading="lazy"
+				src="/venues/ihhero.png"
+				alt="venue"
+			/>
 		</div>
 	</div>
 </section>
 <section class="text-gray-400 bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-			<picture>
-				<source srcSet="/venues/cc1.avif" type="image/avif" />
-				<source srcSet="/venues/cc1.jpg" type="image/jpeg" />
-				<img
-					class="object-cover object-center grayscale hover:grayscale-0"
-					decoding="async"
-					loading="lazy"
-					src="/venues/cc1.jpg"
-					alt="venue"
-				/>
-			</picture>
+			<img
+				class="object-cover object-center grayscale hover:grayscale-0"
+				decoding="async"
+				loading="lazy"
+				src="/venues/cc2.png"
+				alt="venue"
+			/>
 		</div>
 		<div
 			class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
@@ -89,9 +81,9 @@
 			<div class="flex justify-center">
 				<a
 					href="https://g.page/clubco-brno?share"
-					class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 text-lg"
+					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg"
 				>
-					Navigate
+					Map
 				</a>
 			</div>
 		</div>
