@@ -1,0 +1,19 @@
+contributors:
+
+- name: Rachel-Rose O'Leary
+  twitter: lunar_mining
+  bio: DarkFi core dev, writer
+  roles: [ speaker ]
+
+- name: Artem Vorotnikov
+  twitter: vorot93
+  bio: Ethereum Core Developer, creator of Akula
+  roles: [ speaker ]
+  remote: true
+
+- name: Pavol Luptak
+  nickname: wilder
+  twitter: wilderco
+  bio: Nethemba, Hacktrophy, liberation.travel
+  roles: [ speaker ]
+  remote: true 
