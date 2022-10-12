@@ -38,20 +38,6 @@
 				</li>
 				<li>
 					<a
-						href="/manual"
-						class="p-5 flex items-center  uppercase font-bold leading-snug text-black hover:opacity-75 hover:underline hidden"
-						>Hacker Manual</a
-					>
-				</li>
-				<li>
-					<a
-						href="/schedule"
-						class="p-5 flex items-center  uppercase font-bold leading-snug text-black hover:opacity-75 hover:underline hidden"
-						>Schedule</a
-					>
-				</li>
-				<li>
-					<a
 						href="/venues"
 						class="p-5 flex items-center  uppercase font-bold leading-snug text-black hover:opacity-75 hover:underline"
 						class:active={$page.url.pathname === '/venues'}

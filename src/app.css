@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: white;
+}
+
+.serif {
+    font-family: 'Roboto Slab', serif;
+}
+
+.hyph {
+    overflow-wrap: break-word;
+    hyphens: manual;
+    -webkit-hyphenate-character: "...";
+    hyphenate-character: "...";
+}
+
+.clippic {
+    clip-path: polygon(85% 0%, 100% 20%, 100% 100%, 0% 100%, 0% 0%);
+}
+
 @layer components {
     .active {
         @apply underline;
