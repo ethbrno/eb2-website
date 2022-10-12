@@ -23,7 +23,7 @@
 					id="anim-dialiate"
 					attributeName="radius"
 					values="0;10;0"
-					dur="5s"
+					dur="100s"
 					fill="freeze"
 					repeatCount="indefinite"
 				/>
@@ -45,7 +45,7 @@
 			<p class="text-xl">NOVEMBER 11-13, 2022</p>
 			<p class="text-xl">Brno, Czech republic</p>
 			<div class="h-[1px] bg-white w-full my-2 opacity-20" />
-			<p class="mb-8 py-4 leading-relaxed opacity-50 text-lg font-light">
+			<p class="mb-8 py-4 leading-relaxed opacity-50 text-lg font-light md:mr-8">
 				#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3
 				#smartcontracts #audits #vulnerabilities #analytics #wallets #scams #darkforest #mev
 				#zeroknowledgeproofs
