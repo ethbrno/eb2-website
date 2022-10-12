@@ -83,27 +83,8 @@
     ],
     "event-types": [
       {
-        "id": "talk",
-        "name": "Talk"
-      },
-      {
-        "id": "workshop",
-        "name": "Workshop"
-      },
-      {
-        "id": "panel",
-        "name": "Panel Debate",
-        "shortname": "Panel"
-      },
-      {
-        "id": "lightning-series",
-        "name": "Lightning Talks",
-        "shortname": "lightnings",
-        "url": "https://docs.utxo.cz/hlavni-program/formaty-programu#bleskova-prednaska-lightning-talk"
-      },
-      {
-        "id": "other",
-        "name": "Others"
+        "id": "main",
+        "name": "Main Track"
       }
     ],
     "events": [
