@@ -67,7 +67,7 @@
 			<img class="object-cover object-center" alt="hero" src="lock.png" />
 		</div>
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
+			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-2 lg:pr-32 md:pr-8 flex flex-col md:items-start md:text-left items-center text-center"
 		>
 			<h1 class="md:text-5xl text-3xl mb-4 font-bold text-white">Manifesto</h1>
 			<p class="mb-4 leading-relaxed">
