@@ -7,8 +7,6 @@
 			class="lg:max-w-lg lg:w-full md:w-1/2 md:mb-0 mb-10 md:flex hidden justify-center h-[700px]"
 		>
 			<svg class="block w-full">
-
-
 				<image
 					xlink:href="cam2.png"
 					width="100%"
@@ -25,7 +23,7 @@
 			<p class="text-xl">NOVEMBER 11-13, 2022</p>
 			<p class="text-xl">Brno, Czech republic</p>
 			<div class="h-[1px] bg-white w-full my-2 opacity-20" />
-			<p class="mb-8 py-4 leading-relaxed opacity-50 text-lg font-light md:mr-8">
+			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light md:mr-8">
 				#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3
 				#smartcontracts #audits #vulnerabilities #analytics #wallets #scams #darkforest #mev
 				#zeroknowledgeproofs
@@ -67,14 +65,14 @@
 				>
 			</div>
 		</div>
-		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
 			<img class="object-cover object-center" alt="hero" src="key_black.png" />
 		</div>
 	</div>
 </section>
-<section class="text-gray-400 bg-black body-font">
+<section class="text-white bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 flex justify-center">
+		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-full md:mb-0 mb-10 flex justify-center">
 			<img class="object-cover object-center" alt="hero" src="lock.png" />
 		</div>
 		<div
@@ -100,6 +98,30 @@
 				let's create them together.
 			</p>
 			<p class="leading-relaxed">Don't Trust. Verify. - Run a node - Protect privacy</p>
+		</div>
+	</div>
+</section>
+<section class="text-white bg-black body-font">
+	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+		<div
+			class="lg:flex-grow lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
+		>
+			<h1 class="md:text-5xl text-3xl mb-8 font-bold text-white">Sponsors</h1>
+			<div class="mb-4 flex flex-row w-full items-center">
+				<p class="leading-relaxed font-bold whitespace-nowrap">Schnorr - Tier 1</p>
+				<hr class="border border-dotted w-full ml-4 opacity-30" />
+			</div>
+			<div class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30">
+				<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
+			</div>
+			<div class="mb-4 flex flex-row w-full items-center">
+				<p class="leading-relaxed font-bold  whitespace-nowrap">ECDSA - Tier 2</p>
+				<hr class="border border-dotted w-full ml-4 opacity-30" />
+			</div>
+			<div class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-white/30">
+				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
+				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
+			</div>
 		</div>
 	</div>
 </section>
