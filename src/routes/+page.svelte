@@ -3,27 +3,18 @@
 </svelte:head>
 <section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">
-		<div
-			class="lg:max-w-lg lg:w-full md:w-1/2 md:mb-0 mb-10 md:flex hidden justify-center h-[700px]"
-		>
-			<svg class="block w-full">
-				<image
-					xlink:href="cam2.png"
-					width="100%"
-					height="100%"
-					preserveAspectRatio="xMidYMid slice"
-				/>
-			</svg>
+		<div class="md:w-5/12 md:mb-0 mb-10 md:flex hidden justify-center h-[800px]">
+			<img src="cam2.png" alt="cam" />
 		</div>
 		<div
-			class="md:w-1/2 lg:py-32 md:py-16 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
+			class="md:w-5/12 lg:py-32 md:py-16 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
 		>
 			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0  w-[343px] h-[127px]" alt="logo" />
 			<p class="text-3xl my-2">privacy {`&`} security edition</p>
 			<p class="text-xl">NOVEMBER 11-13, 2022</p>
 			<p class="text-xl">Brno, Czech republic</p>
 			<div class="h-[1px] bg-white w-full my-2 opacity-20" />
-			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light md:mr-8">
+			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light">
 				#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3
 				#smartcontracts #audits #vulnerabilities #analytics #wallets #scams #darkforest #mev
 				#zeroknowledgeproofs
@@ -109,16 +100,20 @@
 			<h1 class="md:text-5xl text-3xl mb-8 font-bold text-white">Sponsors</h1>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold whitespace-nowrap">Schnorr - Tier 1</p>
-				<hr class="border border-dotted w-full ml-4 opacity-30" />
+				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
 			</div>
-			<div class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30">
+			<div
+				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
+			>
 				<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold  whitespace-nowrap">ECDSA - Tier 2</p>
-				<hr class="border border-dotted w-full ml-4 opacity-30" />
+				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
 			</div>
-			<div class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-white/30">
+			<div
+				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-white/30"
+			>
 				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
 				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
 			</div>
