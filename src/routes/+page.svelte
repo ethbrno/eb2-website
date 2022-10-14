@@ -16,7 +16,7 @@
 			</svg>
 		</div>
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 pt-4 flex flex-col md:items-start md:text-left items-center text-center text-white transition-transform"
+			class="md:w-1/2 lg:py-32 md:py-16 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
 		>
 			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0  w-[343px] h-[127px]" alt="logo" />
 			<p class="text-3xl my-2">privacy {`&`} security edition</p>
