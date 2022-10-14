@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: jarredsumner/bun
+    image: jarredsumner/bun:edge
     commands:
       - bun i
       - bun run build
