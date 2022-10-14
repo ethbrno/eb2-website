@@ -54,7 +54,7 @@
 				class="object-cover object-center grayscale hover:grayscale-0"
 				decoding="async"
 				loading="lazy"
-				src="/venues/cc2.png"
+				src="/venues/cc1.png"
 				alt="venue"
 			/>
 		</div>

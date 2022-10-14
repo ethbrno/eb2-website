@@ -1,12 +1,10 @@
 /** @type {import('./$types').PageLoad} */
-export const prerender = true;
+//export const prerender = true;
 
 export async function load({ fetch }) {
-    //const { spec } = await fetch('https://spec.utxo.cz/22/bundle.json').then((r) => r.json());
-    const { contributors, sponsors } = await fetch(`data.json`).then((r) => r.json());
-
-    //console.log(contributors);
+    //const { contributors, sponsors } = await fetch(`data.json`).then((r) => r.json());
+    const { contributors, sponsors } = await fetch(`https://raw.githubusercontent.com/ethbrno/data/main/data.json`).then((r) => r.json());
     return {
-        data: {contributors, sponsors}
+        data: { contributors, sponsors }
     };
 }

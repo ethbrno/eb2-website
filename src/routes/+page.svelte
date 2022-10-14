@@ -1,35 +1,15 @@
 <svelte:head>
 	<title>ETHBrno²</title>
 </svelte:head>
-<section class="text-gray-400 bg-black">
+<section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">
 		<div
 			class="lg:max-w-lg lg:w-full md:w-1/2 md:mb-0 mb-10 md:flex hidden justify-center h-[700px]"
 		>
 			<svg class="block w-full">
-				<filter id="pixelate" x="0" y="0">
-					<feFlood x="4" y="4" height="2" width="2" />
 
-					<feComposite width="2" height="2" />
-
-					<feTile result="a" />
-
-					<feComposite in="SourceGraphic" in2="a" operator="in" />
-
-					<feMorphology operator="erode" id="morph" radius="5" />
-				</filter>
-				<animate
-					xlink:href="#morph"
-					id="anim-dialiate"
-					attributeName="radius"
-					values="0;10;0"
-					dur="100s"
-					fill="freeze"
-					repeatCount="indefinite"
-				/>
 
 				<image
-					filter="url(#pixelate)"
 					xlink:href="cam2.png"
 					width="100%"
 					height="100%"
@@ -53,12 +33,12 @@
 		</div>
 	</div>
 </section>
-<section class="text-gray-600 bg-white body-font">
+<section class="text-white bg-black body-font border-b">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
 			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 		>
-			<h1 class="md:text-5xl text-3xl font-bold mb-4 text-black">About</h1>
+			<h1 class="md:text-5xl text-3xl font-bold mb-4">About</h1>
 
 			<p class="mb-8 leading-relaxed">
 				ETHBrno² is an annual independent {`&`} open community hackathon (former conference) for supporters
@@ -75,20 +55,20 @@
 			<div class="flex justify-center">
 				<a
 					href="https://join.ethbrno.cz/"
-					class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-black  text-lg"
+					class="inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-50 text-lg"
 					>Apply To Hack</a
 				>
 				<a
 					href="https://ethbrno.cz/sponsor-deck.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="ml-4 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-200  text-lg underline"
+					class="ml-4 inline-flex bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900  text-lg underline"
 					>Sponsor</a
 				>
 			</div>
 		</div>
 		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-			<img class="object-cover object-center" alt="hero" src="key.png" />
+			<img class="object-cover object-center" alt="hero" src="key_black.png" />
 		</div>
 	</div>
 </section>
