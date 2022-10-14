@@ -31,7 +31,7 @@
 		</div>
 	</div>
 </section>
-<section class="text-white bg-black body-font border-b">
+<section class="text-black bg-white body-font border-b">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
 			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
@@ -53,20 +53,20 @@
 			<div class="flex justify-center">
 				<a
 					href="https://join.ethbrno.cz/"
-					class="inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-50 text-lg"
+					class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
 					>Apply To Hack</a
 				>
 				<a
 					href="https://ethbrno.cz/sponsor-deck.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="ml-4 inline-flex bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900  text-lg underline"
+					class="ml-4 inline-flex  border-0 py-2 px-6 focus:outline-none hover:bg-gray-100  text-lg underline"
 					>Sponsor</a
 				>
 			</div>
 		</div>
 		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
-			<img class="object-cover object-center" alt="hero" src="key_black.png" />
+			<img class="object-cover object-center" alt="hero" src="key.png" />
 		</div>
 	</div>
 </section>
