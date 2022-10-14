@@ -7,8 +7,8 @@
 	 import { page, session } from '$app/stores';
 </script>
 
-<nav class="flex flex-wrap items-center justify-between p-6 bg-white mx-auto sticky top-0 z-50">
-	<div class="container mx-auto flex flex-wrap items-center justify-between">
+<nav class="flex flex-wrap items-center justify-center py-6  bg-white mx-auto sticky top-0 z-50">
+	<div class="container flex flex-wrap items-center justify-between lg:max-w-screen-xl px-3">
 		<div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 			<a
 				class="text-sm leading-relaxed flex items-center justify-center"
