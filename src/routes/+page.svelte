@@ -105,8 +105,7 @@
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
-			>
-			</div>
+			/>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold whitespace-nowrap">ECDSA</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
@@ -115,7 +114,14 @@
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
-				<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
+				<a
+					href="https://ethereum.foundation/"
+					rel="noopener noreferrer"
+					target="_blank"
+					alt="link to"
+				>
+					<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
+				</a>
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold  whitespace-nowrap">AES</p>
@@ -133,8 +139,22 @@
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
-				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
-				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
+				<a
+					href="https://mitonc.com/"
+					rel="noopener noreferrer"
+					target="_blank"
+					alt="link to"
+				>
+					<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" /></a
+				>
+				<a
+					href="https://radicle.xyz/"
+					rel="noopener noreferrer"
+					target="_blank"
+					alt="link to"
+				>
+					<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" /></a
+				>
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold  whitespace-nowrap">Community</p>
@@ -144,7 +164,14 @@
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30 "
 			>
-				<img class="w-60 m-6" src="ethindia_logo.png" alt="EthIndia Logo" />
+				<a
+					href="https://ethindia.co/"
+					rel="noopener noreferrer"
+					target="_blank"
+					alt="link to"
+				>
+					<img class="w-60 m-6" src="ethindia_logo.png" alt="EthIndia Logo" /></a
+				>
 			</div>
 		</div>
 	</div>
