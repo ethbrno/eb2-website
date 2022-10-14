@@ -8,8 +8,8 @@
 </script>
 
 <nav class="flex flex-wrap items-center justify-center py-6  bg-white mx-auto sticky top-0 z-50">
-	<div class="container flex flex-wrap items-center justify-between lg:max-w-screen-xl px-3">
-		<div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+	<div class="container flex flex-wrap items-center justify-between xl:max-w-screen-xl px-3">
+		<div class="w-full relative flex justify-between xl:w-auto xl:static xl:block xl:justify-start">
 			<a
 				class="text-sm leading-relaxed flex items-center justify-center"
 				href="/"
@@ -18,7 +18,7 @@
 				<span class="hidden md:block pt-2 underline">November 11.-13.</span>
 			</a>
 			<button
-				class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+				class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block xl:hidden outline-none focus:outline-none"
 				type="button"
                 on:click={() => open = !open}
 			>
@@ -26,9 +26,9 @@
 			</button>
 		</div>
         
-		<div class="{open ? 'lg:flex flex-grow items-center flex' : 'lg:flex flex-grow items-center hidden'}" id="navbar">
+		<div class="{open ? 'xl:flex flex-grow items-center flex' : 'xl:flex flex-grow items-center hidden'}" id="navbar">
 			<ul
-				class="flex flex-col lg:flex-row lg:flex-grow-0 lg:mt-0 list-none lg:ml-auto text-base flex-grow my-8 lg:my-0"
+				class="flex flex-col xl:flex-row xl:flex-grow-0 xl:mt-0 list-none xl:ml-auto text-base flex-grow my-8 xl:my-0"
 			>
 				<li>
 					<a

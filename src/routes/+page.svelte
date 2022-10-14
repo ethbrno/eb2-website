@@ -7,7 +7,7 @@
 			<img src="cam2.png" class="object-cover object-center" alt="cam" />
 		</div>
 		<div
-			class="md:w-5/12 lg:py-32 md:py-16 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
+			class="md:w-5/12 xl:py-32 md:py-16 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
 		>
 			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0  w-[343px] h-[127px]" alt="logo" />
 			<p class="text-3xl my-2">privacy {`&`} security edition</p>
@@ -25,7 +25,7 @@
 <section class="text-black bg-white body-font border-b">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+			class="xl:flex-grow md:w-1/2 xl:pl-32 md:pl-16 xl:pr-32 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 		>
 			<h1 class="md:text-5xl text-3xl font-bold mb-4">About</h1>
 
@@ -56,18 +56,18 @@
 				>
 			</div>
 		</div>
-		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-full">
 			<img class="object-cover object-center" alt="hero" src="key.png" />
 		</div>
 	</div>
 </section>
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-full md:mb-0 mb-10 flex justify-center">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-full md:mb-0 mb-10 flex justify-center">
 			<img class="object-cover object-center" alt="hero" src="lock.png" />
 		</div>
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-2 lg:pr-32 md:pr-8 flex flex-col md:items-start md:text-left items-center text-center"
+			class="xl:flex-grow md:w-1/2 xl:pl-32 md:pl-2 xl:pr-32 md:pr-8 flex flex-col md:items-start md:text-left items-center text-center"
 		>
 			<h1 class="md:text-5xl text-3xl mb-4 font-bold text-white">Manifesto</h1>
 			<p class="mb-4 leading-relaxed">
@@ -95,7 +95,7 @@
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
-			class="lg:flex-grow lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
+			class="flex-grow xl:pl-32 md:pl-16 xl:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
 		>
 			<h1 class="md:text-5xl text-3xl mb-8 font-bold text-white">Sponsors</h1>
 			<div class="mb-4 flex flex-row w-full items-center">

@@ -12,7 +12,7 @@
 	<div class=" px-5 py-24 mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Speakers</h1>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+			<p class="xl:w-2/3 mx-auto leading-relaxed text-base">
 				We are here to inspire and help your project succeed.
 			</p>
 			<div class="flex mx-auto border-2 border-black overflow-hidden mt-6 bg-black">

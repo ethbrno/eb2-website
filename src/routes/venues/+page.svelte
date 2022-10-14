@@ -4,7 +4,7 @@
 <section class="text-gray-400 bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+			class="xl:flex-grow md:w-1/2 xl:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 		>
 			<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
 				<a href="https://www.hubbrno.cz/en/" class="hover:underline"> Impact Hub Brno </a>
@@ -36,7 +36,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-5/6">
 			<img
 				class="object-cover object-center "
 				decoding="async"
@@ -49,7 +49,7 @@
 </section>
 <section class="text-gray-400 bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
 			<img
 				class="object-cover object-center grayscale hover:grayscale-0"
 				decoding="async"
@@ -59,7 +59,7 @@
 			/>
 		</div>
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+			class="xl:flex-grow md:w-1/2 xl:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
 		>
 			<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Clubco Brno</h1>
 			<p class="leading-relaxed text-white">Opening hours:</p>
