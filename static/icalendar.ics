@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICalendarCreator//NONSGML//EN
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20221111
+DTEND;VALUE=DATE:20221113
+SUMMARY:ETHBrno
+LOCATION:Impact Hub, Brno
+DESCRIPTION:ETHBrno² is an annual independent & open community hackathon (former conference) for supporters of decentralised finance, smart contracts and Web3 happening in Brno, Czech Republic. ETHBrno² is the second, and we believe the best yet, edition.
+BEGIN:VALARM
+TRIGGER:-PT7D
+ACTION:DISPLAY
+DESCRIPTION:ETHBrno
+END:VALARM
+END:VEVENT
+END:VCALENDAR

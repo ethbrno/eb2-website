@@ -10,22 +10,14 @@
 
 <section class="text-gray-400 body-font bg-black">
 	<div class=" px-5 py-24 mx-auto">
-		<div class="flex flex-col text-center w-full mb-20">
+		<div class="flex flex-col text-center w-full mb-12">
 			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Speakers</h1>
-			<p class="xl:w-2/3 mx-auto leading-relaxed text-base">
-				We are here to inspire and help your project succeed.
-			</p>
-			<div class="flex mx-auto border-2 border-black overflow-hidden mt-6 bg-black">
-				<a class="py-1 px-4  text-white focus:outline-none" href="/contributors">Speakers</a>
-				<a class="py-1 px-4 bg-black hover:bg-black text-gray-300 focus:outline-none" href="/team"
-					>Team</a
-				>
-			</div>
+		
 		</div>
 		<div class="flex flex-wrap justify-center">
 			{#each Object.values(data) as item}
 				{#if item.name !== undefined}
-					<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3">
+					<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4">
 						<img
 							class="h-40 md:h-60 w-full object-cover object-center mb-6 grayscale hover:grayscale-0"
 							loading="lazy"
@@ -36,10 +28,10 @@
 							class="tracking-widest text-gray-400 text-xs font-medium title-font flex flex-row divide-x"
 						>
 							{#each item.roles as role}
-								<span>{role}</span>
+								<span class="underline">{role}</span>
 							{/each}
 						</h3>
-						<div class="flex flex-row mb-4">
+						<div class="flex flex-row mb-2">
 							<a
 								class="text-lg text-white font-medium title-font"
 								href={`https://twitter.com/${item.twitter}`}
@@ -64,7 +56,7 @@
 							{/if}
 						</div>
 
-						<p class="leading-relaxed text-base">{item.bio}</p>
+						<p class="leading-relaxed text-sm">{item.bio}</p>
 					</div>
 				{/if}
 			{/each}
