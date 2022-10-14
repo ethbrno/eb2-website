@@ -99,23 +99,57 @@
 		>
 			<h1 class="md:text-5xl text-3xl mb-8 font-bold text-white">Sponsors</h1>
 			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold whitespace-nowrap">Schnorr - Tier 1</p>
+				<p class="leading-relaxed font-bold whitespace-nowrap">Schnorr</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
-				<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
+				<div class="flex w-60 m-6 h-40 items-center justify-center text-3xl" alt="You?">You?</div>
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold  whitespace-nowrap">ECDSA - Tier 2</p>
+				<p class="leading-relaxed font-bold whitespace-nowrap">ECDSA</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
 			</div>
 			<div
-				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-white/30"
+				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
+			>
+				<div class="flex w-60 m-6 h-40 items-center justify-center text-3xl" alt="You?">You?</div>
+				<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
+				<div class="flex w-60 m-6 h-40 items-center justify-center text-3xl" alt="You?">You?</div>
+			</div>
+			<div class="mb-4 flex flex-row w-full items-center">
+				<p class="leading-relaxed font-bold  whitespace-nowrap">AES</p>
+				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+			</div>
+			<div
+				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
 				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
 				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
+				<img class="w-60 m-6" src="devfolio_logo.png" alt="Devfolio Logo" />
+			</div>
+			<div class="mb-4 flex flex-row w-full items-center">
+				<p class="leading-relaxed font-bold  whitespace-nowrap">3DES</p>
+				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+			</div>
+			<div
+				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
+			>
+				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
+				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
+				<img class="w-60 m-6" src="devfolio_logo.png" alt="Devfolio Logo" />
+			</div>
+			<div class="mb-4 flex flex-row w-full items-center">
+				<p class="leading-relaxed font-bold  whitespace-nowrap">Community</p>
+				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+			</div>
+			<div
+				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30 "
+			>
+				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
+				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
+				<img class="w-60 m-6" src="devfolio_logo.png" alt="Devfolio Logo" />
 			</div>
 		</div>
 	</div>
