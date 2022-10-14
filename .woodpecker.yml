@@ -1,9 +1,9 @@
 pipeline:
   build:
-    image: jarredsumner/bun:edge
+    image: node
     commands:
-      - bun i
-      - bun run build
+      - npm ci
+      - npm run build
   deploy:
     image: rclone/rclone
     commands:
