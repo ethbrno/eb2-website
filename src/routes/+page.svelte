@@ -101,55 +101,50 @@
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold whitespace-nowrap">Schnorr</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+				<p class="whitespace-nowrap ml-4 opacity-30">Tier 1</p>
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
-				<div class="flex w-60 m-6 h-40 items-center justify-center text-3xl" alt="You?">You?</div>
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold whitespace-nowrap">ECDSA</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+				<p class="whitespace-nowrap ml-4 opacity-30">Tier 2</p>
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
-				<div class="flex w-60 m-6 h-40 items-center justify-center text-3xl" alt="You?">You?</div>
 				<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
-				<div class="flex w-60 m-6 h-40 items-center justify-center text-3xl" alt="You?">You?</div>
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold  whitespace-nowrap">AES</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+				<p class="whitespace-nowrap ml-4 opacity-30">Tier 3</p>
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
-			>
-				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
-				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
-				<img class="w-60 m-6" src="devfolio_logo.png" alt="Devfolio Logo" />
-			</div>
+			/>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold  whitespace-nowrap">3DES</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+				<p class="whitespace-nowrap ml-4 opacity-30">Tier 4</p>
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 			>
 				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
 				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
-				<img class="w-60 m-6" src="devfolio_logo.png" alt="Devfolio Logo" />
 			</div>
 			<div class="mb-4 flex flex-row w-full items-center">
 				<p class="leading-relaxed font-bold  whitespace-nowrap">Community</p>
 				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+				<p class="whitespace-nowrap ml-4 opacity-30">Tier 5</p>
 			</div>
 			<div
 				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30 "
 			>
-				<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" />
-				<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" />
-				<img class="w-60 m-6" src="devfolio_logo.png" alt="Devfolio Logo" />
+				<img class="w-60 m-6" src="ethindia_logo.png" alt="EthIndia Logo" />
 			</div>
 		</div>
 	</div>
