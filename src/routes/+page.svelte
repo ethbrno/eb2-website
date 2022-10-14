@@ -4,7 +4,7 @@
 <section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">
 		<div class="md:w-5/12 md:mb-0 mb-10 md:flex hidden justify-center h-[800px]">
-			<img src="cam2.png" alt="cam" />
+			<img src="cam2.png" class="object-cover object-center" alt="cam" />
 		</div>
 		<div
 			class="md:w-5/12 lg:py-32 md:py-16 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
