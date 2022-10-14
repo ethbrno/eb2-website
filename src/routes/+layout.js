@@ -1,5 +1,5 @@
 /** @type {import('./$types').PageLoad} */
-//export const prerender = true;
+export const prerender = true;
 
 export async function load({ fetch }) {
     //const { contributors, sponsors } = await fetch(`data.json`).then((r) => r.json());
