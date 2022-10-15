@@ -37,12 +37,14 @@
 				{#each Object.values(data.contributors).filter(x => x.roles.includes(cat.role)) as item}
 					{#if item.name !== undefined}
 						<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4">
-							<img
-								class="h-40 md:h-60 w-full object-cover object-center mb-6 grayscale hover:grayscale-0"
-								loading="lazy"
-								src={`/photos/contributors/${item.id}.jpg`}
-								alt={item.desc}
-							/>
+							<a href="https://twitter.com/{item.twitter}" target="_blank">
+								<img
+									class="h-40 md:h-60 w-full object-cover object-center mb-6 grayscale hover:grayscale-0"
+									loading="lazy"
+									src={`/photos/contributors/${item.id}.jpg`}
+									alt={item.desc}
+								/>
+							</a>
 							<h3
 								class="tracking-widest text-gray-400 text-xs font-medium title-font flex flex-row divide-x"
 							>
@@ -54,6 +56,7 @@
 								<a
 									class="text-lg text-white font-medium title-font"
 									href={`https://twitter.com/${item.twitter}`}
+									target="_blank"
 								>
 									{item.name}
 									{#if item.nickname}
