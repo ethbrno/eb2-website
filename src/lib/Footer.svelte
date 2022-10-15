@@ -11,12 +11,7 @@
 		<div
 			class="container mx-auto px-4 flex flex-wrap flex-col sm:flex-row justify-center items-center h-60"
 		>
-			<a
-				href="https://twitter.com/ethbrno"
-				rel="noopener noreferrer"
-				class="text-black ml-1 external"
-				target="_blank"><img src={logo} class=" h-6" alt="logo" /></a
-			>
+			<img src={logo} class=" h-6" alt="logo" />
 
 			<span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
 				<a
