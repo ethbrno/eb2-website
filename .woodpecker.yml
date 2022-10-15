@@ -20,8 +20,6 @@ pipeline:
     environment:
       IPFS_CLUSTER_HOST: https://ipfs-cluster.gwei.cz
       IPFS_CLUSTER_USER: ethbrno
-      IPFS_CLUSTER_PASS:
-        from_secret: IPFS_CLUSTER_PASS
     commands:
       - npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web
     secrets: [IPFS_CLUSTER_PASS]
