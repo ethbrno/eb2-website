@@ -65,7 +65,7 @@
 							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75">Chat</a
 						>
 					</li>
-					<li>
+					<li class="pl-0 xl:pl-5">
 						<a
 							href="https://join.ethbrno.cz"
 							rel="noopener noreferrer"
