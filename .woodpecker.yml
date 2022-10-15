@@ -1,7 +1,10 @@
 pipeline:
   build:
-    image: jarredsumner/bun:edge
+    image: jarredsumner/bun:0.2.0
+    environment:
+      - NODE:bun
     commands:
+      - bun --version
       - bun i
       - bun run build
   deploy:
