@@ -4,7 +4,7 @@
 	 */
 	export let open;
 	import logo from '$lib/assets/logo_black.svg';
-	import { page, session } from '$app/stores';
+	import { page } from '$app/stores';
 </script>
 
 <nav class="flex flex-wrap items-center justify-center py-6  bg-white mx-auto sticky top-0 z-50">

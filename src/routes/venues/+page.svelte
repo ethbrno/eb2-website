@@ -1,7 +1,7 @@
 <svelte:head>
 	<title>Venues: ETHBrno²</title>
 </svelte:head>
-<section class="text-gray-400 bg-black body-font">
+<section class="text-white bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
 			class="xl:flex-grow md:w-1/2 xl:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
@@ -47,9 +47,9 @@
 		</div>
 	</div>
 </section>
-<section class="text-gray-400 bg-black body-font">
-	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+<section class="text-white bg-black body-font">
+	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse  items-center">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-5/6 md:mb-0 mt-10 md:mt-0">
 			<img
 				class="object-cover object-center grayscale hover:grayscale-0"
 				decoding="async"
