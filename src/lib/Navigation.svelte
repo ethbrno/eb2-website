@@ -10,7 +10,7 @@
 <nav class="flex flex-wrap items-center justify-center py-6  bg-white mx-auto sticky top-0 z-50">
 	<div class="container flex flex-wrap items-center justify-between xl:max-w-screen-xl px-3">
 		<div class="w-full relative flex justify-between xl:w-auto xl:static xl:block xl:justify-start">
-			<a class="text-sm leading-relaxed flex items-center justify-center" href="/">
+			<a class="text-sm leading-relaxed flex items-center justify-center" href="/" on:click={() => (open = false)}>
 				<img src={logo} alt="logo" class="w-[145px] h-[54px] md:mr-14 ml-4 md:ml-0" />
 			</a>
 			<button
