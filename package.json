@@ -1,6 +1,6 @@
 {
 	"name": "eb2-website",
-	"version": "0.0.1",
+  "version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -9,7 +9,8 @@
 		"test": "playwright test",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"make-data": "node ./scripts/make-data.js"
+		"make-data": "node ./scripts/make-data.js",
+		"ipfs-deploy": "npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
