@@ -1,6 +1,6 @@
 {
 	"name": "eb2-website",
-  "version": "0.0.1",
+	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -30,5 +30,8 @@
 		"tailwindcss": "^3.1.8",
 		"vite": "^3.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"moment": "^2.29.4"
+	}
 }
