@@ -38,21 +38,21 @@
 				<li>
 					<a
 						href="/"
-						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75"
+						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75" on:click={() => (open = false)}
 						class:active={$page.url.pathname === '/'}>Home</a
 					>
 				</li>
 				<li>
 					<a
 						href="/venues"
-						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75"
+						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75" on:click={() => (open = false)}
 						class:active={$page.url.pathname === '/venues'}>Venues</a
 					>
 				</li>
 				<li>
 					<a
 						href="/contributors"
-						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75"
+						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75" on:click={() => (open = false)}
 						class:active={$page.url.pathname === '/contributors' || $page.url.pathname === '/team'}
 						>Contributors</a
 					>
@@ -61,6 +61,7 @@
 					<a
 						href="https://matrix.to/#/#ethbrno:gwei.cz"
 						rel="noopener noreferrer"
+						on:click={() => (open = false)}
 						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75">Chat</a
 					>
 				</li>
@@ -69,6 +70,7 @@
 						href="https://join.ethbrno.cz"
 						rel="noopener noreferrer"
 						target="_blank"
+						on:click={() => (open = false)}
 						class="px-5 py-2 flex items-center bg-black text-white leading-snug hover:opacity-75"
 						>Join</a
 					>
