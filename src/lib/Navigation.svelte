@@ -46,14 +46,14 @@
 						<a
 							href="/venues"
 							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75" on:click={() => (open = false)}
-							class:active={$page.url.pathname === '/venues'}>Venues</a
+							class:active={$page.url.pathname === '/venues/'}>Venues</a
 						>
 					</li>
 					<li>
 						<a
 							href="/contributors"
 							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75" on:click={() => (open = false)}
-							class:active={$page.url.pathname === '/contributors' || $page.url.pathname === '/team'}
+							class:active={$page.url.pathname === '/contributors/'}
 							>Contributors</a
 						>
 					</li>
