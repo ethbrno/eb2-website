@@ -1,5 +1,7 @@
 contributors:
 
+# ---- SPEAKERS ----
+
 - id: rachel-oleary
   name: Rachel-Rose O'Leary
   twitter: lunar_mining
@@ -22,3 +24,100 @@ contributors:
   bio: Nethemba, Hacktrophy, liberation.travel
   roles: [ speaker ]
   remote: true 
+
+- id: dcbuilder
+  name: dcbuilder.eth
+  twitter: DCbuild3r
+  bio: WorldCoin, devpill.me
+  roles: [ speaker ]
+
+- id: juraj-bednar
+  name: Juraj Bednar
+  twitter: jurbed
+  bio: Hacktrophy, Hackyourself.io
+  roles: [ speaker ]
+
+- id: owen-barnes
+  name: Owen Barnes
+  nickname: temporalwave
+  twitter: temporalwave
+  bio: independent freedom adviser
+  roles: [ speaker, mentor ]
+
+- id: william-mitsuda
+  name: Willian Mitsuda
+  twitter: wmitsuda
+  bio: creator of Otterscan
+  roles: [ speaker ]
+  remote: true
+
+- id: qedk
+  name: QEDK
+  twitter: qedk_
+  bio: engineering Polygon, Moonshot Collective
+  roles: [ speaker ]
+  remote: true
+
+- id: vojtech-simetka
+  name: Vojtěch Šimetka
+  twitter: vojtechsimetka
+  bio: Blockchain for Humanity, Swarm, Giveth
+  roles: [ speaker, mentor ]
+
+# ---- TEAM ----
+
+- id: tree
+  name: Tree
+  twitter: treecz
+  bio: Zakladatel Gwei.cz a BohemianDAO, organizátor UTXO.22
+  roles: [ team ]
+
+- id: tereza
+  name: Tereza
+  twitter: terkastarostova
+  bio: Spoluzakladatelka Holky v Kryptu, předsedkyně UTXO Foundation
+  roles: [ team ]
+
+- id: exez
+  name: Exez
+  twitter: OndraPulc
+  bio: TODO
+  roles: [ team ]
+
+- id: hedvika
+  name: Hedvika
+  twitter: HedvikaPa
+  nickname: headwitch
+  bio: TODO
+  roles: [ team ]
+
+- id: jacob
+  name: Jacob
+  twitter: jacobjelen
+  bio: TODO
+  roles: [ team ]
+
+- id: damsky
+  name: Damsky
+  twitter: helloitsdamsky
+  bio: TODO
+  roles: [ team ]
+
+- id: adam
+  name: Adam
+  nickname: vorcigernix
+  twitter: vorcigernix
+  bio: TODO
+  roles: [ team ]
+
+- id: clairee
+  name: Clairee
+  twitter: De_luneClaire
+  bio: TODO
+  roles: [ team ]
+
+- id: dominika
+  name: Dominika
+  twitter: DominikaV5
+  bio: TODO
+  roles: [ team ]

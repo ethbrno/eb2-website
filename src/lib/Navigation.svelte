@@ -54,7 +54,7 @@
 						href="/contributors"
 						class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75"
 						class:active={$page.url.pathname === '/contributors' || $page.url.pathname === '/team'}
-						>Speakers</a
+						>Contributors</a
 					>
 				</li>
 				<li>

@@ -7,3 +7,4 @@ node_modules
 .env.*
 !.env.example
 bun.lockb
+src/lib/data.json

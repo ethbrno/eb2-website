@@ -30,6 +30,15 @@
         "speaker"
       ],
       "remote": true
+    },
+    {
+      "id": "tree",
+      "name": "Tree",
+      "twitter": "treecz",
+      "bio": "Zakladatel Gwei.cz a BohemianDAO, organizátor UTXO.22",
+      "roles": [
+        "team"
+      ]
     }
   ]
 }
