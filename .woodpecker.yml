@@ -2,9 +2,9 @@ pipeline:
   build:
     image: jarredsumner/bun:0.2.0
     commands:
-      - bun --version
-      - bun i
-      - bun run build
+      - node --version
+      - npm ci
+      - npm run build
   deploy:
     image: rclone/rclone
     commands:
