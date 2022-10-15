@@ -9,7 +9,7 @@
 		"test": "playwright test",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"make-data": "./scripts/make-data.js"
+		"make-data": "./scripts/run.sh scripts/make-data.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
