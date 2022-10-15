@@ -27,7 +27,7 @@
 
 
 <svelte:head>
-	<title>ETHBrno²</title>
+	<title>ETHBrno² 2022</title>
 </svelte:head>
 <section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">
@@ -72,14 +72,14 @@
 			<div class="flex justify-center">
 				<a
 					href="https://join.ethbrno.cz/"
-					class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
+					class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg external"
 					>Apply To Hack</a
 				>
 				<a
 					href="https://ethbrno.cz/sponsor-deck.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="ml-4 inline-flex  border-0 py-2 px-6 focus:outline-none hover:bg-gray-100  text-lg underline"
+					class="ml-4 inline-flex  border-0 py-2 px-6 focus:outline-none hover:bg-gray-100  text-lg underline external"
 					>Sponsor</a
 				>
 			</div>

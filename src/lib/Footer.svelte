@@ -11,24 +11,37 @@
 		<div
 			class="container mx-auto px-4 flex flex-wrap flex-col sm:flex-row justify-center items-center h-60"
 		>
-			<a
-				href="https://twitter.com/ethbrno"
-				rel="noopener noreferrer"
-				class="text-black ml-1"
-				target="_blank"><img src={logo} class=" h-6" alt="logo" /></a
-			>
+			<div>
+				<img src={logo} class=" h-6" alt="logo" />
+			</div>
 
-			<span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-				<a class="text-black mr-10" href="https://twitter.com/ethbrno" rel="noopener noreferrer"
-					>Twitter
-				</a>
-				<a
-					class="ml-3 text-black"
-					href="https://matrix.to/#/#ethbrno:gwei.cz"
-					rel="noopener noreferrer"
-					>Chat
-				</a>
-			</span>
+			<div class="md:inline-flex gap-10 sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start">
+				<div>
+					<a
+						class="text-black external"
+						href="https://docs.ethbrno.cz"
+						rel="noopener noreferrer"
+						>Documentation
+					</a>
+				</div>
+				<div>
+					<a
+						class="text-black external"
+						href="https://twitter.com/ethbrno"
+						rel="noopener noreferrer"
+						>Twitter
+					</a>
+				</div>
+				<div>
+					/join 
+					<a
+						class="text-black external"
+						href="https://matrix.ethbrno.cz"
+						rel="noopener noreferrer"
+						>#ethbrno:gwei.cz
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </footer>

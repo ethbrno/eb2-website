@@ -4,11 +4,12 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "js-yaml ./data/data.yaml > ./src/lib/data.json && vite build",
+		"build": "npm run make-data && vite build",
 		"preview": "vite preview",
 		"test": "playwright test",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"make-data": "node ./scripts/make-data.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",

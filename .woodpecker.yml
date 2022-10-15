@@ -2,6 +2,7 @@ pipeline:
   build:
     image: node
     commands:
+      - node --version
       - npm ci
       - npm run build
   deploy:
