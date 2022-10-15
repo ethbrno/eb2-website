@@ -10,7 +10,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null,
-			precompress: true
+			precompress: false
 		})
 	},
 	preprocess: [
