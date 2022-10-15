@@ -41,7 +41,7 @@
 							<img
 								class="h-40 md:h-60 w-full object-cover object-center mb-6 grayscale hover:grayscale-0"
 								loading="lazy"
-								src={`/photos/${item.id}.jpg`}
+								src={`/photos/contributors/${item.id}.jpg`}
 								alt={item.desc}
 							/>
 							<h3

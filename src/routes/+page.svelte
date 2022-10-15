@@ -1,3 +1,31 @@
+<script>
+	export let data;
+
+	const tiers = [
+		{
+			id: 'schnorr',
+			name: 'Schnorr'
+		},
+		{
+			id: 'ecdsa',
+			name: 'ECDSA'
+		},
+		{
+			id: 'aes',
+			name: 'AES',
+		},
+		{
+			id: '3des',
+			name: '3DES'
+		},
+		{
+			id: 'community',
+			name: 'Community'
+		}
+	]
+</script>
+
+
 <svelte:head>
 	<title>ETHBrno²</title>
 </svelte:head>
@@ -98,81 +126,27 @@
 			class="flex-grow xl:pl-32 md:pl-16 xl:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
 		>
 			<h1 class="md:text-5xl text-3xl mb-8 font-bold text-white">Sponsors</h1>
-			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold whitespace-nowrap">Schnorr</p>
-				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
-				<p class="whitespace-nowrap ml-4 opacity-30">Tier 1</p>
-			</div>
-			<div
-				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
-			/>
-			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold whitespace-nowrap">ECDSA</p>
-				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
-				<p class="whitespace-nowrap ml-4 opacity-30">Tier 2</p>
-			</div>
-			<div
-				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
-			>
-				<a
-					href="https://ethereum.foundation/"
-					rel="noopener noreferrer"
-					target="_blank"
-					alt="link to"
+			{#each tiers as tier, tierNumber}
+				<div class="mb-4 flex flex-row w-full items-center">
+					<p class="leading-relaxed font-bold whitespace-nowrap">{tier.name}</p>
+					<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
+					<p class="whitespace-nowrap ml-4 opacity-30">Tier {tierNumber}</p>
+				</div>
+				<div
+					class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 				>
-					<img class="w-60 m-6" src="ethf_logo.png" alt="Ethereum Foundation Logo" />
-				</a>
-			</div>
-			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold  whitespace-nowrap">AES</p>
-				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
-				<p class="whitespace-nowrap ml-4 opacity-30">Tier 3</p>
-			</div>
-			<div
-				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
-			/>
-			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold  whitespace-nowrap">3DES</p>
-				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
-				<p class="whitespace-nowrap ml-4 opacity-30">Tier 4</p>
-			</div>
-			<div
-				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
-			>
-				<a
-					href="https://mitonc.com/"
-					rel="noopener noreferrer"
-					target="_blank"
-					alt="link to"
-				>
-					<img class="w-60 m-6" src="miton_logo.png" alt="Miton Logo" /></a
-				>
-				<a
-					href="https://radicle.xyz/"
-					rel="noopener noreferrer"
-					target="_blank"
-					alt="link to"
-				>
-					<img class="w-60 m-6" src="radicle_logo.png" alt="Radicle Logo" /></a
-				>
-			</div>
-			<div class="mb-4 flex flex-row w-full items-center">
-				<p class="leading-relaxed font-bold  whitespace-nowrap">Community</p>
-				<div class="border-b border-white border-dashed w-full ml-4 opacity-30" />
-				<p class="whitespace-nowrap ml-4 opacity-30">Tier 5</p>
-			</div>
-			<div
-				class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30 "
-			>
-				<a
-					href="https://ethindia.co/"
-					rel="noopener noreferrer"
-					target="_blank"
-					alt="link to"
-				>
-					<img class="w-60 m-6" src="ethindia_logo.png" alt="EthIndia Logo" /></a
-				>
-			</div>
+					{#each data.sponsors.filter(x => x.tier.includes(tier.id)) as sponsor}
+						<a
+							href={sponsor.url}
+							rel="noopener noreferrer"
+							target="_blank"
+							alt="link to"
+						>
+							<img class="w-60 m-6" src="/photos/sponsors/{sponsor.id}.png" alt="{sponsor.name} Logo" />
+						</a>
+					{/each}
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
