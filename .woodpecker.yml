@@ -16,8 +16,12 @@ pipeline:
       branch: [main]
 
   deploy_ipfs:
-    image: ipfs/ipfs-cluster
+    image: node
+    environment:
+      IPFS_CLUSTER_HOST: https://ipfs-cluster.gwei.cz
+      IPFS_CLUSTER_USER: ethbrno
+      IPFS_CLUSTER_PASS:
+        from_secret: IPFS_CLUSTER_PASS
     commands:
-      - ls -lah build/
-      - ipfs-cluster-ctl --host /dns/ipfs-cluster.gwei.cz/tcp/443 --basic-auth ethbrno:$IPFS_CLUSTER_PASS add -r -H --cid-version 1 --wait build/
+      - npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web
     secrets: [IPFS_CLUSTER_PASS]
