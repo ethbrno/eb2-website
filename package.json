@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "npm run make-data && vite build",
+		"build": "npm run make-data && npx vite build",
 		"preview": "vite preview",
 		"test": "playwright test",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
