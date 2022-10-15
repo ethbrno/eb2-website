@@ -71,13 +71,13 @@ contributors:
   - id: tree
     name: Tree
     twitter: treecz
-    bio: Zakladatel Gwei.cz a BohemianDAO, organizátor UTXO.22
+    bio: Gwei.cz and BohemianDAO founder, UTXO.22 steward
     roles: [ team ]
 
   - id: tereza
     name: Tereza
     twitter: terkastarostova
-    bio: Spoluzakladatelka Holky v Kryptu, předsedkyně UTXO Foundation
+    bio: Holky v Kryptu co-founder, chairman of UTXO Foundation
     roles: [ team ]
 
   - id: exez
@@ -109,7 +109,7 @@ contributors:
     name: Adam
     nickname: vorcigernix
     twitter: vorcigernix
-    bio: TODO
+    bio: Zitrone founder, member of Developer DAO and Forefront
     roles: [ team ]
 
   - id: clairee
