@@ -29,7 +29,7 @@
 
 			<div class="text-sm pt-10 xl:pt-0 pl-4 xl:pl-0">
 					<strong>November 11 - 13, 2022</strong><br />
-					Impact Hub / Clubco, Brno, Czech Republic
+					Brno, Czech Republic
 			</div>
 			<div class="flex flex-grow items-center">
 				<ul
@@ -59,7 +59,7 @@
 					</li>
 					<li>
 						<a
-							href="https://matrix.to/#/#ethbrno:gwei.cz"
+							href="https://matrix.ethbrno.cz"
 							rel="noopener noreferrer"
 							on:click={() => (open = false)}
 							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75">Chat</a

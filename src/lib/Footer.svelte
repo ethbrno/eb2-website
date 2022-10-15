@@ -19,15 +19,27 @@
 			>
 
 			<span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-				<a class="text-black mr-10" href="https://twitter.com/ethbrno" rel="noopener noreferrer"
-					>Twitter
+				<a
+					class="mr-10 text-black"
+					href="https://docs.ethbrno.cz"
+					rel="noopener noreferrer"
+					>Documentation
 				</a>
 				<a
-					class="ml-3 text-black"
-					href="https://matrix.to/#/#ethbrno:gwei.cz"
+					class="text-black ml-3 mr-10"
+					href="https://twitter.com/ethbrno"
 					rel="noopener noreferrer"
-					>Chat
+					>Twitter
 				</a>
+				<div class="inline-block ml-3">
+					Matrix (chat): 
+					<a
+						class="text-black"
+						href="https://matrix.ethbrno.cz"
+						rel="noopener noreferrer"
+						>#ethbrno:gwei.cz
+					</a>
+				</div>
 			</span>
 		</div>
 	</div>
