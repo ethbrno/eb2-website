@@ -1,5 +1,4 @@
 <script>
-	/** @type {import('./$types').PageData} */
 	export let data;
 
 	const categories = [
@@ -24,7 +23,7 @@
 </script>
 
 <svelte:head>
-	<title>Contributors: ETHBrno²</title>
+	<title>Contributors: {data.title}</title>
 </svelte:head>
 
 <section class="text-gray-400 body-font bg-black py-12">

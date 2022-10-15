@@ -27,7 +27,7 @@
 
 
 <svelte:head>
-	<title>ETHBrno²</title>
+	<title>ETHBrno² 2022</title>
 </svelte:head>
 <section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">

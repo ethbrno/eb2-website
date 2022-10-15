@@ -1,5 +1,9 @@
+<script>
+	export let data;
+</script>
+
 <svelte:head>
-	<title>Venues: ETHBrno²</title>
+	<title>Venues: {data.title}</title>
 </svelte:head>
 <section class="text-gray-400 bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
