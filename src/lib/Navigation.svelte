@@ -61,8 +61,9 @@
 						<a
 							href="https://matrix.ethbrno.cz"
 							rel="noopener noreferrer"
+							target="_blank"
 							on:click={() => (open = false)}
-							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75">Chat</a
+							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75 external">Chat</a
 						>
 					</li>
 					<li class="pl-0 xl:pl-5">
@@ -71,7 +72,7 @@
 							rel="noopener noreferrer"
 							target="_blank"
 							on:click={() => (open = false)}
-							class="px-5 py-2 flex items-center bg-black text-white leading-snug hover:opacity-75"
+							class="px-5 py-2 flex items-center bg-black text-white leading-snug hover:opacity-75 external"
 							>Join</a
 						>
 					</li>

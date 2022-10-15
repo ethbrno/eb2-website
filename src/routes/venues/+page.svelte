@@ -31,12 +31,20 @@
 				more. We want you to feel as comfortable as possible and we will do everything we can to
 				make that happen.
 			</div>
-			<div class="flex justify-center">
+			<div class="flex justify-center gap-4">
 				<a
-					href="https://goo.gl/maps/wutjvk8jCFuDcvSG6"
-					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg"
+					href="https://www.openstreetmap.org/way/339769163"
+					target="_blank"
+					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg external"
 				>
-					Map
+					OpenStreetMap
+				</a>
+				<a
+					href="https://goo.gl/maps/8bKsGHhVSYrF8ZmE8"
+					target="_blank"
+					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg external"
+				>
+					Google Maps
 				</a>
 			</div>
 		</div>
@@ -82,12 +90,20 @@
 			<div class="relative mb-4">
 				This location will NOT be open 24/7, you will need to move to the Impact Hub for the night.
 			</div>
-			<div class="flex justify-center">
+			<div class="flex justify-center gap-4">
 				<a
-					href="https://g.page/clubco-brno?share"
-					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg"
+					href="https://www.openstreetmap.org/node/8848071783"
+					target="_blank"
+					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg external"
 				>
-					Map
+					OpenStreetMap
+				</a>
+				<a
+					href="https://g.page/clubco-brno"
+					target="_blank"
+					class="inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none hover:bg-gray-600 text-lg external"
+				>
+					Google Maps
 				</a>
 			</div>
 		</div>

@@ -14,19 +14,19 @@
 			<a
 				href="https://twitter.com/ethbrno"
 				rel="noopener noreferrer"
-				class="text-black ml-1"
+				class="text-black ml-1 external"
 				target="_blank"><img src={logo} class=" h-6" alt="logo" /></a
 			>
 
 			<span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
 				<a
-					class="mr-10 text-black"
+					class="mr-10 text-black external"
 					href="https://docs.ethbrno.cz"
 					rel="noopener noreferrer"
 					>Documentation
 				</a>
 				<a
-					class="text-black ml-3 mr-10"
+					class="text-black ml-3 mr-10 external"
 					href="https://twitter.com/ethbrno"
 					rel="noopener noreferrer"
 					>Twitter
@@ -34,7 +34,7 @@
 				<div class="inline-block ml-3">
 					Matrix (chat): 
 					<a
-						class="text-black"
+						class="text-black external"
 						href="https://matrix.ethbrno.cz"
 						rel="noopener noreferrer"
 						>#ethbrno:gwei.cz
