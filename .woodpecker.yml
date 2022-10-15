@@ -18,5 +18,6 @@ pipeline:
   deploy_ipfs:
     image: ipfs/ipfs-cluster
     commands:
-      - cd build && ipfs-cluster-ctl --host /dns/ipfs-cluster.gwei.cz/tcp/443 --basic-auth ethbrno:$IPFS_CLUSTER_PASS add -r -H --cid-version 1 --wait .
+      - ls -lah build/
+      - ipfs-cluster-ctl --host /dns/ipfs-cluster.gwei.cz/tcp/443 --basic-auth ethbrno:$IPFS_CLUSTER_PASS add -r -H --cid-version 1 --wait build/
     secrets: [IPFS_CLUSTER_PASS]
