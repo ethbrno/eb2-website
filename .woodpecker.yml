@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: jarredsumner/bun:0.2.0
+    image: node
     commands:
       - node --version
       - npm ci
