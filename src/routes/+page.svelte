@@ -12,7 +12,7 @@
 		},
 		{
 			id: 'aes',
-			name: 'AES',
+			name: 'AES'
 		},
 		{
 			id: '3des',
@@ -22,9 +22,8 @@
 			id: 'community',
 			name: 'Community'
 		}
-	]
+	];
 </script>
-
 
 <svelte:head>
 	<title>ETHBrno² 2022</title>
@@ -45,7 +44,7 @@
 			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light">
 				#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3
 				#smartcontracts #audits #vulnerabilities #analytics #wallets #scams #darkforest #mev
-				#zeroknowledgeproofs
+				#zeroknowledgeproofs #cypherpunk #lunarpunk #hackathon
 			</p>
 		</div>
 	</div>
@@ -58,16 +57,30 @@
 			<h1 class="md:text-5xl text-3xl font-bold mb-4">About</h1>
 
 			<p class="mb-8 leading-relaxed">
-				ETHBrno² is an annual independent {`&`} open community hackathon (former conference) for supporters
-				of decentralised finance, smart contracts and Web3 happening in Brno, Czech Republic. ETHBrno²
-				is the second, and we believe the best yet, edition.
+				<a href="https://docs.ethbrno.cz" target="_blank">ETHBrno²</a> is an annual independent {`&`}
+				open community hackathon for supporters of decentralised finance, smart contracts and Web3 happening
+				in
+				<a href="https://en.wikipedia.org/wiki/Brno" target="_blank" class="external"
+					>Brno, Czech Republic</a
+				>. ETHBrno² is the second, and we believe the best yet, edition.
+			</p>
+
+			<!--p class="mb-8 leading-relaxed">
+				ETHBrno² events are organized by <a href="https://gwei.cz" target="_blank" class="external">Gwei.cz community</a>
+				with the help of the <a href="https://utxo.foundation" target="_blank" class="external">UTXO Foundation</a>.
+			</p-->
+
+			<p class="mb-8 leading-relaxed">
+				This year we are focusing on <strong>privacy and security</strong> topics.
 			</p>
 
 			<p class="mb-8 leading-relaxed">
-				ETHBrno² events are organized by Gwei.cz community with the help of the UTXO Foundation.
+				You can read more in the article <a
+					href="https://mirror.xyz/ethbrno.eth/6BH9cUVuD85hy5O0L5cOOOE7niSA9Yo5eWsXVzKOlO4"
+					target="_blank"
+					class="external">"Announcing ETHBrno²" on Mirror</a
+				>.
 			</p>
-
-			<p class="mb-8 leading-relaxed">This year we are focusing on privacy and security topics.</p>
 
 			<div class="flex justify-center">
 				<a
@@ -117,6 +130,13 @@
 				let's create them together.
 			</p>
 			<p class="leading-relaxed">Don't Trust. Verify. - Run a node - Protect privacy</p>
+			<p class="mt-8 leading-relaxed">
+				<a
+					href="https://docs.ethbrno.cz/events/2022/hackathon"
+					class="inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 text-lg external"
+					>Read more about hackathon</a
+				>
+			</p>
 		</div>
 	</div>
 </section>
@@ -135,14 +155,13 @@
 				<div
 					class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 				>
-					{#each data.sponsors.filter(x => x.tier.includes(tier.id)) as sponsor}
-						<a
-							href={sponsor.url}
-							rel="noopener noreferrer"
-							target="_blank"
-							alt="link to"
-						>
-							<img class="w-60 m-6" src="/photos/sponsors/{sponsor.id}.png" alt="{sponsor.name} Logo" />
+					{#each data.sponsors.filter((x) => x.tier.includes(tier.id)) as sponsor}
+						<a href={sponsor.url} rel="noopener noreferrer" target="_blank" alt="link to">
+							<img
+								class="w-60 m-6"
+								src="/photos/sponsors/{sponsor.id}.png"
+								alt="{sponsor.name} Logo"
+							/>
 						</a>
 					{/each}
 				</div>
