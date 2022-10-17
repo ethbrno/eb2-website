@@ -135,30 +135,18 @@ contributors:
     bio: Visual identity, design
     roles: [ team ]
 
-  - id: hedvika
-    name: Hedvika
-    twitter: HedvikaPa
-    nickname: headwitch
-    bio: Mentor seeking, experiences curation
-    roles: [ team ]
-
-  - id: jacob
-    name: Jacob
-    twitter: jacobjelen
-    bio: Networking support
-    roles: [ team ]
-
-  - id: damsky
-    name: Damsky
-    twitter: helloitsdamsky
-    bio: Community calls
-    roles: [ team ]
-
   - id: adam
     name: Adam
     nickname: vorcigernix
     twitter: vorcigernix
     bio: Website, community calls | Zitrone founder, member of Developer DAO and Forefront
+    roles: [ team ]
+
+  - id: hedvika
+    name: Hedvika
+    twitter: HedvikaPa
+    nickname: headwitch
+    bio: Mentor seeking, experiences curation
     roles: [ team ]
 
   - id: clairee
@@ -167,10 +155,22 @@ contributors:
     bio: Social networks
     roles: [ team ]
 
+  - id: jacob
+    name: Jacob
+    twitter: jacobjelen
+    bio: Networking support
+    roles: [ team ]
+
   - id: dominika
     name: Dominika
     twitter: DominikaV5
     bio: Volunteers
+    roles: [ team ]
+
+  - id: damsky
+    name: Damsky
+    twitter: helloitsdamsky
+    bio: Community calls
     roles: [ team ]
 
 # ---- SPONSORS ----
