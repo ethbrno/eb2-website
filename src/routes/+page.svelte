@@ -37,7 +37,7 @@
 		<div
 			class="md:w-5/12 xl:pr-16 md:pr-4 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
 		>
-			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0  w-[343px] h-[127px] md:w-[150px] " alt="logo" />
+			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0 w-[150px] md:w-[343px] " alt="logo" />
 			<p class="text-3xl my-2">privacy {`&`} security edition</p>
 			<p class="text-xl">NOVEMBER 11-13, 2022</p>
 			<p class="text-xl">Brno, Czech republic</p>
