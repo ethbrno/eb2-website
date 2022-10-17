@@ -44,7 +44,7 @@ contributors:
     name: dcbuilder.eth
     twitter: DCbuild3r
     bio: WorldCoin, devpill.me
-    roles: [ speaker ]
+    roles: [ speaker, advisor ]
 
   - id: artem-vorotnikov
     name: Artem Vorotnikov
@@ -92,6 +92,28 @@ contributors:
     bio: Ethereum & StarkNet @ Equilibrium
     roles: [ speaker, mentor ]
 
+  # ---- ADVISORS ----
+
+  - id: mario-havel
+    name: Mario Havel
+    twitter: TMIYChao
+    bio: Ethereum Foundation, Bordel Hackerspace
+    roles: [ advisor ]
+    remote: true
+
+  - id: josef-j
+    name: Josef J
+    twitter: JosefJ_
+    bio: ETHPrague, PWN Finance (previously Ethereum Foundation & Devcon)
+    roles: [ advisor ]
+    remote: true
+
+  - id: anett
+    name: Anett Rolikova
+    twitter: AnettRolikova
+    bio: Nethermind, previously Ethereum Magicians
+    roles: [ advisor ]
+    remote: true
 
   # ---- TEAM ----
 

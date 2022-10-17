@@ -15,6 +15,10 @@
 			title: 'Judges',
 		},
 		{
+			role: 'advisor',
+			title: 'Advisors',
+		},
+		{
 			role: 'team',
 			title: 'Core team'
 		}
