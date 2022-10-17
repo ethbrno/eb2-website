@@ -52,7 +52,7 @@
 	<title>Contributors: {selectedCategory.title}</title>
 </svelte:head>
 
-<section class="text-white body-font bg-black py-12 flex justify-center">
+<section class="text-white body-font bg-black py-12 flex md:justify-center flex-row overflow-x-scroll ">
 	{#each categories as cat}
 		{#if (cat.role === selectedCategory.role)}
 			<button class="px-5 py-2 border m-2 bg-white text-black" on:click={() => handleCategory(cat)}
