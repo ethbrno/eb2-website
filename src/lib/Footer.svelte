@@ -1,9 +1,20 @@
 <script>
 	import logo from '$lib/assets/logo_black.svg';
-    import cityscape from '$lib/assets/cityscape2.png';
-	import moment from 'moment';
+	import cityscape from '$lib/assets/cityscape2.png';
+	//import moment from 'moment';
 
+	const options = {
+		weekday: 'long',
+		year: 'numeric',
+		month: 'long',
+		day: 'numeric',
+		hour: 'numeric',
+		minute: 'numeric',
+		second: 'numeric',
+		timeZone: 'Europe/Prague'
+	};
 	export let data;
+	//console.log(data);
 </script>
 
 <footer class="bg-black mx-auto">
@@ -20,10 +31,7 @@
 
 			<div class="md:inline-flex gap-10 sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start">
 				<div>
-					<a
-						class="text-black external"
-						href="https://docs.ethbrno.cz"
-						rel="noopener noreferrer"
+					<a class="text-black external" href="https://docs.ethbrno.cz" rel="noopener noreferrer"
 						>Documentation
 					</a>
 				</div>
@@ -36,11 +44,8 @@
 					</a>
 				</div>
 				<div>
-					/join 
-					<a
-						class="text-black external"
-						href="https://matrix.ethbrno.cz"
-						rel="noopener noreferrer"
+					/join
+					<a class="text-black external" href="https://matrix.ethbrno.cz" rel="noopener noreferrer"
 						>#ethbrno:gwei.cz
 					</a>
 				</div>
@@ -48,6 +53,11 @@
 		</div>
 		<div class="text-black text-center my-16 text-sm opacity-50 leading-7">
 			Built with <a href="https://kit.svelte.dev/" target="_blank" class="external">SvelteKit</a>
-			- <a href="https://git.gwei.cz/ethbrno/eb2-website" target="_blank" class="external">Source code</a> - Generated @ {moment(new Date(data.time)).format("YYYY-MM-DD HH:mm:SS")} (UTC+2)</div>
+			-
+			<a href="https://git.gwei.cz/ethbrno/eb2-website" target="_blank" class="external"
+				>Source code</a
+			>
+			- Generated @ {new Date(data.time).toLocaleString('en-GB', options)} (UTC+2)
+		</div>
 	</div>
 </footer>
