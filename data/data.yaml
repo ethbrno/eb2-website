@@ -120,57 +120,57 @@ contributors:
   - id: tree
     name: Tree
     twitter: treecz
-    bio: Gwei.cz and BohemianDAO founder, Ethereum enthusiast
+    bio: Vision, content | Gwei.cz and BohemianDAO founder, Ethereum enthusiast
     roles: [ team ]
 
   - id: tereza
     name: Tereza
     twitter: terkastarostova
-    bio: Holky v Kryptu co-founder, chairman of UTXO Foundation
+    bio: Production, sponsors | Holky v Kryptu co-founder, chairman of UTXO Foundation
     roles: [ team ]
 
   - id: exez
     name: Exez
     twitter: OndraPulc
-    bio: TODO
+    bio: Visual identity, design
     roles: [ team ]
 
   - id: hedvika
     name: Hedvika
     twitter: HedvikaPa
     nickname: headwitch
-    bio: TODO
+    bio: Mentor seeking, experiences curation
     roles: [ team ]
 
   - id: jacob
     name: Jacob
     twitter: jacobjelen
-    bio: TODO
+    bio: Networking support
     roles: [ team ]
 
   - id: damsky
     name: Damsky
     twitter: helloitsdamsky
-    bio: TODO
+    bio: Community calls
     roles: [ team ]
 
   - id: adam
     name: Adam
     nickname: vorcigernix
     twitter: vorcigernix
-    bio: Zitrone founder, member of Developer DAO and Forefront
+    bio: Website, community calls | Zitrone founder, member of Developer DAO and Forefront
     roles: [ team ]
 
   - id: clairee
     name: Clairee
     twitter: De_luneClaire
-    bio: TODO
+    bio: Social networks
     roles: [ team ]
 
   - id: dominika
     name: Dominika
     twitter: DominikaV5
-    bio: TODO
+    bio: Volunteers
     roles: [ team ]
 
 # ---- SPONSORS ----
