@@ -20,6 +20,14 @@
 		}
 	]
 
+  function wrapContributor (c) {
+
+    if (c.twitter) {
+      c.link = 'https://twitter.com/' + c.twitter
+    }
+    return c
+  }
+
 </script>
 
 <svelte:head>
@@ -34,10 +42,10 @@
 			
 			</div>
 			<div class="flex flex-wrap justify-center">
-				{#each Object.values(data.contributors).filter(x => x.roles.includes(cat.role)) as item}
+				{#each Object.values(data.contributors).filter(x => x.roles.includes(cat.role)).map(wrapContributor) as item}
 					{#if item.name !== undefined}
 						<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4">
-							<a href="https://twitter.com/{item.twitter}" target="_blank">
+              <a href="{item.link}" target="_blank">
 								<img
 									class="h-40 md:h-60 w-full object-cover object-center mb-6 grayscale hover:grayscale-0"
 									loading="lazy"
@@ -55,7 +63,7 @@
 							<div class="flex flex-row mb-2 {item.remote ? 'contributor-remote' : ''}">
 								<a
 									class="text-lg text-white font-medium title-font"
-									href={`https://twitter.com/${item.twitter}`}
+                  href={item.link}
 									target="_blank"
 								>
 									{item.name}

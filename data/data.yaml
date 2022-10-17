@@ -4,6 +4,13 @@ contributors:
 
 # ---- SPEAKERS ----
 
+  - id: silur
+    name: Abraham Endre
+    nickname: Silur
+    link: https://github.com/Silur
+    bio: Hackoholic Cryptonaut - Early Ethereum dev and blockchain pioneer
+    roles: [ speaker ]
+
   - id: rachel-oleary
     name: Rachel-Rose O'Leary
     twitter: lunar_mining
@@ -12,12 +19,18 @@ contributors:
     desc: |
       Rachel-Rose O’Leary is a core dev at lunarpunk layer 1, DarkFi. She is also co-editor of the philosophy journal Agorism in the 21st Century. As a writer she has published in egirlcapital, CoinDesk, Defiant, Wired and elsewhere under anonymous accounts. She believes privacy is necessary for communities to define their own destinies.
 
-  - id: artem-vorotnikov
-    name: Artem Vorotnikov
-    twitter: vorot93
-    bio: Ethereum Core Developer, creator of Akula
+  - id: nick-almond
+    name: Nick Almond
+    nickname: DrNick
+    twitter: DrNickA
+    bio: FactoryDAO
     roles: [ speaker ]
-    remote: true
+
+  - id: juraj-bednar
+    name: Juraj Bednar
+    twitter: jurbed
+    bio: Hacktrophy, Hackyourself.io
+    roles: [ speaker ]
 
   - id: pavol-luptak
     name: Pavol Luptak
@@ -33,30 +46,24 @@ contributors:
     bio: WorldCoin, devpill.me
     roles: [ speaker ]
 
-  - id: juraj-bednar
-    name: Juraj Bednar
-    twitter: jurbed
-    bio: Hacktrophy, Hackyourself.io
+  - id: artem-vorotnikov
+    name: Artem Vorotnikov
+    twitter: vorot93
+    bio: Ethereum Core Developer, creator of Akula
     roles: [ speaker ]
+    remote: true
 
   - id: owen-barnes
     name: Owen Barnes
     nickname: temporalwave
     twitter: temporalwave
-    bio: independent freedom adviser
+    bio: Independent freedom adviser
     roles: [ speaker, mentor ]
 
   - id: william-mitsuda
     name: Willian Mitsuda
     twitter: wmitsuda
-    bio: creator of Otterscan
-    roles: [ speaker ]
-    remote: true
-
-  - id: qedk
-    name: QEDK
-    twitter: qedk_
-    bio: engineering Polygon, Moonshot Collective
+    bio: Creator of Otterscan
     roles: [ speaker ]
     remote: true
 
@@ -66,12 +73,32 @@ contributors:
     bio: Blockchain for Humanity, Swarm, Giveth
     roles: [ speaker, mentor ]
 
+  - id: qedk
+    name: QEDK
+    twitter: qedk_
+    bio: Engineering Polygon, Moonshot Collective
+    roles: [ speaker ]
+    remote: true
+
+  - id: radek-svarz
+    name: Radek Švarz
+    twitter: radk
+    bio: dCZK, Apus.finance
+    roles: [ speaker ]
+
+  - id: lauri-peltonen
+    name: Lauri Peltonen
+    twitter: lauripelto
+    bio: Ethereum & StarkNet @ Equilibrium
+    roles: [ speaker, mentor ]
+
+
   # ---- TEAM ----
 
   - id: tree
     name: Tree
     twitter: treecz
-    bio: Gwei.cz and BohemianDAO founder, UTXO.22 steward
+    bio: Gwei.cz and BohemianDAO founder, Ethereum enthusiast
     roles: [ team ]
 
   - id: tereza
