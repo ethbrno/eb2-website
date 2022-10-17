@@ -24,4 +24,5 @@ pipeline:
       - npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web
     secrets: [IPFS_CLUSTER_PASS]
     when:
-      branch: [main]
+      event: tag
+      branch: main
