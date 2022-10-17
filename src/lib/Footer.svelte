@@ -31,7 +31,7 @@
 
 			<div class="md:inline-flex gap-10 sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start">
 				<div>
-					<a class="text-black external" href="https://docs.ethbrno.cz" rel="noopener noreferrer"
+					<a class="text-black external" href="https://docs.ethbrno.cz/events/2022" rel="noopener noreferrer"
 						>Documentation
 					</a>
 				</div>
@@ -52,8 +52,6 @@
 			</div>
 		</div>
 		<div class="text-black text-center my-16 text-sm opacity-50 leading-7">
-			Built with <a href="https://kit.svelte.dev/" target="_blank" class="external">SvelteKit</a>
-			-
 			<a href="https://git.gwei.cz/ethbrno/eb2-website" target="_blank" class="external"
 				>Source code</a
 			>
