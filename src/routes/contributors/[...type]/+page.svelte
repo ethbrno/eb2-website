@@ -1,23 +1,29 @@
 <script>
 	import { onMount } from 'svelte';
 	export let data;
-	let selectedCategory = { role: 'speaker', title: 'Speakers' };
+	let selectedCategory = { role: null, title: 'All' };
 	onMount(() => {
-		console.log('the component has mounted');
+		//console.log('the component has mounted');
 		handleCategory(selectedCategory);
 	});
 
 	let selectedCategoryData = [];
 	function handleCategory(category) {
 		selectedCategory = category;
-		console.log(category.role);
-		selectedCategoryData = Object.values(data.contributors)
-			.filter((x) => x.roles.includes(category.role))
-			.map(wrapContributor);
-		console.log(selectedCategoryData);
+		//console.log(category.role);
+		if (!category.role) selectedCategoryData = Object.values(data.contributors);
+		else
+			selectedCategoryData = Object.values(data.contributors)
+				.filter((x) => x.roles.includes(category.role))
+				.map(wrapContributor);
+		//console.log(selectedCategoryData);
 	}
 
 	const categories = [
+		{
+			role: null,
+			title: 'All'
+		},
 		{
 			role: 'speaker',
 			title: 'Speakers'
@@ -52,9 +58,11 @@
 	<title>Contributors: {selectedCategory.title}</title>
 </svelte:head>
 
-<section class="text-white body-font bg-black py-12 flex md:justify-center flex-row overflow-x-scroll ">
+<section
+	class="text-white body-font bg-black py-12 flex md:justify-center flex-row overflow-x-scroll "
+>
 	{#each categories as cat}
-		{#if (cat.role === selectedCategory.role)}
+		{#if cat.role === selectedCategory.role}
 			<button class="px-5 py-2 border m-2 bg-white text-black" on:click={() => handleCategory(cat)}
 				>{cat.title}</button
 			>
