@@ -1,6 +1,37 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from "@playwright/test";
 
-test('index page has expected h1', async ({ page }) => {
-	await page.goto('/');
-	expect(await page.textContent('h1')).toBe('Welcome to SvelteKit');
+test("index page have correct tags", async ({ page }) => {
+	await page.goto("/");
+	const tags = page.getByTestId(
+		"tags"
+	);
+	await expect(tags).toContainText("#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3");
+});
+
+test("can clickthrough to venues and venue link exist", async ({ page }) => {
+	await page.goto("/");
+	await page.getByRole("link", { name: "Venues" }).click();
+	await expect(page).toHaveURL(/.*venues/);
+	const venue = page.getByRole("link", { name: "Impact Hub Brno" });
+	await expect(venue).toHaveAttribute("href", "https://www.hubbrno.cz/en/");
+});
+
+test("can navigate to contributors", async ({ page }) => {
+	await page.goto("/contributors");
+	const filter = page.getByTestId("filter");
+	await expect(filter).toContainText("All");
+});
+
+test("can navigate to speakers", async ({ page }) => {
+	await page.goto("/contributors/speakers");
+	const filter = page.getByTestId("filter");
+	await expect(filter).toContainText("Speakers");
+});
+
+test("can clickthrough to team", async ({ page }) => {
+	await page.goto("/contributors");
+	await page.getByRole('link', { name: 'Core team' }).click();
+	await expect(page).toHaveURL(/.*team/);
+	const filter = page.getByTestId("filter");
+	await expect(filter).toContainText("Core Team");
 });

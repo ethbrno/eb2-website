@@ -41,7 +41,7 @@
 			<p class="text-xl">NOVEMBER 11-13, 2022</p>
 			<p class="text-xl">Brno, Czech republic</p>
 			<div class="h-[1px] bg-white w-full my-2 opacity-20" />
-			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light">
+			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light" data-testid="tags">
 				#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3
 				#smartcontracts #audits #vulnerabilities #analytics #wallets #scams #darkforest #mev
 				#zeroknowledgeproofs #cypherpunk #lunarpunk #hackathon

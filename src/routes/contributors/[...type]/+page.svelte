@@ -29,7 +29,7 @@
 		},
 		{
 			role: 'team',
-			title: 'Core team',
+			title: 'Core Team',
 			url: '/contributors/team/'
 		}
 	];
@@ -57,7 +57,7 @@
 <section class="text-gray-400 body-font bg-black py-12">
 	<div class=" px-5 py-12 mx-auto">
 		<div class="flex flex-col text-center w-full mb-12">
-			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
+			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white" data-testid="filter">
 				{selectedCategory[0].title}
 			</h1>
 		</div>
