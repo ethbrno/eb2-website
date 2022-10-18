@@ -1,61 +1,46 @@
 <script>
-	import { onMount } from 'svelte';
 	export let data;
-	let selectedCategory = { role: null, title: 'All' };
-	onMount(() => {
-		//console.log('the component has mounted');
-		handleCategory(selectedCategory);
-	});
-
-	let selectedCategoryData = [];
-	function handleCategory(category) {
-		selectedCategory = category;
-		//console.log(category.role);
-		if (!category.role) selectedCategoryData = Object.values(data.contributors);
-		else
-			selectedCategoryData = Object.values(data.contributors)
-				.filter((x) => x.roles.includes(category.role))
-				.map(wrapContributor);
-		//console.log(selectedCategoryData);
-	}
-
+	//console.log(data);
 	const categories = [
 		{
 			role: null,
-			title: 'All'
+			title: 'All',
+			url: '/contributors'
 		},
 		{
 			role: 'speaker',
-			title: 'Speakers'
+			title: 'Speakers',
+			url: '/contributors/speakers/'
 		},
 		{
 			role: 'mentor',
-			title: 'Mentors'
+			title: 'Mentors',
+			url: '/contributors/mentors/'
 		},
 		{
 			role: 'judge',
-			title: 'Judges'
+			title: 'Judges',
+			url: '/contributors/judges/'
 		},
 		{
 			role: 'advisor',
-			title: 'Advisors'
+			title: 'Advisors',
+			url: '/contributors/advisors/'
 		},
 		{
 			role: 'team',
-			title: 'Core team'
+			title: 'Core team',
+			url: '/contributors/team/'
 		}
 	];
-
-	function wrapContributor(c) {
-		if (c.twitter) {
-			c.link = 'https://twitter.com/' + c.twitter;
-		}
-		return c;
-	}
+	$: selectedCategory = data.type
+		? categories.filter((cat) => cat.role === data.type)
+		: categories.filter((cat) => cat.role === null)
+	//console.log(selectedCategory);
 </script>
 
 <svelte:head>
-	<title>Contributors: {selectedCategory.title}</title>
+	<title>Contributors: {selectedCategory[0].title}</title>
 </svelte:head>
 
 <section
@@ -63,11 +48,9 @@
 >
 	{#each categories as cat}
 		{#if cat.role === selectedCategory.role}
-			<button class="px-5 py-2 border m-2 bg-white text-black" on:click={() => handleCategory(cat)}
-				>{cat.title}</button
-			>
+			<a href={cat.url} class="px-5 py-2 border m-2 bg-white text-black">{cat.title}</a>
 		{:else}
-			<button class="px-5 py-2 border m-2" on:click={() => handleCategory(cat)}>{cat.title}</button>
+			<a href={cat.url} class="px-5 py-2 border m-2">{cat.title}</a>
 		{/if}
 	{/each}
 </section>
@@ -75,11 +58,11 @@
 	<div class=" px-5 py-12 mx-auto">
 		<div class="flex flex-col text-center w-full mb-12">
 			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
-				{selectedCategory.title}
+				{selectedCategory[0].title}
 			</h1>
 		</div>
 		<div class="flex flex-wrap justify-center">
-			{#each selectedCategoryData as item}
+			{#each data.filtered_contributors as item}
 				{#if item.name !== undefined}
 					<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4">
 						<a href={item.link} target="_blank">
