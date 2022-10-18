@@ -11,7 +11,7 @@
     "format": "prettier --plugin-search-dir . --write .",
     "make-data": "node ./scripts/make-data.js",
     "ipfs-deploy": "npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web",
-    "postinstall": "npx playwright install --with-deps"
+    "postinstall": "npx playwright install --with-deps chromium"
   },
   "devDependencies": {
     "@playwright/test": "^1.25.0",
