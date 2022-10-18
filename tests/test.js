@@ -16,10 +16,13 @@ test("can clickthrough to venues and venue link exist", async ({ page }) => {
 	await expect(venue).toHaveAttribute("href", "https://www.hubbrno.cz/en/");
 });
 
-test("can navigate to contributors", async ({ page }) => {
+test("can navigate to contributors and Tree is contributor", async ({ page }) => {
 	await page.goto("/contributors");
 	const filter = page.getByTestId("filter");
 	await expect(filter).toContainText("All");
+	//this should probably test some test entry from json, will fix
+	const tree = page.getByRole("link", { name: "Tree" });
+	await expect(tree).toHaveAttribute("href", "https://twitter.com/treecz");
 });
 
 test("can navigate to speakers", async ({ page }) => {
