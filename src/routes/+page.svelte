@@ -1,5 +1,5 @@
 <script>
-	export let data;
+	import { sponsors } from '$lib/data.json';
 
 	const tiers = [
 		{
@@ -155,7 +155,7 @@
 				<div
 					class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
 				>
-					{#each data.sponsors.filter((x) => x.tier.includes(tier.id)) as sponsor}
+					{#each sponsors.filter((x) => x.tier.includes(tier.id)) as sponsor}
 						<a href={sponsor.url} rel="noopener noreferrer" target="_blank" alt="link to">
 							<img
 								class="w-60 m-6"

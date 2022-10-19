@@ -1,5 +1,25 @@
 # ---- CONTRIBUTORS ----
 
+contributorTypes:
+  all:
+    title: All
+    role: null
+  speakers:
+    title: Speakers
+    role: speaker
+  mentors:
+    title: Mentors
+    role: mentor 
+  judges:
+    title: Judges
+    role: judge
+  advisors:
+    title: Advisors
+    role: advisor
+  team:
+    title: Core Team
+    role: team
+
 contributors:
 
 # ---- SPEAKERS ----
