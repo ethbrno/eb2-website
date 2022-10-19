@@ -30,12 +30,12 @@
 			</div>
 
 			<div class="md:inline-flex gap-10 sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start">
-				<div>
+				<div class="flex justify-center">
 					<a class="text-black external" href="https://docs.ethbrno.cz/events/2022" rel="noopener noreferrer"
 						>Documentation
 					</a>
 				</div>
-				<div>
+				<div class="flex justify-center">
 					<a
 						class="text-black external"
 						href="https://twitter.com/ethbrno"
@@ -43,7 +43,7 @@
 						>Twitter
 					</a>
 				</div>
-				<div>
+				<div class="flex justify-center">
 					/join
 					<a class="text-black external" href="https://matrix.ethbrno.cz" rel="noopener noreferrer"
 						>#ethbrno:gwei.cz

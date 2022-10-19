@@ -6,7 +6,7 @@
 	<title>Venues | {data.title}</title>
 </svelte:head>
 <section class="text-white bg-black body-font">
-	<div class="container mx-auto flex py-24 md:flex-row flex-col items-center xl:max-w-screen-xl">
+	<div class="container mx-auto flex py-12 md:py-24 md:flex-row flex-col items-center xl:max-w-screen-xl md:px-0 px-4">
 		<div
 			class="xl:flex-grow xl:pr-24 md:pr-16 flex flex-col lg:items-start lg:text-left mb-16 md:mb-0 items-center text-center"
 		>
@@ -60,7 +60,7 @@
 	</div>
 </section>
 <section class="text-white bg-black body-font">
-	<div class="container mx-auto flex py-24 md:flex-row flex-col items-center xl:max-w-screen-xl">
+	<div class="container mx-auto flex py-12 md:py-24 md:flex-row flex-col-reverse items-center xl:max-w-screen-xl md:px-0 px-4">
 		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-5/6 md:mb-0 mt-10 md:mt-0">
 			<img
 				class="object-cover object-center grayscale hover:grayscale-0"

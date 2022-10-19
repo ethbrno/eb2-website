@@ -30,18 +30,18 @@
 </svelte:head>
 <section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">
-		<div class="md:w-5/12 md:mb-0 mb-10 md:flex hidden justify-center h-[800px]">
+		<div class="md:w-5/12 md:mb-0 mb-4 md:flex justify-center md:h-[800px]">
 			<img src="cam2.png" class="object-cover object-center" alt="cam" />
 		</div>
 		<div
-			class="md:w-5/12 xl:pr-16 md:pr-4 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform"
+			class="md:w-5/12 xl:pr-16 md:pr-4 pt-4 flex flex-col md:items-start md:text-left mx-auto items-center text-center text-white transition-transform  px-4 md:px-0"
 		>
-			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0 w-[150px] md:w-[343px] " alt="logo" />
-			<p class="text-3xl my-2">privacy {`&`} security edition</p>
-			<p class="text-xl">NOVEMBER 11-13, 2022</p>
-			<p class="text-xl">Brno, Czech republic</p>
+			<img src="logo.svg" class="md:-ml-4 p-2 md:p-0 w-[250px] md:w-[343px] " alt="logo" />
+			<p class="text-xl md:text-3xl my-2">privacy {`&`} security edition</p>
+			<p class="text-base md:text-xl">NOVEMBER 11-13, 2022</p>
+			<p class="text-base md:text-xl">Brno, Czech republic</p>
 			<div class="h-[1px] bg-white w-full my-2 opacity-20" />
-			<p class="mb-8 py-4 leading-relaxed opacity-30 text-lg font-light" data-testid="tags">
+			<p class="mb-8 py-4 leading-relaxed opacity-30 text-sm md:text-lg font-light" data-testid="tags">
 				#freedom #anonymity #non-kyc #encryption #selfsovereignty #p2p #opensource #web3
 				#smartcontracts #audits #vulnerabilities #analytics #wallets #scams #darkforest #mev
 				#zeroknowledgeproofs #cypherpunk #lunarpunk #hackathon
@@ -50,7 +50,7 @@
 	</div>
 </section>
 <section class="text-black bg-white body-font border-b">
-	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+	<div class="container mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col items-center">
 		<div
 			class="xl:flex-grow md:w-1/2 xl:pl-32 md:pl-16 xl:pr-32 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 		>
@@ -82,7 +82,7 @@
 				>.
 			</p>
 
-			<div class="flex justify-center">
+			<div class="flex justify-center flex-wrap">
 				<a
 					href="https://join.ethbrno.cz/"
 					class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg external"
@@ -97,14 +97,14 @@
 				>
 			</div>
 		</div>
-		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-full">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-[300px]">
 			<img class="object-cover object-center" alt="hero" src="key.png" />
 		</div>
 	</div>
 </section>
 <section class="text-white bg-black body-font">
-	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-full md:mb-0 mb-10 flex justify-center">
+	<div class="container mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col-reverse items-center">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-[150px] md:mb-0 mt-10 md:mb-10 flex justify-center">
 			<img class="object-cover object-center" alt="hero" src="lock.png" />
 		</div>
 		<div
@@ -143,7 +143,7 @@
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
-			class="flex-grow xl:pl-32 md:pl-16 xl:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
+			class="flex-grow w-full px-4 md:px-0 xl:pl-32 md:pl-16 xl:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
 		>
 			<h1 class="md:text-5xl text-3xl mb-8 font-bold text-white">Sponsors</h1>
 			{#each tiers as tier, tierNumber}

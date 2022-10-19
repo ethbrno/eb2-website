@@ -20,20 +20,20 @@
 </svelte:head>
 
 <section
-	class="text-white body-font bg-black py-12 flex md:justify-center flex-row overflow-x-scroll "
+	class="text-white body-font bg-black px-2 py-6 md:py-12 flex justify-center flex-row overflow-x-scroll flex-wrap text-sm md:text-base"
 >
 	{#each Object.entries(contributorTypes) as [ctKey, ct]}
 		<a
 			href="/contributors/{ctKey === 'all' ? '' : ctKey}"
-			class="px-5 py-2 border m-2 {ctKey === data.type
+			class="px-3 py-2 md:px-5 md:py-2 border m-2 {ctKey === data.type
 				? 'text-black bg-white'
 				: 'hover:outline-none hover:bg-gray-600'}">{ct.title}</a
 		>
 	{/each}
 </section>
-<section class="text-gray-400 body-font bg-black py-12">
+<section class="text-gray-400 body-font bg-black py-6 md:py-12">
 	<div class=" px-5 mx-auto">
-		<div class="flex flex-wrap justify-center">
+		<div class="flex flex-wrap justify-center" data-testid="list">
 			{#if filteredContributors.length > 0}
 				{#each filteredContributors as item}
 					<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4">
