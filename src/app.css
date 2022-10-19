@@ -33,6 +33,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
     background: white;
+    scrollbar-width: none;
+    scrollbar-color: black;
 }
 
 .serif {
