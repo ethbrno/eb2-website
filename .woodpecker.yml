@@ -1,6 +1,6 @@
 pipeline:
 
-  build:
+  build_and_test:
     image: node
     commands:
       - node --version
