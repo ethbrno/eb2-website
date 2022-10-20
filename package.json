@@ -31,5 +31,8 @@
     "tailwindcss": "^3.1.8",
     "vite": "^3.1.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "snarkdown": "^2.0.0"
+  }
 }

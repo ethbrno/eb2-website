@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .header {
+        @apply sm:text-4xl text-3xl mb-4 font-medium text-white;
+    }
+    .subhead {
+        @apply text-xl md:text-3xl my-2;
+    }
+    .list {
+        @apply text-white
+    }
+}
+
 @font-face {
     font-family: 'Roboto Mono';
     font-style: normal;
