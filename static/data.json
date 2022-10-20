@@ -1,5 +1,41 @@
 {
+  "contributorTypes": {
+    "all": {
+      "title": "All",
+      "role": null
+    },
+    "speakers": {
+      "title": "Speakers",
+      "role": "speaker"
+    },
+    "mentors": {
+      "title": "Mentors",
+      "role": "mentor"
+    },
+    "judges": {
+      "title": "Judges",
+      "role": "judge"
+    },
+    "advisors": {
+      "title": "Advisors",
+      "role": "advisor"
+    },
+    "team": {
+      "title": "Core Team",
+      "role": "team"
+    }
+  },
   "contributors": [
+    {
+      "id": "silur",
+      "name": "Abraham Endre",
+      "nickname": "Silur",
+      "link": "https://github.com/Silur",
+      "bio": "Hackoholic Cryptonaut - Early Ethereum dev and blockchain pioneer",
+      "roles": [
+        "speaker"
+      ]
+    },
     {
       "id": "rachel-oleary",
       "name": "Rachel-Rose O'Leary",
@@ -11,14 +47,23 @@
       "desc": "Rachel-Rose O’Leary is a core dev at lunarpunk layer 1, DarkFi. She is also co-editor of the philosophy journal Agorism in the 21st Century. As a writer she has published in egirlcapital, CoinDesk, Defiant, Wired and elsewhere under anonymous accounts. She believes privacy is necessary for communities to define their own destinies.\n"
     },
     {
-      "id": "artem-vorotnikov",
-      "name": "Artem Vorotnikov",
-      "twitter": "vorot93",
-      "bio": "Ethereum Core Developer, creator of Akula",
+      "id": "nick-almond",
+      "name": "Nick Almond",
+      "nickname": "DrNick",
+      "twitter": "DrNickA",
+      "bio": "FactoryDAO",
       "roles": [
         "speaker"
-      ],
-      "remote": true
+      ]
+    },
+    {
+      "id": "juraj-bednar",
+      "name": "Juraj Bednar",
+      "twitter": "jurbed",
+      "bio": "Hacktrophy, Hackyourself.io",
+      "roles": [
+        "speaker"
+      ]
     },
     {
       "id": "pavol-luptak",
@@ -32,13 +77,231 @@
       "remote": true
     },
     {
+      "id": "dcbuilder",
+      "name": "dcbuilder.eth",
+      "twitter": "DCbuild3r",
+      "bio": "WorldCoin, devpill.me",
+      "roles": [
+        "speaker",
+        "advisor"
+      ]
+    },
+    {
+      "id": "artem-vorotnikov",
+      "name": "Artem Vorotnikov",
+      "twitter": "vorot93",
+      "bio": "Ethereum Core Developer, creator of Akula",
+      "roles": [
+        "speaker"
+      ],
+      "remote": true
+    },
+    {
+      "id": "owen-barnes",
+      "name": "Owen Barnes",
+      "nickname": "temporalwave",
+      "twitter": "temporalwave",
+      "bio": "Independent freedom adviser",
+      "roles": [
+        "speaker",
+        "mentor"
+      ]
+    },
+    {
+      "id": "william-mitsuda",
+      "name": "Willian Mitsuda",
+      "twitter": "wmitsuda",
+      "bio": "Creator of Otterscan",
+      "roles": [
+        "speaker"
+      ],
+      "remote": true
+    },
+    {
+      "id": "vojtech-simetka",
+      "name": "Vojtěch Šimetka",
+      "twitter": "vojtechsimetka",
+      "bio": "Blockchain for Humanity, Swarm, Giveth",
+      "roles": [
+        "speaker",
+        "mentor"
+      ]
+    },
+    {
+      "id": "qedk",
+      "name": "QEDK",
+      "twitter": "qedk_",
+      "bio": "Engineering Polygon, Moonshot Collective",
+      "roles": [
+        "speaker"
+      ],
+      "remote": true
+    },
+    {
+      "id": "radek-svarz",
+      "name": "Radek Švarz",
+      "twitter": "radk",
+      "bio": "dCZK, Apus.finance",
+      "roles": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "lauri-peltonen",
+      "name": "Lauri Peltonen",
+      "twitter": "lauripelto",
+      "bio": "Ethereum & StarkNet @ Equilibrium",
+      "roles": [
+        "speaker",
+        "mentor"
+      ]
+    },
+    {
+      "id": "mario-havel",
+      "name": "Mario Havel",
+      "twitter": "TMIYChao",
+      "bio": "Ethereum Foundation, Bordel Hackerspace",
+      "roles": [
+        "advisor"
+      ],
+      "remote": true
+    },
+    {
+      "id": "josef-j",
+      "name": "Josef J",
+      "twitter": "JosefJ_",
+      "bio": "ETHPrague, PWN Finance (previously Ethereum Foundation & Devcon)",
+      "roles": [
+        "advisor"
+      ],
+      "remote": true
+    },
+    {
+      "id": "anett",
+      "name": "Anett Rolikova",
+      "twitter": "AnettRolikova",
+      "bio": "Nethermind, previously Ethereum Magicians",
+      "roles": [
+        "advisor"
+      ],
+      "remote": true
+    },
+    {
       "id": "tree",
       "name": "Tree",
       "twitter": "treecz",
-      "bio": "Zakladatel Gwei.cz a BohemianDAO, organizátor UTXO.22",
+      "bio": "Vision, content | Gwei.cz and BohemianDAO founder, Ethereum enthusiast",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "tereza",
+      "name": "Tereza",
+      "twitter": "terkastarostova",
+      "bio": "Production, sponsors | Holky v Kryptu co-founder, chairman of UTXO Foundation",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "exez",
+      "name": "Exez",
+      "twitter": "OndraPulc",
+      "bio": "Visual identity, design",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "adam",
+      "name": "Adam",
+      "nickname": "vorcigernix",
+      "twitter": "vorcigernix",
+      "bio": "Website, community calls | Zitrone founder, member of Developer DAO and Forefront",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "hedvika",
+      "name": "Hedvika",
+      "twitter": "HedvikaPa",
+      "nickname": "headwitch",
+      "bio": "Mentor seeking, experiences curation",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "clairee",
+      "name": "Clairee",
+      "twitter": "De_luneClaire",
+      "bio": "Social networks",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "jacob",
+      "name": "Jacob",
+      "twitter": "jacobjelen",
+      "bio": "Networking support",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "dominika",
+      "name": "Dominika",
+      "twitter": "DominikaV5",
+      "bio": "Volunteers",
+      "roles": [
+        "team"
+      ]
+    },
+    {
+      "id": "damsky",
+      "name": "Damsky",
+      "twitter": "helloitsdamsky",
+      "bio": "Community calls",
       "roles": [
         "team"
       ]
     }
-  ]
+  ],
+  "sponsors": [
+    {
+      "id": "ef",
+      "name": "Ethereum Foundation",
+      "tier": "ecdsa",
+      "url": "https://ethereum.foundation/"
+    },
+    {
+      "id": "mitonc",
+      "name": "MitonC",
+      "tier": "3des",
+      "url": "https://mitonc.com/"
+    },
+    {
+      "id": "radicle",
+      "name": "Radicle",
+      "tier": "3des",
+      "url": "https://radicle.xyz/"
+    },
+    {
+      "id": "ethindia",
+      "name": "ETHIndia",
+      "tier": "community",
+      "url": "https://ethindia.co/"
+    },
+    {
+      "id": "devfolio",
+      "name": "Devfolio",
+      "tier": "community",
+      "url": "https://devfolio.co/"
+    }
+  ],
+  "time": "2022-10-20T13:20:02.025Z",
+  "version": "v2022-10-16"
 }
