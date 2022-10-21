@@ -1,5 +1,6 @@
 <script>
 	import { contributors, contributorTypes } from '$lib/data.json';
+	import { onMount } from 'svelte';
 	export let data;
 
 	function wrapContributor(c) {
@@ -8,6 +9,11 @@
 		}
 		return c;
 	}
+
+	// onMount(async () => {
+	// 	let {contributors} = await fetch('/api/foo/bar/baz');
+	// 	message = await response.text();
+	// });
 
 	$: filteredContributors = contributors
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))

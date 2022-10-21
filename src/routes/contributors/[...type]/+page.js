@@ -2,6 +2,7 @@
 
 import { error } from '@sveltejs/kit';
 import { contributorTypes } from '$lib/data.json';
+export const prerender = true;
 
 export async function load({ parent, params }) {
     let type = params.type.replace(/\//, "");
