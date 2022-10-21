@@ -13,7 +13,7 @@
 
 	onMount(async () => {
 		let res = await fetch(`${base}/data.json`);
-		const { contributors } = await res.json();
+		data.contributors = await res.json();
 		//console.log(contributors);
 	});
 
