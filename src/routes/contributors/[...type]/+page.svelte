@@ -1,5 +1,6 @@
 <script>
 	import { contributors, contributorTypes } from '$lib/data.json';
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	export let data;
 
@@ -10,10 +11,11 @@
 		return c;
 	}
 
-	// onMount(async () => {
-	// 	let {contributors} = await fetch('/api/foo/bar/baz');
-	// 	message = await response.text();
-	// });
+	onMount(async () => {
+		let res = await fetch(`${base}/data.json`);
+		const { contributors } = await res.json();
+		//console.log(contributors);
+	});
 
 	$: filteredContributors = contributors
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
