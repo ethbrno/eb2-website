@@ -1,0 +1,29 @@
+pipeline:
+
+  build_and_test:
+    image: node
+    commands:
+      - node --version
+      - npm ci
+      - npm run build
+      - npm run test
+
+  deploy:
+    image: rclone/rclone
+    commands:
+      - "rclone sync build/ :sftp: --sftp-host frontier.gwei.cz --sftp-user eb2-website-dev --sftp-port 2022 --sftp-pass $RCLONE_PASS -v"
+    secrets: [RCLONE_PASS]
+    when:
+      branch: [main]
+
+  deploy_ipfs:
+    image: node
+    environment:
+      IPFS_CLUSTER_HOST: https://ipfs-cluster.gwei.cz
+      IPFS_CLUSTER_USER: ethbrno
+    commands:
+      - npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web
+    secrets: [IPFS_CLUSTER_PASS]
+    when:
+      event: tag
+      branch: main
