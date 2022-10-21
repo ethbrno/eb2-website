@@ -4,7 +4,7 @@ import { error } from '@sveltejs/kit';
 import { contributorTypes, contributors } from '$lib/data.json';
 export const prerender = true;
 
-export async function load({ parent, params }) {
+export async function load({ params }) {
     let type = params.type.replace(/\//, "");
     if (!type.trim()) {
         type = 'all'
