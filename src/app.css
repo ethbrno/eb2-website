@@ -16,7 +16,7 @@
     }
 
     .head4 {
-        @apply text-xl my-2;
+        @apply text-xl mt-4;
     }
 
     .list {

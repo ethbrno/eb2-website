@@ -126,7 +126,7 @@
 		<article
 			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
 		>
-			<div class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4">
+			<div class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4 [&_img[src*='#left']]:float-left [&_img[src*='#left']]:m-5">
 				{@html data.content}
 			</div>
 		</article>
