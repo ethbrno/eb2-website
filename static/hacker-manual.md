@@ -4,14 +4,15 @@ This section aims to help you better prepare for the hackathon.
 
 ## TL;DR
 
-* Join the conversation on Discord: [discord.ethbrno.cz](https://discord.ethbrno.cz)
-* Find a team, Idea or Bounty on Dework: [dework.ethbrno.cz](https://dework.ethbrno.cz)
+* Join the conversation on [Matrix](https://matrix.to/#/#ethbrno:gwei.cz)
+* Find a team, Idea or Bounty on [Dework](https://dework.ethbrno.cz)
 
 ## Overview
 
 ### Before the Hackathon
 
-#### Travelling
+#### Travelling 
+![](/icons/map.svg) 
 
 Public transport in Brno and the rest of the South Moravian Region is provided by JMK (the South Moravian Integrated Public Transport System). Tickets are valid for any form of public transport, so you only need to pay attention to how long you are traveling (tickets are valid for specific amounts of time) and which zones you are travelling through. If you’re travelling through the city, a ticket for zones 100 and 101 is probably all you’ll need. You can buy tickets from any of the yellow ticket vending machines located at various stops throughout the city, or you can purchase them at information centres, stations, and newsagents. If you have a Czech phone number, you can buy tickets by sending a text message or using a mobile app. You can also pay contactless in the vehicles.
 

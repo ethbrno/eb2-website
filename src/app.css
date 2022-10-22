@@ -4,13 +4,23 @@
 
 @layer components {
     .header {
-        @apply sm:text-4xl text-3xl mb-4 font-medium text-white;
+        @apply md:text-5xl text-3xl mb-4 font-bold text-white;
     }
-    .subhead {
-        @apply text-xl md:text-3xl my-2;
+
+    .head2 {
+        @apply text-3xl mb-4 mt-8 font-bold text-white;
     }
+
+    .head3 {
+        @apply text-2xl my-4;
+    }
+
+    .head4 {
+        @apply text-xl my-2;
+    }
+
     .list {
-        @apply text-white
+        @apply mb-4 leading-relaxed hover:underline hover:text-white;
     }
 }
 
