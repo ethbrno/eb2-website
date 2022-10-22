@@ -8,8 +8,8 @@
 ## Overview
 
 ### Before the Hackathon
-
 This section aims to help you better prepare for the hackathon.
+
 
 ![](/icons/map.svg#left)
 #### Travelling

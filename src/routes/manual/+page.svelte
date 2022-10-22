@@ -1,12 +1,13 @@
 <script>
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
-	import snarkdown from 'snarkdown';
+	//import snarkdown from 'snarkdown';
+	import parse from '$lib/vsnarkdown';
 	export let data;
 	onMount(async () => {
 		const response = await fetch(`${base}/hacker-manual.md`);
 		const result = await response.text();
-		data.content = await snarkdown(result);
+		data.content = await parse(result);
 		//console.log(data.contributors);
 	});
 </script>
@@ -42,7 +43,7 @@
 						Useful information before you arrive, like venue locations, accomodation and public
 						transport.
 					</p>
-					<a class="mt-3 text-gray-500 inline-flex items-center" href="#before"
+					<a class="mt-3 text-gray-500 inline-flex items-center" href="#before-the-hackathon"
 						>Learn more<svg
 							fill="none"
 							stroke="currentColor"
@@ -126,7 +127,9 @@
 		<article
 			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
 		>
-			<div class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4 [&_img[src*='#left']]:float-left [&_img[src*='#left']]:m-5">
+			<div
+				class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4 [&_img[src*='#left']]:float-left [&_img[src*='#left']]:mt-5 [&_img[src*='#left']]:mr-5"
+			>
 				{@html data.content}
 			</div>
 		</article>
