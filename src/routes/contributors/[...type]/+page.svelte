@@ -11,11 +11,32 @@
 	}
 
 	onMount(async () => {
-		//console.log(data.contributors);
-		const response = await fetch(`${base}/data.json`);
+		const docrequest = await fetch('https://arweave.net/graphql', {
+			method: 'POST',
+			headers: {
+				'Accept-Encoding': 'gzip, deflate, br',
+				'Content-Type': 'application/json',
+				Accept: 'application/json',
+				Connection: 'keep-alive',
+				DNT: '1',
+				Origin: 'https://arweave.net'
+			},
+			body: JSON.stringify({
+				query:
+					'query {\n  transactions(\n    tags: [\n      { name: "AppName", values: "ETHBrno" }\n      { name: "DataTag", values: "json" }\n    ]\n    first: 1\n  ) {\n    edges {\n      node {\n        id\n      }\n    }\n  }\n}\n'
+			})
+		}).then((r) => r.json());
+		const {
+			data: {
+				transactions: { edges }
+			}
+		} = docrequest;
+		//console.log(edges[0].node.id);
+		if (edges.length < 0) return;
+		const response = await fetch(`https://arweave.net/${edges[0].node.id}`);
 		const result = await response.json();
 		data.contributors = result.contributors;
-		//console.log(data.contributors);
+		console.log(data.contributors);
 	});
 
 	$: filteredContributors = data.contributors

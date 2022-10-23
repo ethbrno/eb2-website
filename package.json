@@ -10,6 +10,7 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "make-data": "node ./scripts/make-data.js",
+    "upload-data": "node ./scripts/upload-data.js",
     "ipfs-deploy": "npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web",
     "postinstall": "npx playwright install --with-deps chromium"
   },
@@ -18,7 +19,9 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
+    "arweave": "^1.11.6",
     "autoprefixer": "^10.4.12",
+    "dotenv": "^16.0.3",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^4.0.0",

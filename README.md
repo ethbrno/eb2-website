@@ -9,5 +9,7 @@ The [IPFS](https://ipfs.io/) addresses of the major versions are stored directly
 * [ethbrno.eth.link](https://ethbrno.eth.link)
 * [ethbrno.eth.limo](https://ethbrno.eth.limo)
 
+Site is configured to prerender all content and refresh the data from Arweave. Publishing script is named upload-data and require your own Arweave wallet (whole JSON string) as an AR parameter in the environment, like `AR={"kty":"RSA","n":....`. IPFS publishing is not prepared out of the box, but it basically takes output of `/build` and send it to the ipfs pinning service like Pinata. We are using self hosted server for this.
+
 ## Authors
-* vorcigernix
+* [vorcigernix](https://github.com/vorcigernix) & [tree](https://github.com/burningtree)
