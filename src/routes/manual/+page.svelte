@@ -1,14 +1,12 @@
 <script>
-	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
-	//import snarkdown from 'snarkdown';
+	import { graphdata } from '$lib/graphdata';
 	import parse from '$lib/vsnarkdown';
 	export let data;
 	onMount(async () => {
-		const response = await fetch(`${base}/hacker-manual.md`);
-		const result = await response.text();
-		data.content = await parse(result);
-		//console.log(data.contributors);
+		const result = await graphdata('markdown');
+		if (result) data.content = await parse(result);
+		//console.log(data.content);
 	});
 </script>
 
