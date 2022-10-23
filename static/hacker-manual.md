@@ -14,9 +14,15 @@ This section aims to help you better prepare for the hackathon.
 ![](/icons/map.svg#left)
 #### Travelling
 
-Public transport in Brno and the rest of the South Moravian Region is provided by JMK (the South Moravian Integrated Public Transport System). Tickets are valid for any form of public transport, so you only need to pay attention to how long you are traveling (tickets are valid for specific amounts of time) and which zones you are travelling through. If you’re travelling through the city, a ticket for zones 100 and 101 is probably all you’ll need. You can buy tickets from any of the yellow ticket vending machines located at various stops throughout the city, or you can purchase them at information centres, stations, and newsagents. If you have a Czech phone number, you can buy tickets by sending a text message or using a mobile app. You can also pay contactless in the vehicles.
+##### Travelling to Brno
 
-The entire transport system is connected with several apps, including Google Maps and Mapy.cz, so feel free to use these to plan your trip.
+The best way to go to Brno from Vienna, Prague, Budapest, Bratislava or other bigger cities is by train. You can choose from more carriers and price levels, but all trains are safe, usualy equipped with wifi and plugs, usualy serving some snacks and coffee. You can find your connectin on [this link](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/). For example [here](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/vysledky/?date=04.11.2022&time=06:00&f=V%C3%ADde%C5%88%20leti%C5%A1t%C4%9B;%20Austria&fc=100003&t=Brno%20hl.n.&tc=100003) are some train connections from Vienna airport to Brno main station on Friday 4th.
+
+We recommend you to use private carrier [RegioJet](https://regiojet.com/) which provides bus connection as well.
+
+##### Brno Public transport
+
+It is safe to use public transport in Brno even in the night. Public transport in Brno and the rest of the South Moravian Region is provided by JMK (the South Moravian Integrated Public Transport System). Tickets are valid for any form of public transport, so you only need to pay attention to how long you are traveling (tickets are valid for specific amounts of time) and which zones you are travelling through. If you’re travelling through the city, a ticket for zones 100 and 101 is probably all you’ll need. You can buy tickets from any of the yellow ticket vending machines located at various stops throughout the city, or you can purchase them at information centres, stations, and newsagents. If you have a Czech phone number, you can buy tickets by sending a text message or using a mobile app. You can also pay contactless in the vehicles.
 
 ![](/icons/home.svg#left)
 #### Accomodation

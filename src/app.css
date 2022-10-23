@@ -19,6 +19,10 @@
         @apply text-xl mt-4;
     }
 
+    .head5 {
+        @apply font-bold mt-4;
+    }
+
     .list {
         @apply mb-4 leading-relaxed hover:underline hover:text-white;
     }
