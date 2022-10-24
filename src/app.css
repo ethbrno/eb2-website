@@ -4,15 +4,15 @@
 
 @layer components {
     .header {
-        @apply md:text-5xl text-3xl mb-4 font-bold text-white;
+        @apply text-5xl mb-4 mt-14 font-bold text-white;
     }
 
     .head2 {
-        @apply text-3xl mb-4 mt-8 font-bold text-white;
+        @apply text-3xl mb-4 mt-28 font-bold text-white;
     }
 
     .head3 {
-        @apply text-2xl my-4;
+        @apply text-2xl mt-20 my-4;
     }
 
     .head4 {

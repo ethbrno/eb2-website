@@ -59,7 +59,7 @@
 		</div>
 	</div>
 </section>
-<section class="text-white bg-black body-font">
+<section class="text-white bg-black body-font hidden">
 	<div class="container mx-auto flex py-12 md:py-24 md:flex-row flex-col-reverse items-center xl:max-w-screen-xl md:px-0 px-4">
 		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-5/6 md:mb-0 mt-10 md:mt-0">
 			<img

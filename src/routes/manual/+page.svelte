@@ -10,11 +10,11 @@
 	});
 </script>
 
+
+
 <section class="text-white bg-black body-font">
-	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center md:items-start">
-		<div
-			class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 hidden md:flex flex-col justify-center text-center"
-		>
+	<div class="container mx-auto flex flex-col xl:max-w-screen-xl px-3">
+		<div class="md:flex flex-row py-8 gap-8 hidden">
 			<div class="flex flex-col mb-10 items-center">
 				<div
 					class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 mb-5"
@@ -123,7 +123,7 @@
 			</div>
 		</div>
 		<article
-			class="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
+			class=""
 		>
 			<div
 				class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4 [&_h5]:head5 [&_img[src*='#left']]:hidden md:[&_img[src*='#left']]:flex md:[&_img[src*='#left']]:float-left [&_img[src*='#left']]:mt-5 [&_img[src*='#left']]:mr-5"
