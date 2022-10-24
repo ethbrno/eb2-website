@@ -4,23 +4,23 @@
 
 @layer components {
     .header {
-        @apply text-5xl mb-4 mt-14 font-bold text-white;
+        @apply text-5xl mb-4 my-14 font-bold text-white;
     }
 
     .head2 {
-        @apply text-3xl mb-4 mt-28 font-bold text-white;
+        @apply text-3xl mb-4 my-28 font-bold text-white;
     }
 
     .head3 {
-        @apply text-2xl mt-20 my-4;
+        @apply text-2xl my-12;
     }
 
     .head4 {
-        @apply text-xl mt-4;
+        @apply text-xl mt-12;
     }
 
     .head5 {
-        @apply font-bold mt-4;
+        @apply font-bold mt-4 mb-2;
     }
 
     .list {
