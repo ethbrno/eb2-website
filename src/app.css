@@ -16,11 +16,11 @@
     }
 
     .head4 {
-        @apply text-xl mt-12;
+        @apply text-3xl mb-4 my-28 font-bold text-white;
     }
 
     .head5 {
-        @apply font-bold mt-4 mb-2;
+        @apply font-bold mt-8 mb-4 text-xl;
     }
 
     .list {
