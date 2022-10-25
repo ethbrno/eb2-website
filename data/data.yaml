@@ -112,6 +112,31 @@ contributors:
     bio: Ethereum & StarkNet @ Equilibrium
     roles: [ speaker, mentor ]
 
+  - id: jakub-jedlinsky
+    name: Jakub Jedlinský
+    twitter: Jakub_Jedlinsky
+    bio: Macroeconomist and analyst - Altlift.cz, lecturer at KMEV VŠE
+    roles: [ speaker ]
+
+  - id: steffen-kux
+    name: Steffen Kux
+    twitter: steffenkux
+    bio: Co-founder, researcher, and developer at corpus.ventures
+    roles: [ speaker ]
+
+  - id: max-hampshire
+    name: Max Hampshire
+    nickname: Mx
+    twitter: _wjth
+    bio: Developer Relations for Nym, previously a smart contract developer and researcher
+    roles: [ speaker ]
+
+  - id: danish-shabbir
+    name: Danish Shabbir
+    twitter: fullyfuzuli
+    bio: Privacy researcher and a fiction writer
+    roles: [ speaker ]
+
   # ---- ADVISORS ----
 
   - id: mario-havel
