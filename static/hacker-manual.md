@@ -38,18 +38,15 @@ We do not provide or subsidize accomodation. Main venue is 24/7 though, so feel 
     * $1000 per night
     * 800m from main venue
 
-![](/icons/users.svg#left)
-#### Find a team
-There are several ways to connect with your peers:
+![](/icons/book.svg#left)
+#### MENTORING
 
-[**Ideas Shop**](https://app.dework.xyz/ethbrno/ideas-shop/view/board-l8awhuan)
-Ideas for projects that you can improve or implement as part of the hackathon
-[**Find a team**](https://)
-A ticket system to help find hackers for a team, or find a team for hackers
-[**Sponsor bounties**](https://)
-Extra rewards from sponsors for completing special tasks
-[**Matrix**](https://)
-Our chat platform
+Our amazing mentors are here to discuss anything related to your project. Not just code, but also ideas, concepts, design and presentation. They will generally be hanging around a **Mentor Base**, where you can come find them in person. You can also reach them on Matrix, in the **Mentor-help** chat. It’s always better to ask for advice sooner rather than later, you will learn and build quicker that way.
+
+![](/icons/users.svg#left)
+#### FINDING A TEAM / PROJECT IDEA
+
+If you’re missing team-mates or ideas for projects we’ve got you covered. You can start by writing into the **Find-a-team** chat on our [Matrix](https://matrix.to/#/#ethbrno:gwei.cz). Introduce yourself, discuss ideas, see what others are up to… There will also be a **Team-building session**, which will take place after the opening ceremony of Friday night. No need to prepare anything, just turn up. This session will be followed by a short **Brainstorm**, that you can also attend. We will take you and your team through a couple of exercises, which should lead you to at least one solid project idea. Then you’ll have everything to start your weekend of hacking!
 
 ![](/icons/coffee.svg#left)
 #### Catering
