@@ -15,9 +15,11 @@
 		//console.log(data.contributors);
 	});
 
+	const pseudorandom = new Date().getMinutes() * 0.016666666666;
+
 	$: filteredContributors = data.contributors
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
-		.sort((a, b) => 0.5 - Math.random())
+		.sort((a, b) => 0.5 - pseudorandom)
 		.map(wrapContributor);
 </script>
 
@@ -42,7 +44,7 @@
 		<div class="flex flex-wrap justify-center" data-testid="list">
 			{#if filteredContributors.length > 0}
 				{#each filteredContributors as item}
-					<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4">
+					<div class="bg-black bg-opacity-40 p-6 h-full w-full md:w-1/3 lg:w-1/4 fadein">
 						<a href={item.link} target="_blank">
 							<img
 								class="h-40 md:h-60 w-full object-cover object-center mb-6 grayscale hover:grayscale-0"
