@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { browser, dev, prerendering } from '$app/environment';
 	import { graphdata } from '$lib/graphdata';
 	export let data;
 	function wrapContributor(c) {
@@ -10,6 +11,7 @@
 	}
 
 	onMount(async () => {
+		if (dev) return;
 		const result = await graphdata('json');
 		if (result) data.contributors = result.contributors;
 		//console.log(data.contributors);
