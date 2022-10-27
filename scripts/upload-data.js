@@ -13,7 +13,8 @@ const arweave = Arweave.init({
 
 const datajson = fs.readFileSync('./static/data.json', 'utf8');
 const datamarkdown = fs.readFileSync('./static/hacker-manual.md', 'utf8');
-const key = JSON.parse(process.env.AR) || JSON.parse(process.env.AR);
+const key = JSON.parse(String(process.env.AR));
+console.log(key);
 
 if (!datajson || !datamarkdown || !key) { console.error("datafiles or key missing"); }
 
