@@ -14,6 +14,7 @@ const config = {
 		}),
 		trailingSlash: 'always',
 	},
+	extensions: ['.svelte'], 
 	preprocess: [
 		preprocess({
 			postcss: true,
