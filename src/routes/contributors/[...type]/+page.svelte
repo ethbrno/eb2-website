@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { browser, dev, prerendering } from '$app/environment';
 	import { graphdata } from '$lib/graphdata';
+	import { prng } from '$lib/dateprng.js';
 	export let data;
 	function wrapContributor(c) {
 		if (c.twitter) {
@@ -17,11 +18,9 @@
 		//console.log(data.contributors);
 	});
 
-	const pseudorandom = new Date().getMinutes() * 0.016666666666;
-
 	$: filteredContributors = data.contributors
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
-		.sort((a, b) => 0.5 - pseudorandom)
+		.sort((a, b) => 0.5 - (prng/10))
 		.map(wrapContributor);
 </script>
 
