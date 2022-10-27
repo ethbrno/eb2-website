@@ -2,15 +2,16 @@
 	import { onMount } from 'svelte';
 	import { graphdata } from '$lib/graphdata';
 	import parse from '$lib/vsnarkdown';
+	import { browser, dev, prerendering } from '$app/environment';
+
 	export let data;
 	onMount(async () => {
+		if (dev) return;
 		const result = await graphdata('markdown');
 		if (result) data.content = await parse(result);
 		//console.log(data.content);
 	});
 </script>
-
-
 
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex flex-col xl:max-w-screen-xl px-3">
@@ -122,9 +123,7 @@
 				</div>
 			</div>
 		</div>
-		<article
-			class=""
-		>
+		<article class="">
 			<div
 				class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4 [&_h5]:head5 [&_img[src*='#left']]:hidden md:[&_img[src*='#left']]:flex md:[&_img[src*='#left']]:float-left [&_img[src*='#left']]:mt-12 [&_img[src*='#left']]:mr-5"
 			>
