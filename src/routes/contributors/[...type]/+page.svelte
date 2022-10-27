@@ -11,16 +11,16 @@
 		return c;
 	}
 
-	onMount(async () => {
-		if (dev) return;
-		const result = await graphdata('json');
-		if (result) data.contributors = result.contributors;
-		//console.log(data.contributors);
-	});
+	//disabling data reload because of random
+	// onMount(async () => {
+	// 	if (dev) return;
+	// 	const result = await graphdata('json');
+	// 	if (result) data.contributors = result.contributors;
+	// });
 
 	$: filteredContributors = data.contributors
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
-		.sort((a, b) => 0.5 - (prng/10))
+		.sort((a, b) => 0.5 - Math.random())
 		.map(wrapContributor);
 </script>
 
