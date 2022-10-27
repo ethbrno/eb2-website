@@ -24,10 +24,15 @@
     }
 
     .list {
-        @apply mb-4 leading-relaxed hover:underline hover:text-white;
+        @apply my-4 leading-relaxed hover:text-white list-disc;
     }
 
     .active {
+        @apply underline;
+    }
+
+    .href
+    {
         @apply underline;
     }
 }
