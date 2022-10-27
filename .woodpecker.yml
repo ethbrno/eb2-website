@@ -7,6 +7,7 @@ pipeline:
       - npm ci
       - npm run build
       - npm run test
+    secrets: [AR]
 
   deploy:
     image: rclone/rclone
