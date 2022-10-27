@@ -13,20 +13,19 @@ const arweave = Arweave.init({
 
 const datajson = fs.readFileSync('./static/data.json', 'utf8');
 const datamarkdown = fs.readFileSync('./static/hacker-manual.md', 'utf8');
-const key = JSON.parse(String(process.env.AR));
-console.log(key);
+const { AR_KEY } = process.env;
 
-if (!datajson || !datamarkdown || !key) { console.error("datafiles or key missing"); }
+if (!datajson || !datamarkdown || !AR_KEY) { console.error("datafiles or AR_KEY missing"); }
 
 
 let uploadJSON = await arweave.createTransaction({
     data: datajson
-}, key);
+}, AR_KEY);
 
 uploadJSON.addTag('Content-Type', 'application/json');
 uploadJSON.addTag("AppName", "ETHBrno");
 uploadJSON.addTag("DataTag", "json");
-await arweave.transactions.sign(uploadJSON, key);
+await arweave.transactions.sign(uploadJSON, AR_KEY);
 //console.log(uploadJSON);
 
 let uploader = await arweave.transactions.getUploader(uploadJSON);
@@ -40,13 +39,13 @@ console.log("Data JSON uploaded in transaction:", uploadJSON.id);
 
 let uploadMD = await arweave.createTransaction({
     data: datamarkdown
-}, key);
+}, AR_KEY);
 
 uploadMD.addTag('Content-Type', 'text/plain');
 uploadMD.addTag('charset', 'UTF-8');
 uploadMD.addTag("AppName", "ETHBrno");
 uploadMD.addTag("DataTag", "markdown");
-await arweave.transactions.sign(uploadMD, key);
+await arweave.transactions.sign(uploadMD, AR_KEY);
 //console.log(uploadJSON);
 
 let uploader2 = await arweave.transactions.getUploader(uploadMD);
