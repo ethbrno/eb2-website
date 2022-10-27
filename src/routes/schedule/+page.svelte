@@ -24,7 +24,7 @@
 			<div class="py-8 flex flex-wrap md:flex-nowrap">
 				<div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
 					<span class="font-semibold title-font text-white">3pm-4pm</span>
-					<a href="/venues/png" class="mt-1 text-white text-sm mb-1 hover:underline">🞋 Atrium</a>
+					<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline">🞋 Atrium</a>
 					<span class="mt-1 text-gray-500 text-sm">WORKSHOP</span>
 					
 				</div>
@@ -64,7 +64,7 @@
 			</div><div class="py-8 flex flex-wrap md:flex-nowrap">
 				<div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
 					<span class="font-semibold title-font text-white">3pm-4pm</span>
-					<a href="/venues/png" class="mt-1 text-white text-sm mb-1 hover:underline">🞋 Atrium</a>
+					<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline">🞋 Atrium</a>
 					<span class="mt-1 text-gray-500 text-sm">WORKSHOP</span>
 					
 				</div>
