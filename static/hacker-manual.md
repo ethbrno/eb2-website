@@ -9,9 +9,9 @@
   * [Brno Public transport](#brno-public-transport)
   * [Accomodation](#accomodation)
 * Hackathon
-  * [Mentoring](#mentoring)
-  * [Finding a Team / Project Idea](#finding-a-team--project-idea)
-  * [Catering](#catering)
+  * [Mentoring](#--mentoring)
+  * [Finding a Team / Project Idea](#-finding-a-team--project-idea)
+  * [Catering](#-catering)
 
 ---
 

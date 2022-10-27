@@ -4,15 +4,15 @@
 
 @layer components {
     .header {
-        @apply text-4xl mt-12 mb-8 font-bold text-white;
+        @apply text-4xl mt-12 mb-8 font-bold text-white scroll-mt-28;
     }
 
     .head2 {
-        @apply text-3xl mt-12 mb-8 font-bold text-white;
+        @apply text-3xl mt-12 mb-8 font-bold text-white  scroll-mt-28;
     }
 
     .head3 {
-        @apply text-2xl mt-12 mb-8;
+        @apply text-2xl mt-12 mb-8  scroll-mt-28;
     }
 
     .head4 {
