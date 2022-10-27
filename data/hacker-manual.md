@@ -1,0 +1,1 @@
+../static/hacker-manual.md

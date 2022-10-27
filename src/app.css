@@ -4,23 +4,23 @@
 
 @layer components {
     .header {
-        @apply text-5xl mb-4 my-14 font-bold text-white;
+        @apply text-4xl mt-12 mb-8 font-bold text-white;
     }
 
     .head2 {
-        @apply text-3xl mb-4 my-28 font-bold text-white;
+        @apply text-3xl mt-12 mb-8 font-bold text-white;
     }
 
     .head3 {
-        @apply text-2xl my-12;
+        @apply text-2xl mt-12 mb-8;
     }
 
     .head4 {
-        @apply text-3xl mb-4 my-28 font-bold text-white;
+        @apply text-xl mt-12 mb-8;
     }
 
     .head5 {
-        @apply font-bold mt-8 mb-4 text-xl;
+        @apply font-bold mt-12 mb-8;
     }
 
     .list {
@@ -110,3 +110,32 @@ body {
       opacity: 1;
     }
   }
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon.map {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-map'%3E%3Cpolygon points='1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6'%3E%3C/polygon%3E%3Cline x1='8' y1='2' x2='8' y2='18'%3E%3C/line%3E%3Cline x1='16' y1='6' x2='16' y2='22'%3E%3C/line%3E%3C/svg%3E");
+}
+.icon.book {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-book'%3E%3Cpath d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'%3E%3C/path%3E%3Cpath d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'%3E%3C/path%3E%3C/svg%3E");
+}
+.icon.users {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-users'%3E%3Cpath d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'%3E%3C/path%3E%3Ccircle cx='9' cy='7' r='4'%3E%3C/circle%3E%3Cpath d='M23 21v-2a4 4 0 0 0-3-3.87'%3E%3C/path%3E%3Cpath d='M16 3.13a4 4 0 0 1 0 7.75'%3E%3C/path%3E%3C/svg%3E");
+}
+.icon.coffee {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-coffee'%3E%3Cpath d='M18 8h1a4 4 0 0 1 0 8h-1'%3E%3C/path%3E%3Cpath d='M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z'%3E%3C/path%3E%3Cline x1='6' y1='1' x2='6' y2='4'%3E%3C/line%3E%3Cline x1='10' y1='1' x2='10' y2='4'%3E%3C/line%3E%3Cline x1='14' y1='1' x2='14' y2='4'%3E%3C/line%3E%3C/svg%3E");
+}
+.md-separator {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid white;
+    margin: 4em 0 4em 0;
+    opacity: 0.5;
+}

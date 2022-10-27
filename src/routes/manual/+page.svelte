@@ -15,7 +15,7 @@
 
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex flex-col xl:max-w-screen-xl px-3">
-		<div class="md:flex flex-row py-8 gap-8 hidden">
+		<!--div class="md:flex flex-row py-8 gap-8 hidden">
 			<div class="flex flex-col mb-10 items-center">
 				<div
 					class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 mb-5"
@@ -122,8 +122,11 @@
 					>
 				</div>
 			</div>
-		</div>
-		<article class="">
+		</div--->
+		<h1 class="pt-12 pb-6 xl:pt-20 xl:pb-10 text-4xl">Hacker Manual</h1>
+		<article
+			class="mb-12"
+		>
 			<div
 				class="[&_h1]:header [&_h2]:head2 [&_li]:list [&_h3]:head3 [&_h4]:head4 [&_h5]:head5 [&_img[src*='#left']]:hidden md:[&_img[src*='#left']]:flex md:[&_img[src*='#left']]:float-left [&_img[src*='#left']]:mt-12 [&_img[src*='#left']]:mr-5"
 			>
