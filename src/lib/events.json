@@ -4,9 +4,21 @@
     "name": "Hackathon Registration Opens",
     "description": "Gate opens! Register and do your part for a privacy and security",
     "speakers": null,
-    "datetime": "Fri, 11 Nov 2022 14:00:00 GMT",
+    "datetime": "Fri, 11 Nov 2022 12:00:00 GMT",
     "stage": null,
     "eventtype": "Key"
+  },
+  {
+    "id": "5",
+    "name": "ZKSync Workshop: Building on zkSync 2.0",
+    "description": "The Ethereum Layer 2 project is about to undergo its most significant upgrade to date. With the launch of zkSync 2.0, the network will gain the capacity for smart contracts, letting developers create and deploy their own DeFi protocols, NFTs, and blockchain games.",
+    "speakers": [
+      { "id": "adam", "name": "Adam Sobotka" },
+      { "id": "nick-almond", "name": "Nick Almond" }
+    ],
+    "datetime": "Fri, 11 Nov 2022 15:00:00 GMT",
+    "stage": "Atrium",
+    "eventtype": "Talk"
   },
   {
     "id": "2",

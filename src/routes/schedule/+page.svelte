@@ -36,19 +36,19 @@
 <section class="text-white bg-black body-font overflow-hidden">
 	<div class="container px-5 py-24 mx-auto">
 		{#each filteredEvents as evt}
-			<div class="-my-8 divide-y-2 divide-gray-800">
-				<div class="py-8 flex flex-wrap md:flex-nowrap">
+			<div class="py-8 divide-y-2 divide-gray-800">
+				<div class=" flex flex-wrap md:flex-nowrap">
 					{#if evt.eventtype === 'Key'}
-						<div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-							<div><span class="font-bold title-font text-black bg-white p-5">3pm-4pm</span></div>
+						<div class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-white pl-2">
+							<span class="font-bold title-font px-2 ">3pm-4pm</span>
 						</div>
 					{:else}
-						<div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-							<span class="font-semibold title-font text-white">3pm-4pm</span>
-							<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline"
+						<div class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-gray-900 pl-2">
+							<span class="font-semibold title-font text-white px-2">3pm-4pm</span>
+							<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline px-2"
 								>🞋 {evt.stage}</a
 							>
-							<span class="mt-1 text-gray-500 text-sm uppercase">{evt.eventtype}</span>
+							<span class="mt-1 text-gray-500 text-sm uppercase px-2">{evt.eventtype}</span>
 						</div>
 					{/if}
 
