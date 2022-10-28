@@ -22,7 +22,6 @@
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
 		.sort((a, b) => 0.5 - Math.random())
 		.map(wrapContributor);
-
 </script>
 
 <svelte:head>
@@ -56,17 +55,20 @@
 							/>
 						</a>
 						<h3
-							class="tracking-widest text-gray-400 text-xs font-medium title-font flex flex-row divide-x"
+							class="tracking-widest text-gray-400 text-xs font-medium title-font flex flex-row gap-2"
 						>
 							{#each item.roles as role}
 								<span class="underline">{role}</span>
 							{/each}
 						</h3>
-						<div class="flex flex-row mb-2 {item.remote ? 'contributor-remote' : ''}">
-							<a class="text-lg text-white font-medium title-font" href={item.link} target="_blank">
+						<div class="flex flex-row mb-2">
+							<a class="text-lg flex justify-center text-white font-medium title-font" href={item.link} target="_blank">
 								{item.name}
 								{#if item.nickname}
 									({item.nickname})
+								{/if}
+								{#if item.remote}
+									<span class="ordinal text-xs ml-2">remote</span>
 								{/if}
 							</a>
 						</div>
