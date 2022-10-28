@@ -43,7 +43,9 @@
 							<span class="font-bold title-font px-2 ">3pm-4pm</span>
 						</div>
 					{:else}
-						<div class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-gray-900 pl-2">
+						<div
+							class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-gray-900 pl-2"
+						>
 							<span class="font-semibold title-font text-white px-2">3pm-4pm</span>
 							<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline px-2"
 								>🞋 {evt.stage}</a
@@ -73,7 +75,7 @@
 
 								<p class="pl-4 flex space-x-2 divide-x ">
 									{#each evt.speakers || [] as speaker}
-										<a class="pl-2" href={speaker.id}>{speaker.name}</a>
+										<p class="pl-2">{speaker.name}</p>
 									{/each}
 								</p>
 							</dd>
