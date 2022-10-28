@@ -22,6 +22,7 @@
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
 		.sort((a, b) => 0.5 - Math.random())
 		.map(wrapContributor);
+
 </script>
 
 <svelte:head>
