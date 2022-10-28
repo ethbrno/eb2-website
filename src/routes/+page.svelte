@@ -30,7 +30,7 @@
 </svelte:head>
 <section class="text-gray-400 bg-black border-b">
 	<div class="w-full mx-auto flex md:flex-row md:h-5/6 flex-col items-center">
-		<div class="md:w-5/12 md:mb-0 mb-4 md:flex justify-center md:h-[800px]">
+		<div class="md:w-5/12 md:mb-0 mb-4 md:flex justify-center md:h-[800px] bg-white md:bg-black">
 			<img src="cam2.png" class="object-cover object-center invert -ml-20 md:ml-0 md:invert-0 -mt-20 md:mt-0" alt="cam" />
 		</div>
 		<div
