@@ -43,7 +43,7 @@ contributors:
     name: Nick Almond
     nickname: DrNick
     twitter: DrNickA
-    bio: FactoryDAO
+    bio: Building the next generation of DAOs with FactoryDAO
     roles: [ speaker ]
 
   - id: juraj-bednar
@@ -51,6 +51,7 @@ contributors:
     twitter: jurbed
     bio: Hacktrophy, Hackyourself.io
     roles: [ speaker ]
+    remote: true
 
   - id: pavol-luptak
     name: Pavol Luptak
@@ -136,6 +137,37 @@ contributors:
     twitter: fullyfuzuli
     bio: Privacy researcher and a fiction writer
     roles: [ speaker ]
+
+  - id: jan-zibner
+    name: Jan Zibner
+    link: https://www.artiffine.com/team/jan-zibner
+    bio: Lawyer specialising in intellectual property law and digital trends @ Artiffine
+    roles: [ speaker ]
+
+  - id: dhadrien
+    name: dhadrien
+    twitter: dhadrien_
+    bio: Founder of Sismo / ZK, Privacy, Decentralization and History
+    roles: [ speaker ]
+  
+  - id: chris-blec
+    name: Chris Blec
+    twitter: ChrisBlec
+    bio: 'The intersection of Bitcoin, DeFi and Liberty || MakerDAO delegate'
+    remote: true
+    roles: [ speaker ]
+  
+  - id: six
+    name: six
+    link: https://cryptoctf.org/
+    bio: CCTF founder
+    roles: [ speaker, judge ]
+
+  - id: nikete
+    name: mikete
+    twitter: nikete
+    bio: Curiosity driven. Open science, individual privacy, collective cognition
+    roles: [ mentor ]
 
   # ---- ADVISORS ----
 
