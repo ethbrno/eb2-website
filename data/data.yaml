@@ -97,8 +97,8 @@ contributors:
   - id: qedk
     name: QEDK
     twitter: qedk_
-    bio: Engineering Polygon, Moonshot Collective
-    roles: [ speaker ]
+    bio: Engineering @ Polygon, EthIndia alum, ex-Moonshot Collective
+    roles: [ speaker, mentor ]
     remote: true
 
   - id: radek-svarz
