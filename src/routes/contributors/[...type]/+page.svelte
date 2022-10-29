@@ -17,10 +17,12 @@
 	// 	const result = await graphdata('json');
 	// 	if (result) data.contributors = result.contributors;
 	// });
-
+	let innercount = 0;
 	$: filteredContributors = data.contributors
 		.filter((c) => data.type === 'all' || c.roles.includes(data.typeConfig.role))
-		.sort((a, b) => 0.5 - Math.random())
+		.sort((a, b) => {
+			return 0.5 - Math.random();
+		})
 		.map(wrapContributor);
 </script>
 
@@ -62,7 +64,11 @@
 							{/each}
 						</h3>
 						<div class="flex flex-row mb-2">
-							<a class="text-lg flex justify-center text-white font-medium title-font" href={item.link} target="_blank">
+							<a
+								class="text-lg flex justify-center text-white font-medium title-font"
+								href={item.link}
+								target="_blank"
+							>
 								{item.name}
 								{#if item.nickname}
 									({item.nickname})

@@ -79,6 +79,10 @@ price: 70eur
 Spacious, air-conditioned rooms overlook the town square, the Cathedral of Saints Peter and Spilberk Castle, featuring a flat-screen satellite TV and a seating area. The bathrooms include bathrobes. It is 50 m to the nearest tram stop, and Brno Train Station is 400 m away. Airport shuttle service available.  
 
 
+### Map and tips from locals
+
+[Here](https://www.use-it.travel/cities/map/2022_brno/) you can find a map of Brno with no-nonsense usefull tips. Made by local volunteers, non-commercial, free and up-to-date.
+
 ---
 
 ## Hackathon 
@@ -92,5 +96,5 @@ Our amazing mentors are here to discuss anything related to your project. Not ju
 If you’re missing team-mates or ideas for projects we’ve got you covered. You can start by writing into the **Find-a-team** chat on our [Matrix](https://matrix.to/#/#ethbrno:gwei.cz). Introduce yourself, discuss ideas, see what others are up to… There will also be a **Team-building session**, which will take place after the opening ceremony of Friday night. No need to prepare anything, just turn up. This session will be followed by a short **Brainstorm**, that you can also attend. We will take you and your team through a couple of exercises, which should lead you to at least one solid project idea. Then you’ll have everything to start your weekend of hacking!
 
 ### <i class='icon coffee'></i> Catering
-We will take care of your meals and drinks for the entire Hackathon, conference and coffee breaks. There will be vegan options provided. Just come with an open mind, a knowledge-thirsty brain and enthusiasm. 
+We will take care of your meals and drinks for the entire Hackathon, conference and coffee breaks. There will be vegetarian options provided. Just come with an open mind, a knowledge-thirsty brain and enthusiasm. 
 

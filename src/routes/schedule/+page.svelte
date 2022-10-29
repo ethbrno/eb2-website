@@ -1,7 +1,7 @@
 <script>
 	export let data;
 	const today = new Date().getDay();
-	let selectedDay = today === 5 || today === 6 || today === 0 ? today : 6;
+	let selectedDay = today === 5 || today === 6 || today === 0 ? today : 5;
 	//let selectedDay = 6;
 	$: filteredEvents = data.events.filter((c) => {
 		let evtDate = new Date(c.datetime).getDay();
