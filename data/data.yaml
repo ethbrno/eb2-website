@@ -97,9 +97,8 @@ contributors:
   - id: qedk
     name: QEDK
     twitter: qedk_
-    bio: Engineering Polygon, Moonshot Collective
-    roles: [ speaker ]
-    remote: true
+    bio: Engineering @ Polygon, EthIndia alum, ex-Moonshot Collective
+    roles: [ speaker, mentor ]
 
   - id: radek-svarz
     name: Radek Švarz
@@ -189,8 +188,7 @@ contributors:
     name: Anett Rolikova
     twitter: AnettRolikova
     bio: Nethermind, previously Ethereum Magicians
-    roles: [ advisor ]
-    remote: true
+    roles: [ advisor, judge ]
 
   # ---- TEAM ----
 
