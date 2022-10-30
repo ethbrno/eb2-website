@@ -10,6 +10,10 @@
 	console.log(filteredEvents);
 </script>
 
+<svelte:head>
+	<title>Schedule | ETHBrno²</title>
+</svelte:head>
+
 <section
 	class="text-white body-font bg-black px-2 py-6 md:py-12 flex justify-center flex-row overflow-x-scroll flex-wrap text-sm md:text-base"
 >
