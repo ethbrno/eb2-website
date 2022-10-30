@@ -24,7 +24,7 @@
 		<h1 class="pt-12 pb-6 xl:pt-20 xl:pb-10 text-4xl">Hacker Manual</h1>
 		<article class="mb-12">
 			<div
-				class="[&_hr]:md-separator [&_p]:leading-relaxed  [&_a]:href [&_h1]:header [&_h2]:head2 [&_ul]:list [&_li]:sublist [&_h3]:head3 [&_h4]:head4 [&_h5]:head5 [&_img[src*='#left']]:hidden md:[&_img[src*='#left']]:flex md:[&_img[src*='#left']]:float-left [&_img[src*='#left']]:mt-12 [&_img[src*='#left']]:mr-5"
+				class="[&_hr]:md-separator [&_p]:paragraph  [&_a]:href [&_h1]:header [&_h2]:head2 [&_ul]:list [&_li]:sublist [&_h3]:head3 [&_h4]:head4 [&_h5]:head5 [&_img[src*='#left']]:hidden md:[&_img[src*='#left']]:flex md:[&_img[src*='#left']]:float-left [&_img[src*='#left']]:mt-12 [&_img[src*='#left']]:mr-5"
 			>
 				{@html data.content}
 			</div>

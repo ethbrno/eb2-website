@@ -8,7 +8,9 @@
   * [Travelling to Brno](#travelling-to-brno)
   * [Brno Public transport](#brno-public-transport)
   * [Accomodation](#accomodation)
+  * [Map and tips from locals](#map-and-tips-from-locals)
 * Hackathon
+  * [Hackathon identity - Soulbound Token (SBT)](#hackathon-identity---soulbound-token-sbt)
   * [Mentoring](#--mentoring)
   * [Finding a Team / Project Idea](#-finding-a-team--project-idea)
   * [Catering](#-catering)
@@ -75,7 +77,7 @@ Centrally located right below Spilberg Castle and 100m from the Main Square. Fre
 Address: Zeleny trh 314/2, Brno, 602 00, Czech Republic  
 [Book](https://www.booking.com/hotel/cz/grandezza.html?aid=910275&sid=456cddd34fabe31e28baf019d5e20a72&atlas_src=hp_iw_title&checkin=2022-11-11&checkout=2022-11-13&dist=0&group_adults=2&group_children=0&lang=en-us&no_rooms=1&room1=A%2CA&sb_price_type=total&soz=1&srepoch=1666878418&srpvid=2e79609d94de021d&type=total&lang_click=other&cdl=cs&lang_changed=1)
 price: 70eur  
- 
+
 Spacious, air-conditioned rooms overlook the town square, the Cathedral of Saints Peter and Spilberk Castle, featuring a flat-screen satellite TV and a seating area. The bathrooms include bathrobes. It is 50 m to the nearest tram stop, and Brno Train Station is 400 m away. Airport shuttle service available.  
 
 
@@ -87,6 +89,15 @@ Spacious, air-conditioned rooms overlook the town square, the Cathedral of Saint
 
 ## Hackathon 
 
+### Hackathon identity - Soulbound Token (SBT)
+
+Upon on-site registration, each visitor will receive a card with a one-time QR code to mint their unique ETHBrno² Soulbound Token on the Optimism network.
+
+Possession of this token will entitle all visitors to:
+
+- participate in the quadratic voting and help choose the winning projects
+- get test ETH on Goerli or Sepolia testnet (up to 200 ETH/person)
+
 ### <i class='icon book'></i>  Mentoring
 
 Our amazing mentors are here to discuss anything related to your project. Not just code, but also ideas, concepts, design and presentation. They will generally be hanging around a **Mentor Base**, where you can come find them in person. You can also reach them on Matrix, in the **Mentor-help** chat. It’s always better to ask for advice sooner rather than later, you will learn and build quicker that way.
@@ -96,5 +107,4 @@ Our amazing mentors are here to discuss anything related to your project. Not ju
 If you’re missing team-mates or ideas for projects we’ve got you covered. You can start by writing into the **Find-a-team** chat on our [Matrix](https://matrix.to/#/#ethbrno:gwei.cz). Introduce yourself, discuss ideas, see what others are up to… There will also be a **Team-building session**, which will take place after the opening ceremony of Friday night. No need to prepare anything, just turn up. This session will be followed by a short **Brainstorm**, that you can also attend. We will take you and your team through a couple of exercises, which should lead you to at least one solid project idea. Then you’ll have everything to start your weekend of hacking!
 
 ### <i class='icon coffee'></i> Catering
-We will take care of your meals and drinks for the entire Hackathon, conference and coffee breaks. There will be vegetarian options provided. Just come with an open mind, a knowledge-thirsty brain and enthusiasm. 
-
+We will take care of your meals and drinks for the entire Hackathon, conference and coffee breaks. There will be vegetarian options provided. Just come with an open mind, a knowledge-thirsty brain and enthusiasm.
