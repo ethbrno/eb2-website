@@ -134,7 +134,7 @@ The full agenda will be available a few days before the hackathon here on the we
 * **11:30 - 15:00** - Project Judging
 * **12:30 - 14:00** - Lunch
 * **13:00 - 16:00** - Closing Talks
-* **15:15** - Finalist Teams Notified on Discord
+* **15:15** - Finalist Teams Notified on Matrix
 * **16:00 - 17:00** - Closing Ceremonies & Demos
 * **17:00** - Coctail party 🎉
 * **19:00** - Hackathon ends
