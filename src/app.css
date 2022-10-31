@@ -4,19 +4,19 @@
 
 @layer components {
     .header {
-        @apply text-4xl mt-12 mb-8 font-bold text-white scroll-mt-28;
+        @apply text-4xl mt-12 mb-4 font-bold text-white scroll-mt-28;
     }
 
     .head2 {
-        @apply text-3xl mt-12 mb-8 font-bold text-white  scroll-mt-28;
+        @apply text-3xl mt-12 mb-4 font-bold text-white  scroll-mt-28;
     }
 
     .head3 {
-        @apply text-2xl mt-12 mb-8  scroll-mt-28;
+        @apply text-2xl mt-12 mb-4  scroll-mt-28;
     }
 
     .head4 {
-        @apply text-lg mt-12 mb-8 font-bold;
+        @apply text-lg mt-12 mb-4 font-bold;
     }
 
     .head5 {
@@ -24,11 +24,11 @@
     }
 
     .list {
-        @apply my-4 leading-relaxed hover:text-white list-disc list-inside;
+        @apply my-3 leading-relaxed hover:text-white list-disc list-inside;
     }
 
     .sublist {
-        @apply my-4 leading-relaxed hover:text-white ml-8 list-[circle];
+        @apply my-3 leading-relaxed hover:text-white ml-4 md:ml-8 list-[circle];
     }
 
     .active {
@@ -47,7 +47,7 @@
         width: 100%;
         height: 1px;
         border-top: 1px solid white;
-        margin: 4em 0 4em 0;
+        margin: 4em 0 2em 0;
         opacity: 0.5;
     }
 }
@@ -138,6 +138,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 1rem;
 }
 
 .icon.map {
