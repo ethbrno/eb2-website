@@ -16,6 +16,9 @@ contributorTypes:
   advisors:
     title: Advisors
     role: advisor
+  volunteers:
+    title: Volunteers
+    role: volunteer
   team:
     title: Core Team
     role: team
@@ -147,6 +150,7 @@ contributors:
     name: dhadrien
     twitter: dhadrien_
     bio: Founder of Sismo / ZK, Privacy, Decentralization and History
+    remote: true
     roles: [ speaker ]
   
   - id: chris-blec
@@ -167,6 +171,12 @@ contributors:
     twitter: nikete
     bio: Curiosity driven. Open science, individual privacy, collective cognition
     roles: [ mentor ]
+
+  - id: mykola-siusko
+    name: Mykola Siusko
+    twitter: nicksvyaznoy
+    bio: Web3 fixer | Curing surveillance capitalism
+    roles: [ speaker ]
 
   # ---- ADVISORS ----
 
@@ -189,6 +199,28 @@ contributors:
     twitter: AnettRolikova
     bio: Nethermind, previously Ethereum Magicians
     roles: [ advisor, judge ]
+
+  # ---- VOLUNTEERS ----
+
+  - id: gabari
+    name: Bryce
+    nickname: gabari
+    twitter: gabari___
+    bio: Former head of communication for a top 3 DAO, Member of Developer DAO
+    roles: [ volunteer ]
+
+  - id: hazae41
+    name: Hugo
+    nickname: Haz Æ 41
+    twitter: hazae41
+    bio:  Sponsor & Speakers seeker | Software Engineer specialised in Privacy & Decentralized systems, member of Developer DAO
+    roles: [ volunteer ]
+  
+  - id: victor
+    name: Victor
+    twitter: Heliatr0p
+    bio: Sponsors & Speakers seeker | Software Engineer
+    roles: [ volunteer ]
 
   # ---- TEAM ----
 
