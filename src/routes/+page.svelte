@@ -92,7 +92,7 @@
 </section>
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col-reverse items-center">
-		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-[150px] md:mb-0 mt-10 md:mb-10 flex justify-center">
+		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-[150px] mt-10 md:mb-10 flex justify-center">
 			<img class="object-cover object-center" alt="hero" src="lock.png" />
 		</div>
 		<div

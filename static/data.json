@@ -406,6 +406,12 @@
       "url": "https://ethereum.foundation/"
     },
     {
+      "id": "metamask",
+      "name": "MetaMask Snaps",
+      "tier": "3des",
+      "url": "https://metamask.io/snaps/"
+    },
+    {
       "id": "mitonc",
       "name": "MitonC",
       "tier": "3des",
@@ -430,6 +436,6 @@
       "url": "https://devfolio.co/"
     }
   ],
-  "time": "2022-11-06T08:20:24.317Z",
+  "time": "2022-11-06T09:19:28.372Z",
   "version": "v2022-10-16"
 }
