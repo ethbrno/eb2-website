@@ -58,11 +58,6 @@
 				>. ETHBrno² is the second, and we believe the best yet, edition.
 			</p>
 
-			<!--p class="mb-8 leading-relaxed">
-				ETHBrno² events are organized by <a href="https://gwei.cz" target="_blank" class="external">Gwei.cz community</a>
-				with the help of the <a href="https://utxo.foundation" target="_blank" class="external">UTXO Foundation</a>.
-			</p-->
-
 			<p class="mb-8 leading-relaxed">
 				This year we are focusing on <strong>privacy and security</strong> topics.
 			</p>
