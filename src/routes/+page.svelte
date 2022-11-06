@@ -2,17 +2,10 @@
 	import { sponsors } from '$lib/data.json';
 
 	const tiers = [
-		{
-			id: 'schnorr',
-			name: 'Schnorr'
-		},
+
 		{
 			id: 'ecdsa',
 			name: 'ECDSA'
-		},
-		{
-			id: 'aes',
-			name: 'AES'
 		},
 		{
 			id: '3des',
@@ -158,7 +151,7 @@
 					{#each sponsors.filter((x) => x.tier.includes(tier.id)) as sponsor}
 						<a href={sponsor.url} rel="noopener noreferrer" target="_blank" alt="link to">
 							<img
-								class="w-60 m-6"
+								class="w-60 m-6 grayscale hover:grayscale-0"
 								src="/photos/sponsors/{sponsor.id}.png"
 								alt="{sponsor.name} Logo"
 							/>
