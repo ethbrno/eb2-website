@@ -12,10 +12,18 @@ pipeline:
   deploy:
     image: rclone/rclone
     commands:
-      - "rclone sync build/ :sftp: --sftp-host frontier.gwei.cz --sftp-user eb2-website-dev --sftp-port 2022 --sftp-pass $RCLONE_PASS -v"
+      - "rclone sync build/ :sftp:production/ --sftp-host frontier.gwei.cz --sftp-user eb2-website-dev --sftp-port 2022 --sftp-pass $RCLONE_PASS -v"
     secrets: [RCLONE_PASS]
     when:
       branch: [main]
+
+  deploy_dev:
+    image: rclone/rclone
+    commands:
+      - "rclone sync build/ :sftp:dev/ --sftp-host frontier.gwei.cz --sftp-user eb2-website-dev --sftp-port 2022 --sftp-pass $RCLONE_PASS -v"
+    secrets: [RCLONE_PASS]
+    when:
+      branch: [dev]
 
   deploy_ipfs:
     image: node

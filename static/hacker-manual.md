@@ -2,20 +2,26 @@
 
 * Join the conversation on Matrix: [#ethbrno:gwei.cz](https://matrix.to/#/#ethbrno:gwei.cz)
 
-# Overview
+## Overview
 
 * Travel and Accommodation
   * [Travelling to Brno](#travelling-to-brno)
   * [Brno Public transport](#brno-public-transport)
   * [Accomodation](#accomodation)
+  * [Map and tips from locals](#map-and-tips-from-locals)
+  * [Catering](#catering)
 * Hackathon
-  * [Mentoring](#--mentoring)
-  * [Finding a Team / Project Idea](#-finding-a-team--project-idea)
-  * [Catering](#-catering)
+  * [Schedule](#schedule)
+  * [Hackathon identity - Soulbound Token (SBT)](#hackathon-identity---soulbound-token-sbt)
+  * [Hacking Rules](#hacking-rules)
+  * [Finding a Team / Project Idea](#finding-a-team--project-idea)
+  * [Mentoring](#mentoring)
+  * [Submissions](#submissions)
+* Experiences
+  * [Side-events](#side-events)
+  * [Afterparty](#afterparty)
 
 ---
-
-## <i class='icon map'></i> Travel and Accommodation
 
 ### Travelling to Brno
 
@@ -23,9 +29,17 @@ The best way to go to Brno from Vienna, Prague, Budapest, Bratislava or other bi
 
 We recommend you to use private carrier [RegioJet](https://regiojet.com/) which provides bus connection as well.
 
+---
+
 ### Brno Public transport
 
-It is safe to use public transport in Brno even in the night. Public transport in Brno and the rest of the South Moravian Region is provided by JMK (the South Moravian Integrated Public Transport System). Tickets are valid for any form of public transport, so you only need to pay attention to how long you are traveling (tickets are valid for specific amounts of time) and which zones you are travelling through. If you’re travelling through the city, a ticket for zones 100 and 101 is probably all you’ll need. You can buy tickets from any of the yellow ticket vending machines located at various stops throughout the city, or you can purchase them at information centres, stations, and newsagents. If you have a Czech phone number, you can buy tickets by sending a text message or using a mobile app. You can also pay contactless in the vehicles.
+It is safe to use public transport in Brno even in the night. Public transport in Brno and the rest of the South Moravian Region is provided by JMK (the South Moravian Integrated Public Transport System). 
+
+Tickets are valid for any form of public transport, so you only need to pay attention to how long you are traveling (tickets are valid for specific amounts of time) and which zones you are travelling through. If you’re travelling through the city, a ticket for zones 100 and 101 is probably all you’ll need.
+
+You can buy tickets from any of the yellow ticket vending machines located at various stops throughout the city, or you can purchase them at information centres, stations, and newsagents. If you have a Czech phone number, you can buy tickets by sending a text message or using a mobile app. You can also pay contactless in the vehicles.
+
+---
 
 ### Accomodation
 We do not provide or subsidize accomodation. Main venue is 24/7 though, so feel free to enjoy the hackathon in its purest form. If you don't feel like it, we do have following recommended facilities:
@@ -75,9 +89,10 @@ Centrally located right below Spilberg Castle and 100m from the Main Square. Fre
 Address: Zeleny trh 314/2, Brno, 602 00, Czech Republic  
 [Book](https://www.booking.com/hotel/cz/grandezza.html?aid=910275&sid=456cddd34fabe31e28baf019d5e20a72&atlas_src=hp_iw_title&checkin=2022-11-11&checkout=2022-11-13&dist=0&group_adults=2&group_children=0&lang=en-us&no_rooms=1&room1=A%2CA&sb_price_type=total&soz=1&srepoch=1666878418&srpvid=2e79609d94de021d&type=total&lang_click=other&cdl=cs&lang_changed=1)
 price: 70eur  
- 
+
 Spacious, air-conditioned rooms overlook the town square, the Cathedral of Saints Peter and Spilberk Castle, featuring a flat-screen satellite TV and a seating area. The bathrooms include bathrobes. It is 50 m to the nearest tram stop, and Brno Train Station is 400 m away. Airport shuttle service available.  
 
+---
 
 ### Map and tips from locals
 
@@ -85,16 +100,114 @@ Spacious, air-conditioned rooms overlook the town square, the Cathedral of Saint
 
 ---
 
-## Hackathon 
+### Catering<i class='icon coffee'></i> 
 
-### <i class='icon book'></i>  Mentoring
+We will take care of your meals and drinks for the entire Hackathon, conference and coffee breaks. There will be vegetarian options provided. Just come with an open mind, a knowledge-thirsty brain and enthusiasm.
 
-Our amazing mentors are here to discuss anything related to your project. Not just code, but also ideas, concepts, design and presentation. They will generally be hanging around a **Mentor Base**, where you can come find them in person. You can also reach them on Matrix, in the **Mentor-help** chat. It’s always better to ask for advice sooner rather than later, you will learn and build quicker that way.
+---
 
-### <i class='icon users'></i> Finding a Team / Project Idea
+### Schedule
+
+The full agenda will be available a few days before the hackathon here on the website.
+
+#### Friday - Nov 11
+
+* **13:00** - Hackathon Registration Opens
+* **14:30 - 23:00** - Opening Talks and workshops
+* **18:00 - 19:30** - Dinner
+* **19:00 - 20:30** - Opening Ceremony & Kickoff
+* **20:30 - 21:30** - Team Formation Workshop
+* **23:30** - Midnight Snack
+
+#### Saturday - Nov 12
+
+* **09:00 - 11:00** - Breakfast
+* **12:30 - 14:00** - Lunch
+* **15:00 - 23:30** - Talks and workshops (in-person or remote)
+* **18:00 - 19:30** - Dinner
+* **23:30** - Midnight Snack
+
+#### Sunday - Nov 13
+
+* **09:00 - 11:00** - Breakfast
+* **11:00** - Project Submission Deadline
+* **11:30 - 15:00** - Project Judging
+* **12:30 - 14:00** - Lunch
+* **13:00 - 16:00** - Closing Talks
+* **15:15** - Finalist Teams Notified on Matrix
+* **16:00 - 17:00** - Closing Ceremonies & Demos
+* **17:00** - Coctail party 🎉
+* **19:00** - Hackathon ends
+* **21:00** - [Afterparty](#afterparty)
+
+---
+
+### Hackathon identity - Soulbound Token (SBT)
+
+Upon on-site registration, each visitor will receive a card with a one-time QR code to mint their unique ETHBrno² Soulbound Token on the Optimism network.
+
+Possession of this token will entitle all visitors to:
+
+- participate in the quadratic voting and help choose the winning projects
+- get test ETH on Goerli or Sepolia testnet (up to 200 ETH/person)
+
+---
+
+### Hacking Rules
+
+- Maximum of 5 people per team
+- Projects must be related to the "Privacy & Security" topic
+- All code for projects must be written during the event
+- You cannot steal another team’s source code
+- Teams may have members joining remotely
+- Teams that have members joining remotely must have a member present on the venue for the judging
+- The decision of judges is final in terms of determining prizes and awards
+- Please respect our [Code of Conduct!](/code-of-conduct/)
+
+---
+
+### Finding a Team / Project Idea<i class='icon users'></i>
 
 If you’re missing team-mates or ideas for projects we’ve got you covered. You can start by writing into the **Find-a-team** chat on our [Matrix](https://matrix.to/#/#ethbrno:gwei.cz). Introduce yourself, discuss ideas, see what others are up to… There will also be a **Team-building session**, which will take place after the opening ceremony of Friday night. No need to prepare anything, just turn up. This session will be followed by a short **Brainstorm**, that you can also attend. We will take you and your team through a couple of exercises, which should lead you to at least one solid project idea. Then you’ll have everything to start your weekend of hacking!
 
-### <i class='icon coffee'></i> Catering
-We will take care of your meals and drinks for the entire Hackathon, conference and coffee breaks. There will be vegetarian options provided. Just come with an open mind, a knowledge-thirsty brain and enthusiasm. 
+---
 
+### Mentoring<i class='icon book'></i>
+
+Our amazing mentors are here to discuss anything related to your project. Not just code, but also ideas, concepts, design and presentation. They will generally be hanging around a **Mentor Base**, where you can come find them in person. You can also reach them on Matrix, in the **Mentor-help** chat. It’s always better to ask for advice sooner rather than later, you will learn and build quicker that way.
+
+---
+
+### Submissions
+
+You have to register and create your project at [ethbrno.devfolio.co](https://ethbrno.devfolio.co/) for submission before Sunday, 11am.
+
+Make sure to provide a link to your open-source repository, a video or a demo, and if applicable, the contract address(es) of your deployed application, either on a testnet of your choice or mainnet of a platform of choice. All submitted projects will be eligible for the main hackathon prize.
+
+Don't miss the deadline! Sunday 11am!
+
+---
+
+### Side-events
+
+List of events taking place before or during the ETHBrno² hackathon:
+
+#### Thursday - Nov 10
+- [11:00 - 20:00] [DOTBrno](https://www.eventbrite.com/e/dotbrno-polkadot-conference-in-brno-czech-republic-tickets-428553835057) - Polkadot conference (Industra - Lazaretní 925/9)
+
+#### Sunday - Nov 13
+- [10:00 - 18:00] [ETHBrno² Proxy](http://proxy.ethbrno.cz/) - A sub-conference for a local Czech audience (ClubCo/Impact Hub)
+- [21:00 - ??:??] [ETHBrno² Afterparty](#afterparty) (Schrott - Křenová 291)
+
+---
+
+### Afterparty
+
+What's next after three days of hacking? A party to squeeze out your last energy over good drinks, music and networking.
+
+The afterparty will take place in the industrial bar [Schrott](https://www.schrott.cz/), located a 5-minute walk from the main venue ([OSM](https://www.openstreetmap.org/node/6617843585), [Google Maps](https://goo.gl/maps/pcehq6wFLwJADppT8)). We will start at 21:00 and end sometime during the night :)
+
+The afterparty will be open to everyone, not just hackers, so feel free to invite your friends!
+
+
+---

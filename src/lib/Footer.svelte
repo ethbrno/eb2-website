@@ -29,7 +29,13 @@
 
 			<div class="md:inline-flex gap-10 sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start">
 				<div class="flex justify-center">
-					<a class="text-black external" href="https://docs.ethbrno.cz/events/2022" rel="noopener noreferrer"
+					<a class="text-black" href="/code-of-conduct/">Code of Conduct </a>
+				</div>
+				<div class="flex justify-center">
+					<a
+						class="text-black external"
+						href="https://docs.ethbrno.cz/events/2022"
+						rel="noopener noreferrer"
 						>Documentation
 					</a>
 				</div>
