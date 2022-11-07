@@ -434,8 +434,14 @@
       "name": "Devfolio",
       "tier": "community",
       "url": "https://devfolio.co/"
+    },
+    {
+      "id": "worldcoin",
+      "name": "Worldcoin",
+      "tier": "community",
+      "url": "https://worldcoin.org/"
     }
   ],
-  "time": "2022-11-06T09:19:28.372Z",
+  "time": "2022-11-07T08:21:25.695Z",
   "version": "v2022-10-16"
 }
