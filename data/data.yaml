@@ -170,13 +170,52 @@ contributors:
     name: mikete
     twitter: nikete
     bio: Curiosity driven. Open science, individual privacy, collective cognition
-    roles: [ mentor ]
+    roles: [ mentor, speaker ]
 
   - id: mykola-siusko
     name: Mykola Siusko
     twitter: nicksvyaznoy
     bio: Web3 fixer | Curing surveillance capitalism
     roles: [ speaker ]
+
+  - id: roman-mazur
+    name: Roman Mazur
+    twitter: romanmazur
+    bio: CEO & Co-founder @ Wido
+    roles: [ speaker ]
+
+  - id: kurt-opsahl
+    name: Kurt Opsahl
+    twitter: kurtopsahl
+    bio: Deputy Executive Director and General Counsel of the Electronic Frontier Foundation (EFF)
+    roles: [ speaker ]
+    remote: true
+
+  - id: robert-de-groot
+    name: Robert de Groot
+    twitter: robdotrego
+    bio: Dutch privacy advocate - ecosystem manager @ Swarm, Board member @ Open Signum
+    roles: [ speaker ]
+
+  - id: anirudha-bose
+    name: Anirudha Bose
+    twitter: onybose
+    bio: Wallet Engineer at Brave
+    roles: [ speaker ]
+
+  - id: felix-leupold
+    name: Felix Leupold
+    twitter: fleupold_
+    bio: Software Engineer. Technical Lead @ CoWSwap
+    roles: [ speaker ]
+    remote: true
+
+  - id: luca
+    name: Luca
+    bio: Blockchain protocol developer currently working at Kiln
+    link: https://github.com/0xpanoramix
+    roles: [ speaker ]
+    remote: true
 
   # ---- ADVISORS ----
 
