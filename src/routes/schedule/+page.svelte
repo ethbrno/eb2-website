@@ -7,7 +7,23 @@
 		let evtDate = new Date(c.datetime).getDay();
 		return evtDate === selectedDay;
 	});
-	console.log(filteredEvents);
+
+	function addMinutes(numOfMinutes, dateOrig = new Date()) {
+		const dateInstance = new Date(dateOrig);
+		dateInstance.setMinutes(dateOrig.getMinutes() + numOfMinutes);
+		return dateInstance;
+	}
+	function getTiming(date, duration) {
+		const dateObj = new Date(date);
+		const endObj = addMinutes(duration, dateObj);
+		//console.log(dateObj, endObj);
+		const minutes = [
+			String(dateObj.getMinutes()).padStart(2, '0'),
+			String(endObj.getMinutes()).padStart(2, '0')
+		];
+		return `${dateObj.getHours()}:${minutes[0]} - ${endObj.getHours()}:${minutes[1]}`;
+	}
+	//console.log(filteredEvents);
 </script>
 
 <svelte:head>
@@ -44,17 +60,20 @@
 				<div class=" flex flex-wrap md:flex-nowrap">
 					{#if evt.eventtype === 'Key'}
 						<div class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-white pl-2">
-							<span class="font-bold title-font px-2 ">3pm-4pm</span>
+							<span class="font-bold title-font px-2 ">{getTiming(evt.datetime, evt.duration)}</span
+							>
 						</div>
 					{:else}
 						<div
 							class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-gray-900 pl-2"
 						>
-							<span class="font-semibold title-font text-white px-2">3pm-4pm</span>
+							<span class="font-semibold title-font text-white px-2"
+								>{getTiming(evt.datetime, evt.duration)}</span
+							>
 							<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline px-2"
 								>🞋 {evt.stage}</a
 							>
-							<span class="mt-1 text-gray-500 text-sm uppercase px-2">{evt.eventtype}</span>
+							<span class="mt-1 text-gray-500 text-sm uppercase px-2">{evt.eventType}</span>
 						</div>
 					{/if}
 
