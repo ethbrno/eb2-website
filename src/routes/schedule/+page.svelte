@@ -35,6 +35,7 @@
 				name: item ? item.name : contributor.name 
 			}
 		})
+	}
 
 	function isPast(date) {
 		return new Date() > new Date(date);
