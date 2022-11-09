@@ -91,7 +91,7 @@
 		{#each filteredEvents as evt}
 			<div class="py-8 divide-y-2 divide-gray-800 {isPast(evt.datetime) && !checked && 'hidden'}">
 				<div class=" flex flex-wrap md:flex-nowrap">
-					{#if evt.eventType === 'Catering'}
+					{#if evt.eventType === 'Catering' || evt.eventType === 'Experiences' }
 						<div
 							class="md:w-64 md:mb-0 mb-2 flex-shrink-0 flex flex-col border-l-4 border-white md:pl-2"
 						>
