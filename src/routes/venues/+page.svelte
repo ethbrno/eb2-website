@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Venues | {data.title}</title>
+	<title>Venue | ETHBrno²</title>
 </svelte:head>
 <section class="text-white bg-black body-font">
 	<div class="container mx-auto flex py-12 md:py-24 md:flex-row flex-col items-center xl:max-w-screen-xl md:px-0 px-4">
