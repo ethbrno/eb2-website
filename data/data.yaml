@@ -33,6 +33,7 @@ contributors:
     link: https://github.com/Silur
     bio: Hackoholic Cryptonaut - Early Ethereum dev and blockchain pioneer
     roles: [ speaker ]
+    pretalxId: 45
 
   - id: rachel-oleary
     name: Rachel-Rose O'Leary
@@ -55,6 +56,7 @@ contributors:
     bio: Hacktrophy, Hackyourself.io
     roles: [ speaker ]
     remote: true
+    pretalxId: 47
 
   - id: pavol-luptak
     name: Pavol Luptak
@@ -63,6 +65,7 @@ contributors:
     bio: Nethemba, Hacktrophy, liberation.travel
     roles: [ speaker ]
     remote: true 
+    pretalxId: 5
 
   - id: dcbuilder
     name: dcbuilder.eth
@@ -83,6 +86,7 @@ contributors:
     twitter: temporalwave
     bio: Independent freedom adviser
     roles: [ speaker, mentor ]
+    pretalxId: 41
 
   - id: william-mitsuda
     name: Willian Mitsuda
@@ -90,6 +94,7 @@ contributors:
     bio: Creator of Otterscan
     roles: [ speaker ]
     remote: true
+    pretalxId: 10
 
   - id: vojtech-simetka
     name: Vojtěch Šimetka
@@ -102,30 +107,35 @@ contributors:
     twitter: qedk_
     bio: Engineering @ Polygon, EthIndia alum, ex-Moonshot Collective
     roles: [ speaker, mentor ]
+    pretalxId: 15
 
   - id: radek-svarz
     name: Radek Švarz
     twitter: radk
     bio: dCZK, Apus.finance
     roles: [ speaker ]
+    pretalxId: 2
 
   - id: lauri-peltonen
     name: Lauri Peltonen
     twitter: lauripelto
     bio: Ethereum & StarkNet @ Equilibrium
     roles: [ speaker, mentor ]
+    pretalxId: 4
 
   - id: jakub-jedlinsky
     name: Jakub Jedlinský
     twitter: Jakub_Jedlinsky
     bio: Macroeconomist and analyst - Altlift.cz, lecturer at KMEV VŠE
     roles: [ speaker ]
+    pretalxId: 21
 
   - id: steffen-kux
     name: Steffen Kux
     twitter: steffenkux
     bio: Co-founder, researcher, and developer at corpus.ventures
     roles: [ speaker ]
+    pretalxId: 17
 
   - id: max-hampshire
     name: Max Hampshire
@@ -133,18 +143,21 @@ contributors:
     twitter: _wjth
     bio: Developer Relations for Nym, previously a smart contract developer and researcher
     roles: [ speaker ]
+    pretalxId: 11
 
   - id: danish-shabbir
     name: Danish Shabbir
     twitter: fullyfuzuli
     bio: Privacy researcher and a fiction writer
     roles: [ speaker ]
+    pretalxId: 12
 
   - id: jan-zibner
     name: Jan Zibner
     link: https://www.artiffine.com/team/jan-zibner
     bio: Lawyer specialising in intellectual property law and digital trends @ Artiffine
     roles: [ speaker ]
+    pretalxId: 22
 
   - id: dhadrien
     name: dhadrien
@@ -152,6 +165,7 @@ contributors:
     bio: Founder of Sismo / ZK, Privacy, Decentralization and History
     remote: true
     roles: [ speaker ]
+    pretalxId: 25
   
   - id: chris-blec
     name: Chris Blec
@@ -159,30 +173,35 @@ contributors:
     bio: 'The intersection of Bitcoin, DeFi and Liberty || MakerDAO delegate'
     remote: true
     roles: [ speaker ]
+    pretalxId: 38
   
   - id: six
     name: six
     link: https://cryptoctf.org/
     bio: CCTF founder
     roles: [ speaker, judge ]
+    pretalxId: 6
 
   - id: nikete
     name: mikete
     twitter: nikete
     bio: Curiosity driven. Open science, individual privacy, collective cognition
     roles: [ mentor, speaker ]
+    pretalxId: 27
 
   - id: mykola-siusko
     name: Mykola Siusko
     twitter: nicksvyaznoy
     bio: Web3 fixer | Curing surveillance capitalism
     roles: [ speaker ]
+    pretalxId: 28
 
   - id: roman-mazur
     name: Roman Mazur
     twitter: romanmazur
     bio: CEO & Co-founder @ Wido
     roles: [ speaker ]
+    pretalxId: 37
 
   - id: kurt-opsahl
     name: Kurt Opsahl
@@ -190,6 +209,7 @@ contributors:
     bio: Deputy Executive Director and General Counsel of the Electronic Frontier Foundation (EFF)
     roles: [ speaker ]
     remote: true
+    pretalxId: 3
 
   - id: robert-de-groot
     name: Robert de Groot
@@ -197,12 +217,14 @@ contributors:
     bio: Dutch privacy advocate - ecosystem manager @ Swarm, Board member @ Open Signum
     roles: [ speaker ]
     remote: true
+    pretalxId: 29
 
   - id: anirudha-bose
     name: Anirudha Bose
     twitter: onybose
     bio: Wallet Engineer at Brave
     roles: [ speaker ]
+    pretalxId: 33
 
   - id: felix-leupold
     name: Felix Leupold
@@ -210,6 +232,7 @@ contributors:
     bio: Software Engineer. Technical Lead @ CoWSwap
     roles: [ speaker ]
     remote: true
+    pretalxId: 39
 
   - id: luca
     name: Luca
@@ -217,6 +240,7 @@ contributors:
     link: https://github.com/0xpanoramix
     roles: [ speaker ]
     remote: true
+    pretalxId: 40
 
   # ---- ADVISORS ----
 
@@ -239,6 +263,7 @@ contributors:
     twitter: AnettRolikova
     bio: Nethermind, previously Ethereum Magicians
     roles: [ advisor, judge ]
+    pretalxId: 48
 
   # ---- VOLUNTEERS ----
 

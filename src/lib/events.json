@@ -5,7 +5,7 @@
     "description": "Case studies of a few projects that use a zk formulation to create an interesting social experience. e.g. EthDOS, and a forward looking discussion of what games become possible given the current constraints on zk design space.",
     "speakers": [
       {
-        "id": "Danish Shabbir",
+        "id": 12,
         "name": "Danish Shabbir"
       }
     ],
@@ -21,7 +21,7 @@
     "description": "The Tornado Cash case showed that open-source development is under attack. It's time for a Web3 activism movement to build & facilitate practical tools of direct action. Let's start with a handbook mapping down on-chain & off-chain tools for #FreeAlex campaign. Free for everyone to act now.",
     "speakers": [
       {
-        "id": "Mykola Siusko",
+        "id": 28,
         "name": "Mykola Siusko"
       }
     ],
@@ -37,7 +37,7 @@
     "description": "Users' interaction with smart contracts requires trust in several technologies: FrontEnd app, Wallet app, HW wallet, smart contract or protocol, and blockchain.\r\n\r\nBlind signing deteriorates this trust.",
     "speakers": [
       {
-        "id": "Radek Švarz",
+        "id": 2,
         "name": "Radek Švarz"
       }
     ],
@@ -53,11 +53,11 @@
     "description": "Opening ceremony - Introduction to the ETHBrno hackathon, basics, schedule and important dates and times, voting mechanism explanation and other practical information.",
     "speakers": [
       {
-        "id": "tree",
+        "id": 1,
         "name": "tree"
       },
       {
-        "id": "Tereza Starostová",
+        "id": 31,
         "name": "Tereza Starostová"
       }
     ],
@@ -84,7 +84,7 @@
     "description": "TODO",
     "speakers": [
       {
-        "id": "Jacob Jelen",
+        "id": 24,
         "name": "Jacob Jelen"
       }
     ],
@@ -100,7 +100,7 @@
     "description": "Why and how to build decentralized web sites.",
     "speakers": [
       {
-        "id": "ADAM SOBOTKA",
+        "id": 18,
         "name": "ADAM SOBOTKA"
       }
     ],
@@ -116,7 +116,7 @@
     "description": "Technical workshop how to build a decentralised frontend using the armada project. Basic coding skills and having a laptop required.",
     "speakers": [
       {
-        "id": "roman",
+        "id": 37,
         "name": "roman"
       }
     ],
@@ -132,7 +132,7 @@
     "description": "The aim of the talk is to introduce the dm3 protocol and show how secure communication can be integrated into a DApp with only a few lines of code.",
     "speakers": [
       {
-        "id": "Steffen Kux",
+        "id": 17,
         "name": "Steffen Kux"
       }
     ],
@@ -148,7 +148,7 @@
     "description": "The talk will delve into some ingrained details and a high-level understanding of EVM, especially from Solidity language interaction perspectives, we will also talk a bit about Circom and how we can enable modular blockchain infrastructure in the current state of blockchain development.",
     "speakers": [
       {
-        "id": "QEDK",
+        "id": 15,
         "name": "QEDK"
       }
     ],
@@ -175,7 +175,7 @@
     "description": "The fire is growing, and a new financial world is emerging. Follow our anonymous author into a future of finance. Not one that will be but one that might be.",
     "speakers": [
       {
-        "id": "REKT",
+        "id": 32,
         "name": "REKT"
       }
     ],
@@ -191,7 +191,7 @@
     "description": "The conflict between old and new power structures is preprogrammed.  While solarpunks join DAOs, lunarpunks prepare for war. By favouring transparency in its systems, solarpunk is tragically engineering its fate. The only hope for solarpunk is to go dark.",
     "speakers": [
       {
-        "id": "REKT",
+        "id": 32,
         "name": "REKT"
       }
     ],
@@ -251,7 +251,7 @@
     "description": "We consider the social welfare that can be facilitated by a constant function market maker (CFMM).\r\nWhen there is sufficient liquidity available to the CFMM, it can approximate the optimal social welfare\r\nwhen all users transactions are executed. When one of the agent has the role of proposing the block, and\r\nblockspace is scarce, they can obtain higher expected utility than otherwise identical agents. This gives\r\na lower bound on the maximal extractable value exposed when blockspace is scarce.",
     "speakers": [
       {
-        "id": "Nikete",
+        "id": 27,
         "name": "Nikete"
       }
     ],
@@ -267,7 +267,7 @@
     "description": "Signing DApp transactions for EVM chains is a security nightmare, as it's very common for users to blindly approve a signature request while being completely oblivious to what the transaction does. This remains a very popular attack vector, taking advantage of the lack of information available to users while signing transactions.\r\n\r\nIn this talk, we'll develop an understanding of Ethereum calldata, and learn how you can decode it reveal insights about seemingly opaque transactions. I'll also present some of our recent efforts at Brave to bring more safety and transparency to the transaction approval process in Brave Wallet.",
     "speakers": [
       {
-        "id": "Anirudha Bose",
+        "id": 33,
         "name": "Anirudha Bose"
       }
     ],
@@ -283,11 +283,11 @@
     "description": "Join the discussion about the Lens Protocol and become eligible to claim your Lens handle.",
     "speakers": [
       {
-        "id": "Vojtěch Pour",
+        "id": 13,
         "name": "Vojtěch Pour"
       },
       {
-        "id": "0xadams.eth",
+        "id": 14,
         "name": "0xadams.eth"
       }
     ],
@@ -303,7 +303,7 @@
     "description": "We propose a federated and untrusted way to construct a dark pool with the utilization of various zero-knowledge protocols in order to protect private investor privacy in IDO fundraising models.",
     "speakers": [
       {
-        "id": "silur",
+        "id": 45,
         "name": "silur"
       }
     ],
@@ -319,7 +319,7 @@
     "description": "Privacy is a fundamental right, and a right that enables other human rights. In this presentation, Kurt Opsahl will explain what privacy means, why it’s important, and how we can protect privacy by building and supporting privacy enhancing technologies.",
     "speakers": [
       {
-        "id": "Kurt Opsahl",
+        "id": 3,
         "name": "Kurt Opsahl"
       }
     ],
@@ -335,7 +335,7 @@
     "description": "Suggested topic: \r\nHow MEV-boost works from a purely technical perspective (we will not discuss the benefits of running MEV-boost as it already has been done by Hasu and Stephane Gosselin in [*why run mev-boost*](https://writings.flashbots.net/writings/why-run-mevboost)).\r\n\r\nInstead, we will focus on the current state of the implementation of MEV-boost, and open a discussion on the near future and the ideas for the improvement of the solution.",
     "speakers": [
       {
-        "id": "Luca",
+        "id": 40,
         "name": "Luca"
       }
     ],
@@ -351,7 +351,7 @@
     "description": "ZK Badges is a new web3 primitive for users to import their reputation or history to their wallets in a privacy preserving way.",
     "speakers": [
       {
-        "id": "dhadrien",
+        "id": 25,
         "name": "dhadrien"
       }
     ],
@@ -367,7 +367,7 @@
     "description": "The Ethereum community still relies on very centralized infra, the most important one being block explorers. I'll show a very lightweight alternative anyone can run at home, a perfect companion to your Erigon node.",
     "speakers": [
       {
-        "id": "Willian Mitsuda",
+        "id": 10,
         "name": "Willian Mitsuda"
       }
     ],
@@ -449,7 +449,7 @@
     "description": "Thoughts and predictions from a full-stack developer with over seven years of working in this industry and helping teams",
     "speakers": [
       {
-        "id": "Owen Barnes",
+        "id": 41,
         "name": "Owen Barnes"
       }
     ],
@@ -465,11 +465,11 @@
     "description": "TODO",
     "speakers": [
       {
-        "id": "tree",
+        "id": 1,
         "name": "tree"
       },
       {
-        "id": "Tereza Starostová",
+        "id": 31,
         "name": "Tereza Starostová"
       }
     ],
