@@ -5,6 +5,7 @@
     "description": "Gate opens! Register and do your part for a privacy and security",
     "speakers": null,
     "datetime": "Fri, 11 Nov 2022 12:00:00 GMT",
+    "duration": 30,
     "stage": null,
     "eventtype": "Key"
   },
@@ -17,6 +18,7 @@
       { "id": "nick-almond", "name": "Nick Almond" }
     ],
     "datetime": "Fri, 11 Nov 2022 15:00:00 GMT",
+    "duration": 30,
     "stage": "Atrium",
     "eventtype": "Talk"
   },
@@ -29,6 +31,7 @@
       { "id": "nick-almond", "name": "Nick Almond" }
     ],
     "datetime": "Sat, 12 Nov 2022 14:00:00 GMT",
+    "duration": 30,
     "stage": "Atrium",
     "eventtype": "Workshop"
   },
@@ -38,6 +41,7 @@
     "description": "Introducing smart contract infrastructure for the Dark Forest",
     "speakers": [{ "id": "rachel-oleary", "name": "Rachel Rose O'Leary" }],
     "datetime": "Sat, 12 Nov 2022 16:00:00 GMT",
+    "duration": 30,
     "stage": "Atrium",
     "eventtype": "Talk"
   },
@@ -47,6 +51,7 @@
     "description": "How to utilize machine learning with ZKP to preserve privacy",
     "speakers": [{ "id": "dcbuilder", "name": "DCBuild3r" }],
     "datetime": "Sun, 13 Nov 2022 10:00:00 GMT",
+    "duration": 30,
     "stage": "Atrium",
     "eventtype": "Talk"
   }

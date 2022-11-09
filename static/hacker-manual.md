@@ -182,6 +182,7 @@ Our amazing mentors are here to discuss anything related to your project. Not ju
 
 You have to register and create your project at [ethbrno.devfolio.co](https://ethbrno.devfolio.co/) for submission before Sunday, 11am.
 
+After the registration, your [dashboard](https://devfolio.co/ethbrno/dashboard) will become visible, that is the place where you submit and update your project.
 Make sure to provide a link to your open-source repository, a video or a demo, and if applicable, the contract address(es) of your deployed application, either on a testnet of your choice or mainnet of a platform of choice. All submitted projects will be eligible for the main hackathon prize.
 
 Don't miss the deadline! Sunday 11am!
