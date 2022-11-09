@@ -282,7 +282,8 @@
       "bio": "Dutch privacy advocate - ecosystem manager @ Swarm, Board member @ Open Signum",
       "roles": [
         "speaker"
-      ]
+      ],
+      "remote": true
     },
     {
       "id": "anirudha-bose",
@@ -500,6 +501,6 @@
       "url": "https://worldcoin.org/"
     }
   ],
-  "time": "2022-11-07T21:54:25.953Z",
+  "time": "2022-11-09T15:43:11.590Z",
   "version": "v2022-10-16"
 }

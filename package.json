@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-    "build": "npm run make-data && vite build",
+    "build": "npm run make-data && npm run schedule && vite build",
     "preview": "vite preview",
     "test": "playwright test",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "make-data": "node ./scripts/make-data.js",
+    "schedule": "node ./scripts/schedule.js",
     "upload-data": "node ./scripts/upload-data.js",
     "ipfs-deploy": "npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web",
     "postinstall": "npx playwright install --with-deps chromium"

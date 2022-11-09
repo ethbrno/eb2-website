@@ -1,58 +1,515 @@
 [
   {
-    "id": "1",
-    "name": "Hackathon Registration Opens",
-    "description": "Gate opens! Register and do your part for a privacy and security",
-    "speakers": null,
-    "datetime": "Fri, 11 Nov 2022 12:00:00 GMT",
-    "duration": 30,
-    "stage": null,
-    "eventtype": "Key"
-  },
-  {
-    "id": "5",
-    "name": "ZKSync Workshop: Building on zkSync 2.0",
-    "description": "The Ethereum Layer 2 project is about to undergo its most significant upgrade to date. With the launch of zkSync 2.0, the network will gain the capacity for smart contracts, letting developers create and deploy their own DeFi protocols, NFTs, and blockchain games.",
+    "id": 10,
+    "name": "Social Games with Zero Knowledge Proofs",
+    "description": "Case studies of a few projects that use a zk formulation to create an interesting social experience. e.g. EthDOS, and a forward looking discussion of what games become possible given the current constraints on zk design space.",
     "speakers": [
-      { "id": "adam", "name": "Adam Sobotka" },
-      { "id": "nick-almond", "name": "Nick Almond" }
+      {
+        "id": "Danish Shabbir",
+        "name": "Danish Shabbir"
+      }
     ],
-    "datetime": "Fri, 11 Nov 2022 15:00:00 GMT",
-    "duration": 30,
-    "stage": "Atrium",
-    "eventtype": "Talk"
+    "datetime": "2022-11-11T14:30:00+01:00",
+    "duration": 60,
+    "stage": "Open-space",
+    "eventType": "Workshop",
+    "track": "Talks"
   },
   {
-    "id": "2",
-    "name": "How to build censorship resistant web",
-    "description": "This web is super hard to take down. We doubt that any government would try, despite our growing popularity. But even if they do, they will fail. Learn why, what option you have and build a similar web with Adam.",
+    "id": 28,
+    "name": "#FreeAlex Web3 activism handbook",
+    "description": "The Tornado Cash case showed that open-source development is under attack. It's time for a Web3 activism movement to build & facilitate practical tools of direct action. Let's start with a handbook mapping down on-chain & off-chain tools for #FreeAlex campaign. Free for everyone to act now.",
     "speakers": [
-      { "id": "adam", "name": "Adam Sobotka" },
-      { "id": "nick-almond", "name": "Nick Almond" }
+      {
+        "id": "Mykola Siusko",
+        "name": "Mykola Siusko"
+      }
     ],
-    "datetime": "Sat, 12 Nov 2022 14:00:00 GMT",
-    "duration": 30,
-    "stage": "Atrium",
-    "eventtype": "Workshop"
+    "datetime": "2022-11-11T15:30:00+01:00",
+    "duration": 45,
+    "stage": "Open-space",
+    "eventType": "Talk",
+    "track": "Talks"
   },
   {
-    "id": "3",
-    "name": "Lunarpunk infrastructure",
-    "description": "Introducing smart contract infrastructure for the Dark Forest",
-    "speakers": [{ "id": "rachel-oleary", "name": "Rachel Rose O'Leary" }],
-    "datetime": "Sat, 12 Nov 2022 16:00:00 GMT",
+    "id": 2,
+    "name": "The blind signing of contracts interaction",
+    "description": "Users' interaction with smart contracts requires trust in several technologies: FrontEnd app, Wallet app, HW wallet, smart contract or protocol, and blockchain.\r\n\r\nBlind signing deteriorates this trust.",
+    "speakers": [
+      {
+        "id": "Radek Švarz",
+        "name": "Radek Švarz"
+      }
+    ],
+    "datetime": "2022-11-11T18:30:00+01:00",
     "duration": 30,
-    "stage": "Atrium",
-    "eventtype": "Talk"
+    "stage": "Open-space",
+    "eventType": "Talk",
+    "track": "Talks"
   },
   {
-    "id": "4",
-    "name": "Using AI with ZKP",
-    "description": "How to utilize machine learning with ZKP to preserve privacy",
-    "speakers": [{ "id": "dcbuilder", "name": "DCBuild3r" }],
-    "datetime": "Sun, 13 Nov 2022 10:00:00 GMT",
+    "id": 1,
+    "name": "Opening ceremony & Kickoff",
+    "description": "Opening ceremony - Introduction to the ETHBrno hackathon, basics, schedule and important dates and times, voting mechanism explanation and other practical information.",
+    "speakers": [
+      {
+        "id": "tree",
+        "name": "tree"
+      },
+      {
+        "id": "Tereza Starostová",
+        "name": "Tereza Starostová"
+      }
+    ],
+    "datetime": "2022-11-11T19:00:00+01:00",
     "duration": 30,
-    "stage": "Atrium",
-    "eventtype": "Talk"
+    "stage": "Open-space",
+    "eventType": "Talk",
+    "track": "Ceremonies"
+  },
+  {
+    "id": 79,
+    "name": "Ideas Showcases",
+    "description": "Idea Showcase",
+    "speakers": [],
+    "datetime": "2022-11-11T19:30:00+01:00",
+    "duration": 60,
+    "stage": "Open-space",
+    "eventType": "Workshop",
+    "track": "Talks"
+  },
+  {
+    "id": 36,
+    "name": "Team Formation Workshop",
+    "description": "TODO",
+    "speakers": [
+      {
+        "id": "Jacob Jelen",
+        "name": "Jacob Jelen"
+      }
+    ],
+    "datetime": "2022-11-11T20:30:00+01:00",
+    "duration": 60,
+    "stage": "Open-space",
+    "eventType": "Workshop",
+    "track": "Ceremonies"
+  },
+  {
+    "id": 16,
+    "name": "Free the Web",
+    "description": "Why and how to build decentralized web sites.",
+    "speakers": [
+      {
+        "id": "ADAM SOBOTKA",
+        "name": "ADAM SOBOTKA"
+      }
+    ],
+    "datetime": "2022-11-11T14:30:00+01:00",
+    "duration": 60,
+    "stage": "Conference room",
+    "eventType": "Workshop",
+    "track": "Workshops"
+  },
+  {
+    "id": 61,
+    "name": "Armada: decentralised frontends",
+    "description": "Technical workshop how to build a decentralised frontend using the armada project. Basic coding skills and having a laptop required.",
+    "speakers": [
+      {
+        "id": "roman",
+        "name": "roman"
+      }
+    ],
+    "datetime": "2022-11-11T15:30:00+01:00",
+    "duration": 60,
+    "stage": "Conference room",
+    "eventType": "Workshop",
+    "track": "Workshops"
+  },
+  {
+    "id": 15,
+    "name": "dm3 - Decentralized, end-2-end encrypted web3 Messaging",
+    "description": "The aim of the talk is to introduce the dm3 protocol and show how secure communication can be integrated into a DApp with only a few lines of code.",
+    "speakers": [
+      {
+        "id": "Steffen Kux",
+        "name": "Steffen Kux"
+      }
+    ],
+    "datetime": "2022-11-11T16:30:00+01:00",
+    "duration": 60,
+    "stage": "Conference room",
+    "eventType": "Talk (long)",
+    "track": "Talks"
+  },
+  {
+    "id": 13,
+    "name": "Getting into EVM and understanding modular blockchain infrastructure",
+    "description": "The talk will delve into some ingrained details and a high-level understanding of EVM, especially from Solidity language interaction perspectives, we will also talk a bit about Circom and how we can enable modular blockchain infrastructure in the current state of blockchain development.",
+    "speakers": [
+      {
+        "id": "QEDK",
+        "name": "QEDK"
+      }
+    ],
+    "datetime": "2022-11-11T21:45:00+01:00",
+    "duration": 45,
+    "stage": "Conference room",
+    "eventType": "Talk",
+    "track": "Talks"
+  },
+  {
+    "id": 56,
+    "name": "Cicada 3301: An Internet Mystery (2018)",
+    "description": "\"In this video I explore an elaborate cryptographic internet puzzle orchestrated by a mysterious individual or group known as Cicada 3301.\" - LEMMiNO",
+    "speakers": [],
+    "datetime": "2022-11-11T22:30:00+01:00",
+    "duration": 18,
+    "stage": "Sky room",
+    "eventType": "Video-projection",
+    "track": "Video projections"
+  },
+  {
+    "id": 58,
+    "name": "Hopium Diaries - Dystopian Dreams (2021)",
+    "description": "The fire is growing, and a new financial world is emerging. Follow our anonymous author into a future of finance. Not one that will be but one that might be.",
+    "speakers": [
+      {
+        "id": "REKT",
+        "name": "REKT"
+      }
+    ],
+    "datetime": "2022-11-11T22:50:00+01:00",
+    "duration": 15,
+    "stage": "Sky room",
+    "eventType": "Video-projection",
+    "track": "Video projections"
+  },
+  {
+    "id": 57,
+    "name": "Lunarpunk and the Dark Side of the Cycle (2022)",
+    "description": "The conflict between old and new power structures is preprogrammed.  While solarpunks join DAOs, lunarpunks prepare for war. By favouring transparency in its systems, solarpunk is tragically engineering its fate. The only hope for solarpunk is to go dark.",
+    "speakers": [
+      {
+        "id": "REKT",
+        "name": "REKT"
+      }
+    ],
+    "datetime": "2022-11-11T23:05:00+01:00",
+    "duration": 10,
+    "stage": "Sky room",
+    "eventType": "Video-projection",
+    "track": "Video projections"
+  },
+  {
+    "id": 30,
+    "name": "Dinner (friday)",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-11T18:00:00+01:00",
+    "duration": 90,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 46,
+    "name": "Midnight Snack (friday)",
+    "description": "TODO",
+    "speakers": [],
+    "datetime": "2022-11-11T23:30:00+01:00",
+    "duration": 60,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 40,
+    "name": "Hacking (friday)",
+    "description": "TBD",
+    "speakers": [],
+    "datetime": "2022-11-11T19:30:00+01:00",
+    "duration": 210,
+    "stage": "Hackathon",
+    "eventType": "Hacking",
+    "track": null
+  },
+  {
+    "id": 41,
+    "name": "Hacking (saturday)",
+    "description": "Twenty-four hours of pure hacking.",
+    "speakers": [],
+    "datetime": "2022-11-12T00:00:00+01:00",
+    "duration": 60,
+    "stage": "Hackathon",
+    "eventType": "Hacking",
+    "track": null
+  },
+  {
+    "id": 27,
+    "name": "Constant Function Market Making, Social Welfare & MEV",
+    "description": "We consider the social welfare that can be facilitated by a constant function market maker (CFMM).\r\nWhen there is sufficient liquidity available to the CFMM, it can approximate the optimal social welfare\r\nwhen all users transactions are executed. When one of the agent has the role of proposing the block, and\r\nblockspace is scarce, they can obtain higher expected utility than otherwise identical agents. This gives\r\na lower bound on the maximal extractable value exposed when blockspace is scarce.",
+    "speakers": [
+      {
+        "id": "Nikete",
+        "name": "Nikete"
+      }
+    ],
+    "datetime": "2022-11-12T11:00:00+01:00",
+    "duration": 30,
+    "stage": "Conference room",
+    "eventType": "Talk",
+    "track": "Talks"
+  },
+  {
+    "id": 65,
+    "name": "Do not sign gibberish",
+    "description": "Signing DApp transactions for EVM chains is a security nightmare, as it's very common for users to blindly approve a signature request while being completely oblivious to what the transaction does. This remains a very popular attack vector, taking advantage of the lack of information available to users while signing transactions.\r\n\r\nIn this talk, we'll develop an understanding of Ethereum calldata, and learn how you can decode it reveal insights about seemingly opaque transactions. I'll also present some of our recent efforts at Brave to bring more safety and transparency to the transaction approval process in Brave Wallet.",
+    "speakers": [
+      {
+        "id": "Anirudha Bose",
+        "name": "Anirudha Bose"
+      }
+    ],
+    "datetime": "2022-11-12T11:30:00+01:00",
+    "duration": 20,
+    "stage": "Conference room",
+    "eventType": "Talk",
+    "track": "Talks"
+  },
+  {
+    "id": 11,
+    "name": "Gateway to the Lens Protocol",
+    "description": "Join the discussion about the Lens Protocol and become eligible to claim your Lens handle.",
+    "speakers": [
+      {
+        "id": "Vojtěch Pour",
+        "name": "Vojtěch Pour"
+      },
+      {
+        "id": "0xadams.eth",
+        "name": "0xadams.eth"
+      }
+    ],
+    "datetime": "2022-11-12T12:00:00+01:00",
+    "duration": 60,
+    "stage": "Conference room",
+    "eventType": "Campfire",
+    "track": "Talks"
+  },
+  {
+    "id": 74,
+    "name": "LochDex - IDO privacy with trustless dark pools",
+    "description": "We propose a federated and untrusted way to construct a dark pool with the utilization of various zero-knowledge protocols in order to protect private investor privacy in IDO fundraising models.",
+    "speakers": [
+      {
+        "id": "silur",
+        "name": "silur"
+      }
+    ],
+    "datetime": "2022-11-12T15:00:00+01:00",
+    "duration": 45,
+    "stage": "Conference room",
+    "eventType": "Talk",
+    "track": "Talks"
+  },
+  {
+    "id": 67,
+    "name": "Why We Should Care About Privacy",
+    "description": "Privacy is a fundamental right, and a right that enables other human rights. In this presentation, Kurt Opsahl will explain what privacy means, why it’s important, and how we can protect privacy by building and supporting privacy enhancing technologies.",
+    "speakers": [
+      {
+        "id": "Kurt Opsahl",
+        "name": "Kurt Opsahl"
+      }
+    ],
+    "datetime": "2022-11-12T19:30:00+01:00",
+    "duration": 30,
+    "stage": "Conference room",
+    "eventType": "Remote Talk",
+    "track": "ETHBrno² Remote"
+  },
+  {
+    "id": 64,
+    "name": "Understanding MEV and its importance for Ethereum or What’s going on with Ethereum’s MEV-Boost?",
+    "description": "Suggested topic: \r\nHow MEV-boost works from a purely technical perspective (we will not discuss the benefits of running MEV-boost as it already has been done by Hasu and Stephane Gosselin in [*why run mev-boost*](https://writings.flashbots.net/writings/why-run-mevboost)).\r\n\r\nInstead, we will focus on the current state of the implementation of MEV-boost, and open a discussion on the near future and the ideas for the improvement of the solution.",
+    "speakers": [
+      {
+        "id": "Luca",
+        "name": "Luca"
+      }
+    ],
+    "datetime": "2022-11-12T21:00:00+01:00",
+    "duration": 30,
+    "stage": "Conference room",
+    "eventType": "Remote Talk",
+    "track": "ETHBrno² Remote"
+  },
+  {
+    "id": 26,
+    "name": "Create a ZK Badge for your users or community in 15 minutes",
+    "description": "ZK Badges is a new web3 primitive for users to import their reputation or history to their wallets in a privacy preserving way.",
+    "speakers": [
+      {
+        "id": "dhadrien",
+        "name": "dhadrien"
+      }
+    ],
+    "datetime": "2022-11-12T21:30:00+01:00",
+    "duration": 30,
+    "stage": "Conference room",
+    "eventType": "Remote Talk",
+    "track": "ETHBrno² Remote"
+  },
+  {
+    "id": 9,
+    "name": "Otterscan, an open source, local block explorer for EVM chains",
+    "description": "The Ethereum community still relies on very centralized infra, the most important one being block explorers. I'll show a very lightweight alternative anyone can run at home, a perfect companion to your Erigon node.",
+    "speakers": [
+      {
+        "id": "Willian Mitsuda",
+        "name": "Willian Mitsuda"
+      }
+    ],
+    "datetime": "2022-11-12T22:30:00+01:00",
+    "duration": 30,
+    "stage": "Conference room",
+    "eventType": "Remote Talk",
+    "track": "ETHBrno² Remote"
+  },
+  {
+    "id": 34,
+    "name": "Breakfast (saturday)",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-12T09:00:00+01:00",
+    "duration": 90,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 31,
+    "name": "Lunch (saturday)",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-12T13:00:00+01:00",
+    "duration": 90,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 32,
+    "name": "Dinner (saturday)",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-12T18:00:00+01:00",
+    "duration": 90,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 47,
+    "name": "Midnight Snack (saturday)",
+    "description": "TODO",
+    "speakers": [],
+    "datetime": "2022-11-12T23:30:00+01:00",
+    "duration": 60,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 42,
+    "name": "Hacking (sunday) - Submission deadline 11:00",
+    "description": "Last 11 hours of hacking. Don't forget to submit your project by 11 am on [ethbrno.devfolio.co](https://ethbrno.devfolio.co/)!",
+    "speakers": [],
+    "datetime": "2022-11-13T00:00:00+01:00",
+    "duration": 660,
+    "stage": "Hackathon",
+    "eventType": "Hacking",
+    "track": null
+  },
+  {
+    "id": 37,
+    "name": "Quadratic voting - vote for the best ETHBrno² projects",
+    "description": "Project submissions have just closed - now we need to find out which projects deserve the top prize. The grand prize will be decided by all visitors using quadratic voting and this session will guide you through the process.",
+    "speakers": [],
+    "datetime": "2022-11-13T11:00:00+01:00",
+    "duration": 30,
+    "stage": "Open-space",
+    "eventType": "Workshop",
+    "track": "Ceremonies"
+  },
+  {
+    "id": 68,
+    "name": "Twelve thoughts on the future of Web3",
+    "description": "Thoughts and predictions from a full-stack developer with over seven years of working in this industry and helping teams",
+    "speakers": [
+      {
+        "id": "Owen Barnes",
+        "name": "Owen Barnes"
+      }
+    ],
+    "datetime": "2022-11-13T15:00:00+01:00",
+    "duration": 30,
+    "stage": "Open-space",
+    "eventType": "Talk",
+    "track": "Talks"
+  },
+  {
+    "id": 38,
+    "name": "Closing ceremonies - award ceremony, demos",
+    "description": "TODO",
+    "speakers": [
+      {
+        "id": "tree",
+        "name": "tree"
+      },
+      {
+        "id": "Tereza Starostová",
+        "name": "Tereza Starostová"
+      }
+    ],
+    "datetime": "2022-11-13T16:00:00+01:00",
+    "duration": 60,
+    "stage": "Open-space",
+    "eventType": "Talk (long)",
+    "track": "Ceremonies"
+  },
+  {
+    "id": 39,
+    "name": "The final toast & beer 🍻",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-13T17:00:00+01:00",
+    "duration": 90,
+    "stage": "Open-space",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 35,
+    "name": "Breakfast (sunday)",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-13T09:00:00+01:00",
+    "duration": 90,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
+  },
+  {
+    "id": 33,
+    "name": "Lunch (sunday)",
+    "description": "TBA",
+    "speakers": [],
+    "datetime": "2022-11-13T13:00:00+01:00",
+    "duration": 90,
+    "stage": "Bar",
+    "eventType": "Catering",
+    "track": "Catering"
   }
 ]
