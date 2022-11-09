@@ -115,9 +115,11 @@
 						<h2 class="text-2xl font-medium text-white title-font mb-2">
 							{evt.name}
 						</h2>
-						<p class="leading-relaxed markdown">
-							{@html marked(evt.description)}
-						</p>
+						{#if evt.description && !['TBD', 'TBA', 'TODO'].includes(evt.description)}
+							<p class="leading-relaxed markdown">
+								{@html marked(evt.description)}
+							</p>
+						{/if}
 						{#if evt.speakers && evt.speakers.length > 0}
 							<div class="col-start-2 row-start-1 row-end-3 mt-4 lg:mt-0 xl:mt-4">
 								<dt class="sr-only">Speakers</dt>
