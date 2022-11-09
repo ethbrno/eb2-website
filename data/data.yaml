@@ -196,6 +196,7 @@ contributors:
     twitter: robdotrego
     bio: Dutch privacy advocate - ecosystem manager @ Swarm, Board member @ Open Signum
     roles: [ speaker ]
+    remote: true
 
   - id: anirudha-bose
     name: Anirudha Bose
