@@ -242,6 +242,13 @@ contributors:
     remote: true
     pretalxId: 40
 
+  - id: steve-fau
+    name: Steve Fau
+    bio: Co-founder of PWN
+    twitter: steve_fau
+    roles: [ speaker ]
+    pretalxId: 50
+
   # ---- ADVISORS ----
 
   - id: mario-havel
@@ -285,6 +292,12 @@ contributors:
     name: Victor
     twitter: Heliatr0p
     bio: Sponsors & Speakers seeker | Software Engineer
+    roles: [ volunteer ]
+
+  - id: juan-abia
+    name: Juan Alberto Abia Alvarez
+    twitter: juanabia99
+    bio: Software engineer with too many side hobbies
     roles: [ volunteer ]
 
   # ---- TEAM ----
