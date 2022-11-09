@@ -1,6 +1,6 @@
 <script>
 	import { time_ranges_to_array } from "svelte/internal";
-
+	import { marked } from 'marked';
 
 	export let data;
 	let checked = false;
@@ -115,8 +115,8 @@
 						<h2 class="text-2xl font-medium text-white title-font mb-2">
 							{evt.name}
 						</h2>
-						<p class="leading-relaxed">
-							{evt.description}
+						<p class="leading-relaxed markdown">
+							{@html marked(evt.description)}
 						</p>
 						{#if evt.speakers && evt.speakers.length > 0}
 							<div class="col-start-2 row-start-1 row-end-3 mt-4 lg:mt-0 xl:mt-4">
