@@ -4,17 +4,11 @@
 
 	export let data;
 	let checked = false;
-	function handleClick(event) {
-		if (!checked) {
-			return;
-		}
-		checked = !checked;
-		setTimeout(() => (event.target.checked = checked), 0);
-	}
+
 	const today = new Date().getDay();
 	let selectedDay = today === 5 || today === 6 || today === 0 ? today : 5;
 	//let selectedDay = 6;
-	$: filteredEvents = data.events.filter((c) => {
+	$: filteredEvents = data.events?.filter((c) => {
 		let evtDate = new Date(c.datetime).getDay();
 		return evtDate === selectedDay;
 	});
@@ -99,13 +93,13 @@
 			<div class="py-8 divide-y-2 divide-gray-800 {isPast(evt.datetime) && !checked && 'hidden'}">
 				<div class=" flex flex-wrap md:flex-nowrap">
 					{#if evt.eventType === 'Catering'}
-						<div class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-white pl-2">
+						<div class="md:w-64 md:mb-0 mb-2 flex-shrink-0 flex flex-col border-l-4 border-white md:pl-2">
 							<span class="font-bold title-font px-2 ">{getTiming(evt.datetime, evt.duration)}</span
 							>
 						</div>
 					{:else}
 						<div
-							class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-gray-900 pl-2"
+							class="md:w-64 md:mb-0 mb-2 flex-shrink-0 flex flex-col border-l-4 border-gray-900 md:pl-2"
 						>
 							<span class="font-semibold title-font text-white px-2"
 								>{getTiming(evt.datetime, evt.duration)}</span
