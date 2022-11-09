@@ -405,7 +405,8 @@
       "bio": "Vision, content | Gwei.cz and BohemianDAO founder, Ethereum enthusiast",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 1
     },
     {
       "id": "tereza",
@@ -414,7 +415,8 @@
       "bio": "Production, sponsors | Holky v Kryptu co-founder, chairman of UTXO Foundation",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 31
     },
     {
       "id": "exez",
@@ -462,7 +464,8 @@
       "bio": "Networking support",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 24
     },
     {
       "id": "dominika",
@@ -527,6 +530,6 @@
       "url": "https://worldcoin.org/"
     }
   ],
-  "time": "2022-11-09T16:32:04.176Z",
+  "time": "2022-11-09T16:39:58.580Z",
   "version": "v2022-10-16"
 }

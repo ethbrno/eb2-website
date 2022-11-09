@@ -294,12 +294,14 @@ contributors:
     twitter: treecz
     bio: Vision, content | Gwei.cz and BohemianDAO founder, Ethereum enthusiast
     roles: [ team ]
+    pretalxId: 1
 
   - id: tereza
     name: Tereza
     twitter: terkastarostova
     bio: Production, sponsors | Holky v Kryptu co-founder, chairman of UTXO Foundation
     roles: [ team ]
+    pretalxId: 31
 
   - id: exez
     name: Exez
@@ -333,6 +335,7 @@ contributors:
     twitter: jacobjelen
     bio: Networking support
     roles: [ team ]
+    pretalxId: 24
 
   - id: dominika
     name: Dominika
