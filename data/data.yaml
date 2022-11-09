@@ -242,6 +242,13 @@ contributors:
     remote: true
     pretalxId: 40
 
+  - id: steve-fau
+    name: Steve Fau
+    bio: Co-founder of PWN
+    twitter: steve_fau
+    roles: [ speaker ]
+    pretalxId: 50
+
   # ---- ADVISORS ----
 
   - id: mario-havel
