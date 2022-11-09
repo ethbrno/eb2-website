@@ -23,6 +23,9 @@
 		];
 		return `${dateObj.getHours()}:${minutes[0]} - ${endObj.getHours()}:${minutes[1]}`;
 	}
+	function isPast(date) {
+		return new Date() > new Date(date);
+	}
 	//console.log(filteredEvents);
 </script>
 
@@ -56,9 +59,9 @@
 <section class="text-white bg-black body-font overflow-hidden">
 	<div class="container px-5 py-24 mx-auto">
 		{#each filteredEvents as evt}
-			<div class="py-8 divide-y-2 divide-gray-800">
+			<div class="py-8 divide-y-2 divide-gray-800 {isPast(evt.datetime) && 'hidden'}">
 				<div class=" flex flex-wrap md:flex-nowrap">
-					{#if evt.eventtype === 'Key'}
+					{#if evt.eventType === 'Catering'}
 						<div class="md:w-64 md:mb-0 flex-shrink-0 flex flex-col border-l-4 border-white pl-2">
 							<span class="font-bold title-font px-2 ">{getTiming(evt.datetime, evt.duration)}</span
 							>
