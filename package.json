@@ -12,11 +12,9 @@
     "make-data": "node ./scripts/make-data.js",
     "schedule": "node ./scripts/schedule.js",
     "upload-data": "node ./scripts/upload-data.js",
-    "ipfs-deploy": "npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web",
-    "postinstall": "npx playwright install --with-deps chromium"
+    "ipfs-deploy": "npx -y --loglevel=error github:burningtree/ipfs-cluster-deploy ./build ethbrno-web"
   },
   "devDependencies": {
-    "@playwright/test": "^1.25.0",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
