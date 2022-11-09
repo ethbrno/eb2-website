@@ -1,5 +1,5 @@
 <script>
-	import { time_ranges_to_array } from "svelte/internal";
+	import { time_ranges_to_array } from 'svelte/internal';
 	import { marked } from 'marked';
 
 	export let data;
@@ -29,14 +29,14 @@
 		return `${dateObj.getHours()}:${minutes[0]} - ${endObj.getHours()}:${minutes[1]}`;
 	}
 
-	function contributorsData (arr) {
-		return arr.map(contributor => {
-			const item = data.contributors.find(c => c.pretalxId === contributor.id)
+	function contributorsData(arr) {
+		return arr.map((contributor) => {
+			const item = data.contributors.find((c) => c.pretalxId === contributor.id);
 			return {
 				id: item ? item.id : null,
-				name: item ? item.name : contributor.name 
-			}
-		})
+				name: item ? item.name : contributor.name
+			};
+		});
 	}
 
 	function isPast(date) {
@@ -77,7 +77,7 @@
 	<label for="Toggle1" class="inline-flex items-center space-x-4 cursor-pointer text-gray-100">
 		<span>Hide</span>
 		<span class="relative">
-			<input id="Toggle1" type="checkbox" class="hidden peer" bind:checked={checked} />
+			<input id="Toggle1" type="checkbox" class="hidden peer" bind:checked />
 			<div class="w-10 h-6 rounded-full shadow-inner bg-gray-400 peer-checked:bg-gray-100" />
 			<div
 				class="absolute inset-y-0 left-0 w-4 h-4 m-1 rounded-full shadow peer-checked:right-0 peer-checked:left-auto bg-gray-800"
@@ -86,14 +86,15 @@
 		<span>Show past events</span>
 	</label>
 </section>
-
 <section class="text-white bg-black body-font overflow-hidden">
-	<div class="container px-5 py-24 mx-auto">
+	<div class="container px-5 pb-24 mx-auto">
 		{#each filteredEvents as evt}
 			<div class="py-8 divide-y-2 divide-gray-800 {isPast(evt.datetime) && !checked && 'hidden'}">
 				<div class=" flex flex-wrap md:flex-nowrap">
 					{#if evt.eventType === 'Catering'}
-						<div class="md:w-64 md:mb-0 mb-2 flex-shrink-0 flex flex-col border-l-4 border-white md:pl-2">
+						<div
+							class="md:w-64 md:mb-0 mb-2 flex-shrink-0 flex flex-col border-l-4 border-white md:pl-2"
+						>
 							<span class="font-bold title-font px-2 ">{getTiming(evt.datetime, evt.duration)}</span
 							>
 						</div>
@@ -126,7 +127,7 @@
 								<dd class="flex justify-start -space-x-1.5 gap-6">
 									{#each contributorsData(evt.speakers || []) as speaker}
 										<div class="flex gap-4">
-											{#if speaker.id}					
+											{#if speaker.id}
 												<img
 													src={`/photos/contributors/${speaker.id}.jpg`}
 													alt={speaker.name}
@@ -144,5 +145,26 @@
 				</div>
 			</div>
 		{/each}
+	</div>
+</section>
+<section
+	class="text-white body-font bg-black px-2 py-6 md:py-12 flex justify-center flex-row overflow-x-scroll flex-wrap text-sm md:text-base"
+>
+	<div class="flex items-center p-6 space-x-4 text-gray-100">
+		<div class="flex items-center self-stretch justify-center">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 20 20"
+				fill="currentColor"
+				class="w-10 h-10"
+			>
+				<path
+					fill-rule="evenodd"
+					d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+					clip-rule="evenodd"
+				/>
+			</svg>
+		</div>
+		<span>Time is displayed in CET (UTC+1)</span>
 	</div>
 </section>

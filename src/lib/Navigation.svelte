@@ -27,10 +27,7 @@
 		</div>
 
 		<div class={open ? 'block w-full' : 'xl:flex flex-grow items-center hidden'} id="navbar">
-			<div class="text-sm pt-10 xl:pt-0 pl-4 xl:pl-0">
-				<strong>November 11 - 13, 2022</strong><br />
-				Brno, Czech Republic
-			</div>
+
 			<div class="flex flex-grow items-center">
 				<ul
 					class="flex flex-col xl:flex-row xl:flex-grow-0 xl:mt-0 list-none xl:ml-auto text-base flex-grow my-8 xl:my-0"
