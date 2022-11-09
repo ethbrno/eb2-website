@@ -38,7 +38,8 @@
       "bio": "Hackoholic Cryptonaut - Early Ethereum dev and blockchain pioneer",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 45
     },
     {
       "id": "rachel-oleary",
@@ -68,7 +69,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 47
     },
     {
       "id": "pavol-luptak",
@@ -79,7 +81,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 5
     },
     {
       "id": "dcbuilder",
@@ -110,7 +113,8 @@
       "roles": [
         "speaker",
         "mentor"
-      ]
+      ],
+      "pretalxId": 41
     },
     {
       "id": "william-mitsuda",
@@ -120,7 +124,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 10
     },
     {
       "id": "vojtech-simetka",
@@ -140,7 +145,8 @@
       "roles": [
         "speaker",
         "mentor"
-      ]
+      ],
+      "pretalxId": 15
     },
     {
       "id": "radek-svarz",
@@ -149,7 +155,8 @@
       "bio": "dCZK, Apus.finance",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 2
     },
     {
       "id": "lauri-peltonen",
@@ -159,7 +166,8 @@
       "roles": [
         "speaker",
         "mentor"
-      ]
+      ],
+      "pretalxId": 4
     },
     {
       "id": "jakub-jedlinsky",
@@ -168,7 +176,8 @@
       "bio": "Macroeconomist and analyst - Altlift.cz, lecturer at KMEV VŠE",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 21
     },
     {
       "id": "steffen-kux",
@@ -177,7 +186,8 @@
       "bio": "Co-founder, researcher, and developer at corpus.ventures",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 17
     },
     {
       "id": "max-hampshire",
@@ -187,7 +197,8 @@
       "bio": "Developer Relations for Nym, previously a smart contract developer and researcher",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 11
     },
     {
       "id": "danish-shabbir",
@@ -196,7 +207,8 @@
       "bio": "Privacy researcher and a fiction writer",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 12
     },
     {
       "id": "jan-zibner",
@@ -205,7 +217,8 @@
       "bio": "Lawyer specialising in intellectual property law and digital trends @ Artiffine",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 22
     },
     {
       "id": "dhadrien",
@@ -215,7 +228,8 @@
       "remote": true,
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 25
     },
     {
       "id": "chris-blec",
@@ -225,7 +239,8 @@
       "remote": true,
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 38
     },
     {
       "id": "six",
@@ -235,7 +250,8 @@
       "roles": [
         "speaker",
         "judge"
-      ]
+      ],
+      "pretalxId": 6
     },
     {
       "id": "nikete",
@@ -245,7 +261,8 @@
       "roles": [
         "mentor",
         "speaker"
-      ]
+      ],
+      "pretalxId": 27
     },
     {
       "id": "mykola-siusko",
@@ -254,7 +271,8 @@
       "bio": "Web3 fixer | Curing surveillance capitalism",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 28
     },
     {
       "id": "roman-mazur",
@@ -263,7 +281,8 @@
       "bio": "CEO & Co-founder @ Wido",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 37
     },
     {
       "id": "kurt-opsahl",
@@ -273,7 +292,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 3
     },
     {
       "id": "robert-de-groot",
@@ -283,7 +303,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 29
     },
     {
       "id": "anirudha-bose",
@@ -292,7 +313,8 @@
       "bio": "Wallet Engineer at Brave",
       "roles": [
         "speaker"
-      ]
+      ],
+      "pretalxId": 33
     },
     {
       "id": "felix-leupold",
@@ -302,7 +324,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 39
     },
     {
       "id": "luca",
@@ -312,7 +335,8 @@
       "roles": [
         "speaker"
       ],
-      "remote": true
+      "remote": true,
+      "pretalxId": 40
     },
     {
       "id": "mario-havel",
@@ -342,7 +366,8 @@
       "roles": [
         "advisor",
         "judge"
-      ]
+      ],
+      "pretalxId": 48
     },
     {
       "id": "gabari",
@@ -380,7 +405,8 @@
       "bio": "Vision, content | Gwei.cz and BohemianDAO founder, Ethereum enthusiast",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 1
     },
     {
       "id": "tereza",
@@ -389,7 +415,8 @@
       "bio": "Production, sponsors | Holky v Kryptu co-founder, chairman of UTXO Foundation",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 31
     },
     {
       "id": "exez",
@@ -408,7 +435,8 @@
       "bio": "Website, community calls | Zitrone founder, member of Developer DAO and Forefront",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 18
     },
     {
       "id": "hedvika",
@@ -436,7 +464,8 @@
       "bio": "Networking support",
       "roles": [
         "team"
-      ]
+      ],
+      "pretalxId": 24
     },
     {
       "id": "dominika",
@@ -501,6 +530,6 @@
       "url": "https://worldcoin.org/"
     }
   ],
-  "time": "2022-11-09T15:43:11.590Z",
+  "time": "2022-11-09T16:39:58.580Z",
   "version": "v2022-10-16"
 }

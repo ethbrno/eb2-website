@@ -1,4 +1,7 @@
 <script>
+	import { time_ranges_to_array } from "svelte/internal";
+
+
 	export let data;
 	let checked = false;
 	function handleClick(event) {
@@ -31,6 +34,17 @@
 		];
 		return `${dateObj.getHours()}:${minutes[0]} - ${endObj.getHours()}:${minutes[1]}`;
 	}
+
+	function contributorsData (arr) {
+		return arr.map(contributor => {
+			const item = data.contributors.find(c => c.pretalxId === contributor.id)
+			return {
+				id: item ? item.id : null,
+				name: item ? item.name : contributor.name 
+			}
+		})
+	}
+
 	function isPast(date) {
 		return new Date() > new Date(date);
 	}
@@ -110,25 +124,26 @@
 						<p class="leading-relaxed">
 							{evt.description}
 						</p>
-						<div class="col-start-2 row-start-1 row-end-3 mt-4 lg:mt-0 xl:mt-4">
-							<dt class="sr-only">Speakers</dt>
-							<dd class="flex justify-start -space-x-1.5">
-								{#each evt.speakers || [] as speaker}
-									<img
-										src={`/photos/contributors/${speaker.id}.jpg`}
-										alt={speaker.name}
-										class="w-6 h-6 rounded-full bg-slate-100 ring-2 ring-white grayscale"
-										loading="lazy"
-									/>
-								{/each}
-
-								<p class="pl-4 flex space-x-2 divide-x ">
-									{#each evt.speakers || [] as speaker}
-										<p class="pl-2">{speaker.name}</p>
+						{#if evt.speakers && evt.speakers.length > 0}
+							<div class="col-start-2 row-start-1 row-end-3 mt-4 lg:mt-0 xl:mt-4">
+								<dt class="sr-only">Speakers</dt>
+								<dd class="flex justify-start -space-x-1.5 gap-6">
+									{#each contributorsData(evt.speakers || []) as speaker}
+										<div class="flex gap-4">
+											{#if speaker.id}					
+												<img
+													src={`/photos/contributors/${speaker.id}.jpg`}
+													alt={speaker.name}
+													class="w-6 h-6 rounded-full bg-slate-100 ring-2 ring-white grayscale"
+													loading="lazy"
+												/>
+											{/if}
+											<p>{speaker.name}</p>
+										</div>
 									{/each}
-								</p>
-							</dd>
-						</div>
+								</dd>
+							</div>
+						{/if}
 					</div>
 				</div>
 			</div>
