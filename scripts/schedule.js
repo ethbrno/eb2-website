@@ -26,7 +26,7 @@ async function run () {
           description: item.abstract,
           speakers: item.persons.map(p => {
             return {
-              id: p.public_name.trim(),
+              id: p.id,
               name: p.public_name
             }
           }),
