@@ -289,3 +289,10 @@ The afterparty will be open to everyone, not just hackers, so feel free to invit
 
 
 ---
+
+### Nightlife in Brno
+
+Brno has a selection of world-famous unique bars. 
+Check out Super Panda Circuss, Ctyri pokoje or Bar, ktery neexistuje and let it surprise you. :)
+
+---
