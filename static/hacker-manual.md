@@ -17,6 +17,7 @@
   * [Finding a Team / Project Idea](#finding-a-team--project-idea)
   * [Mentoring](#mentoring)
   * [Submissions](#submissions)
+  * [Special Bounty](#metamask-snaps-bounty---prize-800)
 * Experiences
   * [Side-events](#side-events)
   * [Afterparty](#afterparty)
@@ -186,6 +187,50 @@ After the registration, your [dashboard](https://devfolio.co/ethbrno/dashboard) 
 Make sure to provide a link to your open-source repository, a video or a demo, and if applicable, the contract address(es) of your deployed application, either on a testnet of your choice or mainnet of a platform of choice. All submitted projects will be eligible for the main hackathon prize.
 
 Don't miss the deadline! Sunday 11am!
+
+---
+
+### MetaMask Snaps Bounty - prize $800
+
+Extend the functionality of MetaMask. The most popular wallet is now an extensible platform for permissionless innovation. Bring your features and APIs to MetaMask with Snaps.
+
+A Snap is a program run in an isolated environment that customizes and extends the wallet experience. We are looking for new and interesting use cases to modify MetaMask using Snaps.
+
+#### Prompt ideas
+
+Anything Snaps 🤘
+- Open-ended call for the development of Snaps to customize/extend the MetaMask wallet experience
+
+Transaction insights ⚠️
+- Develop a Snap using the [transaction insights API](https://docs.metamask.io/guide/snaps-exports.html#ontransaction)
+
+If you can dream it, you can build it with the [guide](https://github.com/MetaMask/snaps-monorepo/discussions/821)!
+
+#### Additional Resources 🌐
+
+- [Snaps How To Guide](https://ethglobal.com/guides/introduction-to-metamask-snaps-54ej1)
+- [Developer Docs](https://docs.metamask.io/guide/snaps.html?utm_source=ethlisbon&utm_medium=event&utm_campaign=2022_Oct_ethlisbon-hackathon-page_awareness_event)
+- [Getting Started](https://github.com/MetaMask/snaps-monorepo/discussions/821)
+
+#### How to qualify? ☑️
+
+If you want to qualify and compete for prize: 
+
+- Fulfill the requirements below
+- Post a comment with a link to your hackathon project submission on the devfolio below this issue
+- Do it before submission deadline - Sun, Nov 13, 11AM Prague time
+
+#### Requirements ⚖️
+
+- **Novel** - We are looking for new and interesting use cases made possible only via the Snaps platform. Snaps must extend wallet functionality in a meaningful way. Simple use cases where the dapp could have existed without a Snap will not be awarded.
+- **Derp** - Repos must contain a text file named “history.txt” with the phrase “The Brno Dragon was a crocodile!” This attention to detail helps us reward genuine effort and identify quality projects. 
+- **Monorepo** - Use a monorepo structure (scaffold projects with the [guide](https://github.com/MetaMask/snaps-monorepo/discussions/821) or the CLI to get started). Feel free to construct a more complex front-end React.
+- **README** - README should detail what the project is, what it aims to accomplish, steps for running locally etc. 
+- **Run It** - Submissions must hosted or runnable locally
+
+#### Prize 🏆
+
+Bounty total **$800** (Split across winners)
 
 ---
 
