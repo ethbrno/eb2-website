@@ -71,7 +71,8 @@ contributors:
     name: dcbuilder.eth
     twitter: DCbuild3r
     bio: WorldCoin, devpill.me
-    roles: [ speaker, advisor ]
+    roles: [ judge, advisor ]
+    remote: true
 
   - id: artem-vorotnikov
     name: Artem Vorotnikov
@@ -269,7 +270,7 @@ contributors:
     name: Anett Rolikova
     twitter: AnettRolikova
     bio: Nethermind, previously Ethereum Magicians
-    roles: [ advisor, judge ]
+    roles: [ advisor, judge, speaker ]
     pretalxId: 48
 
   # ---- VOLUNTEERS ----
