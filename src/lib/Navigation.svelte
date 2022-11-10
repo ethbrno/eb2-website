@@ -42,10 +42,10 @@
 					</li>
 					<li>
 						<a
-							href="/venues"
+							href="/manual"
 							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75"
 							on:click={() => (open = false)}
-							class:active={$page.url.pathname === '/venues/'}>Venues</a
+							class:active={$page.url.pathname === '/manual/'}>Hacker Manual</a
 						>
 					</li>
 					<li>
@@ -58,10 +58,10 @@
 					</li>
 					<li>
 						<a
-							href="/manual"
+							href="/venues"
 							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75"
 							on:click={() => (open = false)}
-							class:active={$page.url.pathname === '/manual/'}>Hacker Manual</a
+							class:active={$page.url.pathname === '/venues/'}>Venue</a
 						>
 					</li>
 					<li>
@@ -73,17 +73,17 @@
 						>
 					</li>
 
-					<li>
+					<li class="pl-0 xl:pl-5">
 						<a
 							href="https://matrix.ethbrno.cz"
 							rel="noopener noreferrer"
 							target="_blank"
 							on:click={() => (open = false)}
-							class="px-5 py-2 flex items-center leading-snug text-black hover:opacity-75 external"
+							class="px-5 py-2 flex items-center bg-black text-white leading-snug hover:opacity-75 external"
 							>Chat</a
 						>
 					</li>
-					<li class="pl-0 xl:pl-5">
+					<!--li class="pl-0 xl:pl-5">
 						<a
 							href="https://join.ethbrno.cz"
 							rel="noopener noreferrer"
@@ -92,7 +92,7 @@
 							class="px-5 py-2 flex items-center bg-black text-white leading-snug hover:opacity-75 external"
 							>Join</a
 						>
-					</li>
+					</li-->
 				</ul>
 			</div>
 		</div>

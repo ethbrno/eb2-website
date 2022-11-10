@@ -1,6 +1,10 @@
 ## TL;DR
 
-* Join the conversation on Matrix: [#ethbrno:gwei.cz](https://matrix.to/#/#ethbrno:gwei.cz)
+* Join the conversation on Matrix - [#ethbrno:gwei.cz](https://matrix.to/#/#ethbrno:gwei.cz)
+* Mint your unique SBT token - [mint.ethbrno.cz](https://mint.ethbrno.cz/) ([read more](#hackathon-identity---soulbound-token-sbt))
+* Get test ETH on Goerli or Sepolia - [faucet.ethbrno.cz](https://faucet.ethbrno.cz/)
+* Submit your project before Sunday 11am - [devfolio.ethbrno.cz](https://ethbrno.devfolio.co/) ([read more](#submissions))
+* Take part in quadratic voting - [vote.ethbrno.cz](https://vote.ethbrno.cz/)
 
 ## Overview
 
@@ -11,7 +15,7 @@
   * [Map and tips from locals](#map-and-tips-from-locals)
   * [Catering](#catering)
 * Hackathon
-  * [Schedule](#schedule)
+  * [Schedule overview](#schedule-overview)
   * [Hackathon identity - Soulbound Token (SBT)](#hackathon-identity---soulbound-token-sbt)
   * [Hacking Rules](#hacking-rules)
   * [Finding a Team / Project Idea](#finding-a-team--project-idea)
@@ -19,6 +23,9 @@
   * [Submissions](#submissions)
   * [Special Bounty](#metamask-snaps-bounty---prize-800)
 * Experiences
+  * [Massages](#massages)
+  * [Sound-healing](#sound-healing)
+  * [Board games](#board-games)
   * [Side-events](#side-events)
   * [Afterparty](#afterparty)
 
@@ -107,16 +114,17 @@ We will take care of your meals and drinks for the entire Hackathon, conference 
 
 ---
 
-### Schedule
+### Schedule overview
 
-The full agenda will be available a few days before the hackathon here on the website.
+The full agenda is available on the [Schedule](/schedule/) page.
 
 #### Friday - Nov 11
 
 * **13:00** - Hackathon Registration Opens
-* **14:30 - 23:00** - Opening Talks and workshops
+* **14:30 - 22:30** - Opening Talks and workshops
 * **18:00 - 19:30** - Dinner
-* **19:00 - 20:30** - Opening Ceremony & Kickoff
+* **19:00 - 19:30** - Opening Ceremony
+* **19:30 - 20:30** - Ideas Showcase
 * **20:30 - 21:30** - Team Formation Workshop
 * **23:30** - Midnight Snack
 
@@ -124,7 +132,8 @@ The full agenda will be available a few days before the hackathon here on the we
 
 * **09:00 - 11:00** - Breakfast
 * **12:30 - 14:00** - Lunch
-* **15:00 - 23:30** - Talks and workshops (in-person or remote)
+* **11:00 - 16:00** - Talks and workshops
+* **16:00 - 23:30** - Remote talks and workshop
 * **18:00 - 19:30** - Dinner
 * **23:30** - Midnight Snack
 
@@ -133,11 +142,11 @@ The full agenda will be available a few days before the hackathon here on the we
 * **09:00 - 11:00** - Breakfast
 * **11:00** - Project Submission Deadline
 * **11:30 - 15:00** - Project Judging
+* **12:00 - 16:00** - Closing Talks
 * **12:30 - 14:00** - Lunch
-* **13:00 - 16:00** - Closing Talks
 * **15:15** - Finalist Teams Notified on Matrix
 * **16:00 - 17:00** - Closing Ceremonies & Demos
-* **17:00** - Coctail party 🎉
+* **17:00** - The final toast & beer 🍻
 * **19:00** - Hackathon ends
 * **21:00** - [Afterparty](#afterparty)
 
@@ -232,6 +241,28 @@ If you want to qualify and compete for prize:
 
 Bounty total **$800** (Split across winners)
 
+### Massages
+
+Enjoy short relaxing massages from a local blind masseuse Pavel with many years of experience with IT specialists.
+
+- Saturday [10:00 - 16:00] in a massage room next to the Chill lounge.
+
+----
+
+### Sound-healing
+
+1hr long sound bath, deep relaxation, healing and self-discovery. The tones of these instruments heal and harmonize our body, mind and spirit. During Sound Healing you may feel physical and mental relaxation, various forms of emotions may appear, you may perceive visions, colours, images, scenes. You may feel a tingling, warmth, or tingling sensation on your body. At the same time you can sleep through the whole concert.
+
+- Saturday [15:00 - 16:00] and [17:00 - 18:00] in the Chill lounge.
+
+---
+
+### Board-games
+
+Need a change of perspective or just take a break from the monitor? Switch to offline play and have fun with a board game. 
+
+- Chess, Dominoes, Checkers, Dice, Backgammon, Cards and more available in and around the Chill lounge area
+
 ---
 
 ### Side-events
@@ -243,7 +274,7 @@ List of events taking place before or during the ETHBrno² hackathon:
 
 #### Sunday - Nov 13
 - [10:00 - 18:00] [ETHBrno² Proxy](http://proxy.ethbrno.cz/) - A sub-conference for a local Czech audience (ClubCo/Impact Hub)
-- [21:00 - ??:??] [ETHBrno² Afterparty](#afterparty) (Schrott - Křenová 291)
+- [20:00 - 00:00] [ETHBrno² Afterparty](#afterparty) (Schrott - Křenová 291)
 
 ---
 
