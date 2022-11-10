@@ -1,5 +1,4 @@
 <script>
-	import { time_ranges_to_array } from 'svelte/internal';
 	import { marked } from 'marked';
 
 	export let data;
@@ -26,7 +25,7 @@
 			String(dateObj.getMinutes()).padStart(2, '0'),
 			String(endObj.getMinutes()).padStart(2, '0')
 		];
-		return `${dateObj.getHours()}:${minutes[0]} - ${endObj.getHours()}:${minutes[1]}`;
+		return `${dateObj.getUTCHours()+1}:${minutes[0]} - ${endObj.getUTCHours()+1}:${minutes[1]}`;
 	}
 
 	function contributorsData(arr) {
