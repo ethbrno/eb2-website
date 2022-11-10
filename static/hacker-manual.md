@@ -18,6 +18,9 @@
   * [Mentoring](#mentoring)
   * [Submissions](#submissions)
 * Experiences
+  * [Massages](#massages)
+  * [Sound-healing](#sound-healing)
+  * [Board games](#board-games)
   * [Side-events](#side-events)
   * [Afterparty](#afterparty)
 
@@ -189,6 +192,31 @@ Don't miss the deadline! Sunday 11am!
 
 ---
 
+
+### Massages
+
+Enjoy short relaxing massages from a local blind masseuse Pavel with many years of experience with IT specialists.
+
+- Saturday [10:00 - 16:00] in a massage room next to the Chill lounge.
+
+----
+
+### Sound-healing
+
+1hr long sound bath, deep relaxation, healing and self-discovery. The tones of these instruments heal and harmonize our body, mind and spirit. During Sound Healing you may feel physical and mental relaxation, various forms of emotions may appear, you may perceive visions, colours, images, scenes. You may feel a tingling, warmth, or tingling sensation on your body. At the same time you can sleep through the whole concert.
+
+- Saturday [15:00 - 16:00] and [17:00 - 18:00] in the Chill lounge.
+
+---
+
+### Board-games
+
+Need a change of perspective or just take a break from the monitor? Switch to offline play and have fun with a board game. 
+
+- Chess, Dominoes, Checkers, Dice, Backgammon, Cards and more available in and around the Chill lounge area
+
+---
+
 ### Side-events
 
 List of events taking place before or during the ETHBrno² hackathon:
@@ -198,7 +226,7 @@ List of events taking place before or during the ETHBrno² hackathon:
 
 #### Sunday - Nov 13
 - [10:00 - 18:00] [ETHBrno² Proxy](http://proxy.ethbrno.cz/) - A sub-conference for a local Czech audience (ClubCo/Impact Hub)
-- [21:00 - ??:??] [ETHBrno² Afterparty](#afterparty) (Schrott - Křenová 291)
+- [20:00 - 00:00] [ETHBrno² Afterparty](#afterparty) (Schrott - Křenová 291)
 
 ---
 
