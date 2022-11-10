@@ -262,6 +262,7 @@ Enjoy short relaxing massages from a local blind masseuse Pavel with many years 
 Need a change of perspective or just take a break from the monitor? Switch to offline play and have fun with a board game. 
 
 - Chess, Dominoes, Checkers, Dice, Backgammon, Cards and more available in and around the Chill lounge area
+- You will also have table football at your disposal :)
 
 ---
 
