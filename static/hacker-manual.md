@@ -11,7 +11,7 @@
   * [Map and tips from locals](#map-and-tips-from-locals)
   * [Catering](#catering)
 * Hackathon
-  * [Schedule](#schedule)
+  * [Schedule overview](#schedule-overview)
   * [Hackathon identity - Soulbound Token (SBT)](#hackathon-identity---soulbound-token-sbt)
   * [Hacking Rules](#hacking-rules)
   * [Finding a Team / Project Idea](#finding-a-team--project-idea)
@@ -109,16 +109,17 @@ We will take care of your meals and drinks for the entire Hackathon, conference 
 
 ---
 
-### Schedule
+### Schedule overview
 
-The full agenda will be available a few days before the hackathon here on the website.
+The full agenda is available on the [Schedule](/schedule/) page.
 
 #### Friday - Nov 11
 
 * **13:00** - Hackathon Registration Opens
-* **14:30 - 23:00** - Opening Talks and workshops
+* **14:30 - 22:30** - Opening Talks and workshops
 * **18:00 - 19:30** - Dinner
-* **19:00 - 20:30** - Opening Ceremony & Kickoff
+* **19:00 - 19:30** - Opening Ceremony
+* **19:30 - 20:30** - Ideas Showcase
 * **20:30 - 21:30** - Team Formation Workshop
 * **23:30** - Midnight Snack
 
@@ -126,7 +127,8 @@ The full agenda will be available a few days before the hackathon here on the we
 
 * **09:00 - 11:00** - Breakfast
 * **12:30 - 14:00** - Lunch
-* **15:00 - 23:30** - Talks and workshops (in-person or remote)
+* **11:00 - 16:00** - Talks and workshops
+* **16:00 - 23:30** - Remote talks and workshop
 * **18:00 - 19:30** - Dinner
 * **23:30** - Midnight Snack
 
@@ -135,11 +137,11 @@ The full agenda will be available a few days before the hackathon here on the we
 * **09:00 - 11:00** - Breakfast
 * **11:00** - Project Submission Deadline
 * **11:30 - 15:00** - Project Judging
+* **12:00 - 16:00** - Closing Talks
 * **12:30 - 14:00** - Lunch
-* **13:00 - 16:00** - Closing Talks
 * **15:15** - Finalist Teams Notified on Matrix
 * **16:00 - 17:00** - Closing Ceremonies & Demos
-* **17:00** - Coctail party 🎉
+* **17:00** - The final toast & beer 🍻
 * **19:00** - Hackathon ends
 * **21:00** - [Afterparty](#afterparty)
 
