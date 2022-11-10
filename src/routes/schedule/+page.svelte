@@ -97,6 +97,9 @@
 						>
 							<span class="font-bold title-font px-2 ">{getTiming(evt.datetime, evt.duration)}</span
 							>
+							<a href="/venues" class="mt-1 text-white text-sm mb-1 hover:underline px-2"
+								>🞋 {evt.stage}</a
+							>
 						</div>
 					{:else}
 						<div
