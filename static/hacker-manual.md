@@ -1,6 +1,10 @@
 ## TL;DR
 
-* Join the conversation on Matrix: [#ethbrno:gwei.cz](https://matrix.to/#/#ethbrno:gwei.cz)
+* Join the conversation on Matrix - [#ethbrno:gwei.cz](https://matrix.to/#/#ethbrno:gwei.cz)
+* Mint your unique SBT token - [mint.ethbrno.cz](https://mint.ethbrno.cz/) ([read more](#hackathon-identity---soulbound-token-sbt))
+* Get test ETH on Goerli or Sepolia - [faucet.ethbrno.cz](https://faucet.ethbrno.cz/)
+* Submit your project before Sunday 11am - [devfolio.ethbrno.cz](https://ethbrno.devfolio.co/) ([read more](#submissions))
+* Take part in quadratic voting - [vote.ethbrno.cz](https://vote.ethbrno.cz/)
 
 ## Overview
 

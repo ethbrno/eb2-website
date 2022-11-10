@@ -70,7 +70,7 @@
 				>.
 			</p>
 
-			<div class="flex justify-center flex-wrap">
+			<!--div class="flex justify-center flex-wrap">
 				<a
 					href="https://join.ethbrno.cz/"
 					class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg external"
@@ -83,7 +83,7 @@
 					class="ml-4 inline-flex  border-0 py-2 px-6 focus:outline-none hover:bg-gray-100  text-lg underline external"
 					>Sponsor</a
 				>
-			</div>
+			</div-->
 		</div>
 		<div class="xl:max-w-lg xl:w-full md:w-1/2 w-[300px]">
 			<img class="object-cover object-center" alt="hero" src="key.png" />
