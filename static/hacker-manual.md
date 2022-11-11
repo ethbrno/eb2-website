@@ -1,7 +1,7 @@
 ## TL;DR
 
 * Join the conversation on Matrix - [#ethbrno:gwei.cz](https://matrix.to/#/#ethbrno:gwei.cz)
-* Mint your unique SBT token - [mint.ethbrno.cz](https://mint.ethbrno.cz/) ([read more](#hackathon-identity---soulbound-token-sbt))
+* [Mint your unique SBT token](#hackathon-identity---soulbound-token-sbt)
 * Get test ETH on Goerli or Sepolia - [faucet.ethbrno.cz](https://faucet.ethbrno.cz/)
 * Submit your project before Sunday 11am - [devfolio.ethbrno.cz](https://ethbrno.devfolio.co/) ([read more](#submissions))
 * Take part in quadratic voting - [vote.ethbrno.cz](https://vote.ethbrno.cz/)
@@ -18,10 +18,10 @@
   * [Schedule overview](#schedule-overview)
   * [Hackathon identity - Soulbound Token (SBT)](#hackathon-identity---soulbound-token-sbt)
   * [Hacking Rules](#hacking-rules)
+  * [Prizes and bounties](#prizes-and-bounties)
   * [Finding a Team / Project Idea](#finding-a-team--project-idea)
   * [Mentoring](#mentoring)
   * [Submissions](#submissions)
-  * [Prizes and bounties](#prizes-and-bounties)
 * Experiences
   * [Massages](#massages)
   * [Sound-healing](#sound-healing)
@@ -176,29 +176,6 @@ Possession of this token will entitle all visitors to:
 
 ---
 
-### Finding a Team / Project Idea<i class='icon users'></i>
-
-If you’re missing team-mates or ideas for projects we’ve got you covered. You can start by writing into the **Find-a-team** chat on our [Matrix](https://matrix.to/#/#ethbrno:gwei.cz). Introduce yourself, discuss ideas, see what others are up to… There will also be a **Team-building session**, which will take place after the opening ceremony of Friday night. No need to prepare anything, just turn up. This session will be followed by a short **Brainstorm**, that you can also attend. We will take you and your team through a couple of exercises, which should lead you to at least one solid project idea. Then you’ll have everything to start your weekend of hacking!
-
----
-
-### Mentoring<i class='icon book'></i>
-
-Our amazing mentors are here to discuss anything related to your project. Not just code, but also ideas, concepts, design and presentation. They will generally be hanging around a **Mentor Base**, where you can come find them in person. You can also reach them on Matrix, in the **Mentor-help** chat. It’s always better to ask for advice sooner rather than later, you will learn and build quicker that way.
-
----
-
-### Submissions
-
-You have to register and create your project at [ethbrno.devfolio.co](https://ethbrno.devfolio.co/) for submission before Sunday, 11am.
-
-After the registration, your [dashboard](https://devfolio.co/ethbrno/dashboard) will become visible, that is the place where you submit and update your project.
-Make sure to provide a link to your open-source repository, a video or a demo, and if applicable, the contract address(es) of your deployed application, either on a testnet of your choice or mainnet of a platform of choice. All submitted projects will be eligible for the main hackathon prize.
-
-Don't miss the deadline! Sunday 11am!
-
----
-
 ### Prizes and bounties
 
 ETHBrno is not a regular hackathon. Please study the following section carefully.
@@ -227,6 +204,29 @@ You can find sponsor bounties in [bounties repository](https://github.com/ethbrn
 
 Available sponsor bounties:
 - [[#1] MetaMask Snaps Bounty](https://github.com/ethbrno/eb2-sponsor-bounties/issues/1) - extend the functionality of MetaMask ($800)
+
+---
+
+### Finding a Team / Project Idea<i class='icon users'></i>
+
+If you’re missing team-mates or ideas for projects we’ve got you covered. You can start by writing into the **Find-a-team** chat on our [Matrix](https://matrix.to/#/#ethbrno:gwei.cz). Introduce yourself, discuss ideas, see what others are up to… There will also be a **Team-building session**, which will take place after the opening ceremony of Friday night. No need to prepare anything, just turn up. This session will be followed by a short **Brainstorm**, that you can also attend. We will take you and your team through a couple of exercises, which should lead you to at least one solid project idea. Then you’ll have everything to start your weekend of hacking!
+
+---
+
+### Mentoring<i class='icon book'></i>
+
+Our amazing mentors are here to discuss anything related to your project. Not just code, but also ideas, concepts, design and presentation. They will generally be hanging around a **Mentor Base**, where you can come find them in person. You can also reach them on Matrix, in the **Mentor-help** chat. It’s always better to ask for advice sooner rather than later, you will learn and build quicker that way.
+
+---
+
+### Submissions
+
+You have to register and create your project at [ethbrno.devfolio.co](https://ethbrno.devfolio.co/) for submission before Sunday, 11am.
+
+After the registration, your [dashboard](https://devfolio.co/ethbrno/dashboard) will become visible, that is the place where you submit and update your project.
+Make sure to provide a link to your open-source repository, a video or a demo, and if applicable, the contract address(es) of your deployed application, either on a testnet of your choice or mainnet of a platform of choice. All submitted projects will be eligible for the main hackathon prize.
+
+Don't miss the deadline! Sunday 11am!
 
 ---
 
