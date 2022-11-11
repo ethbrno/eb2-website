@@ -207,9 +207,9 @@ ETHBrno is not a regular hackathon. Please study the following section carefully
 
 You decide who wins! Every project is eligible, given they are aligned with the hackathon's theme and respecting [the rules](#hacking-rules). There will be no pitches and no judges. The open track will be judged by everyone attending using their [ETHBrno² Soulbound token](#hackathon-identity---soulbound-token-sbt) received upon registration.
 
-- 1st place: $2000 
-- 2nd place: $1000
-- 2nd place: $500
+- 1st place: **$2000** 
+- 2nd place: **$1000**
+- 2nd place: **$500**
 
 #### Meta Awards
 
@@ -219,14 +219,14 @@ Meta awards reward certain aspects of your project. All projects are eligible.
 - **Best smart-contract** - smart contract code quality and documentation
 - **Design** - outstanding user interfaces, graphics and experience
 
-The prize for each award is $1000.
+The prize for each award is **$1000**.
 
 #### Sponsor bounties
 
-We currently have the following sponsor bounties available:
-- [MetaMask Snaps Bounty - extend the functionality of MetaMask ($800)](https://github.com/ethbrno/eb2-sponsor-bounties/issues/1)
+You can find sponsor bounties in [bounties repository](https://github.com/ethbrno/eb2-sponsor-bounties).
 
-You can find sponsor bounties in ["ethbrno/eb2-sponsors-bounties" repository](https://github.com/ethbrno/eb2-sponsor-bounties).
+Available sponsor bounties:
+- [[#1] MetaMask Snaps Bounty](https://github.com/ethbrno/eb2-sponsor-bounties/issues/1) - extend the functionality of MetaMask ($800)
 
 ---
 
