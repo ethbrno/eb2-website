@@ -159,14 +159,14 @@ contributors:
     bio: Lawyer specialising in intellectual property law and digital trends @ Artiffine
     roles: [ speaker ]
     pretalxId: 22
-
-  - id: dhadrien
-    name: dhadrien
-    twitter: dhadrien_
-    bio: Founder of Sismo / ZK, Privacy, Decentralization and History
+  
+  - id: bigq
+    name: bigq
+    twitter: big_q__
+    bio: Building new ZK primitives @ Sismo, vyper lover on my spare time
     remote: true
     roles: [ speaker ]
-    pretalxId: 25
+    pretalxId: 51
   
   - id: chris-blec
     name: Chris Blec
@@ -242,13 +242,6 @@ contributors:
     roles: [ speaker ]
     remote: true
     pretalxId: 40
-
-  - id: steve-fau
-    name: Steve Fau
-    bio: Co-founder of PWN
-    twitter: steve_fau
-    roles: [ speaker ]
-    pretalxId: 50
 
   # ---- ADVISORS ----
 
