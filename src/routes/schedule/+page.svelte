@@ -25,7 +25,7 @@
 			String(dateObj.getMinutes()).padStart(2, '0'),
 			String(endObj.getMinutes()).padStart(2, '0')
 		];
-		return `${dateObj.getUTCHours()+1}:${minutes[0]} - ${endObj.getUTCHours()+1}:${minutes[1]}`;
+		return `${dateObj.getUTCHours() + 1}:${minutes[0]} - ${endObj.getUTCHours() + 1}:${minutes[1]}`;
 	}
 
 	function contributorsData(arr) {
@@ -38,8 +38,11 @@
 		});
 	}
 
-	function isPast(date) {
-		return new Date() > new Date(date);
+	function isPast(date, duration) {
+		const _date = new Date(date);
+		const endTime = addMinutes(duration + 30, _date);
+
+		return new Date() > endTime;
 	}
 	//console.log(filteredEvents);
 </script>
@@ -88,9 +91,13 @@
 <section class="text-white bg-black body-font overflow-hidden">
 	<div class="container px-5 pb-24 mx-auto">
 		{#each filteredEvents as evt}
-			<div class="py-8 divide-y-2 divide-gray-800 {isPast(evt.datetime) && !checked && 'hidden'}">
+			<div
+				class="py-8 divide-y-2 divide-gray-800 {isPast(evt.datetime, evt.duration) &&
+					!checked &&
+					'hidden'}"
+			>
 				<div class=" flex flex-wrap md:flex-nowrap">
-					{#if evt.eventType === 'Catering' || evt.eventType === 'Experiences' }
+					{#if evt.eventType === 'Catering' || evt.eventType === 'Experiences'}
 						<div
 							class="md:w-64 md:mb-0 mb-2 flex-shrink-0 flex flex-col border-l-4 border-white md:pl-2"
 						>
