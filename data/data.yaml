@@ -73,6 +73,7 @@ contributors:
     bio: WorldCoin, devpill.me
     roles: [ judge, advisor ]
     remote: true
+    pretalxId: 53
 
   - id: artem-vorotnikov
     name: Artem Vorotnikov
