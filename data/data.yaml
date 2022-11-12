@@ -121,7 +121,7 @@ contributors:
     name: Lauri Peltonen
     twitter: lauripelto
     bio: Ethereum & StarkNet @ Equilibrium
-    roles: [ speaker, mentor ]
+    roles: [ speaker, mentor, judge ]
     pretalxId: 4
 
   - id: jakub-jedlinsky
@@ -201,7 +201,7 @@ contributors:
     name: Roman Mazur
     twitter: romanmazur
     bio: CEO & Co-founder @ Wido
-    roles: [ speaker ]
+    roles: [ speaker, judge ]
     pretalxId: 37
 
   - id: kurt-opsahl

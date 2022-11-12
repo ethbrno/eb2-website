@@ -204,6 +204,7 @@ You can find sponsor bounties in [bounties repository](https://github.com/ethbrn
 
 Available sponsor bounties:
 - [[#1] MetaMask Snaps Bounty](https://github.com/ethbrno/eb2-sponsor-bounties/issues/1) - extend the functionality of MetaMask ($800)
+- [[#2] Swarm Bounty](https://github.com/ethbrno/eb2-sponsor-bounties/issues/2) - Build an awesome (d)app using Swarm ($500)
 
 ---
 
