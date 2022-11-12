@@ -141,12 +141,12 @@
 					<p class="whitespace-nowrap ml-4 opacity-30">Tier {tierNumber}</p>
 				</div>
 				<div
-					class="flex flex-col md:flex-row items-center justify-center w-full md:m-6 border-l border-white/30"
+					class="flex flex-col md:flex-row items-center justify-center w-full gap-20 border-l border-white/30"
 				>
 					{#each sponsors.filter((x) => x.tier.includes(tier.id)) as sponsor}
 						<a href={sponsor.url} rel="noopener noreferrer" target="_blank" alt="link to">
 							<img
-								class="w-60 m-6 grayscale hover:grayscale-0"
+								class="w-auto m-6 max-h-24 object-contain grayscale hover:grayscale-0"
 								src="/photos/sponsors/{sponsor.id}.png"
 								alt="{sponsor.name} Logo"
 							/>
