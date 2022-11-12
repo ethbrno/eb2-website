@@ -60,7 +60,7 @@
 	>
 		<div class="mx-auto w-5/6 md:mb-0 mt-10 md:mt-0">
 			<img
-				class="object-cover object-center grayscale invert"
+				class="object-cover object-center invert"
 				decoding="async"
 				loading="lazy"
 				src="/venues/floorplan.svg"
