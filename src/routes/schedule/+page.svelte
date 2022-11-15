@@ -2,7 +2,7 @@
 	import { marked } from 'marked';
 
 	export let data;
-	let checked = false;
+	let checked = true;
 
 	const today = new Date().getDay();
 	let selectedDay = today === 5 || today === 6 || today === 0 ? today : 5;

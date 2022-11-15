@@ -71,7 +71,7 @@ contributors:
     name: dcbuilder.eth
     twitter: DCbuild3r
     bio: WorldCoin, devpill.me
-    roles: [ judge, advisor ]
+    roles: [ judge, advisor, speaker ]
     remote: true
     pretalxId: 53
 
@@ -102,7 +102,7 @@ contributors:
     name: Vojtěch Šimetka
     twitter: vojtechsimetka
     bio: Blockchain for Humanity, Swarm, Giveth
-    roles: [ speaker, mentor ]
+    roles: [ speaker, mentor, judge ]
 
   - id: qedk
     name: QEDK
@@ -149,9 +149,10 @@ contributors:
 
   - id: danish-shabbir
     name: Danish Shabbir
+    nickname: fuzuli
     twitter: fullyfuzuli
     bio: Privacy researcher and a fiction writer
-    roles: [ speaker ]
+    roles: [ speaker, judge ]
     pretalxId: 12
 
   - id: jan-zibner
@@ -244,6 +245,14 @@ contributors:
     remote: true
     pretalxId: 40
 
+  # ---- JUDGES ----
+
+  - id: ashhanai
+    name: ashhanai
+    bio: builder @ PWN DAO
+    twitter: ashhanai
+    roles: [ judge ]
+
   # ---- ADVISORS ----
 
   - id: mario-havel
@@ -273,7 +282,7 @@ contributors:
     name: Bryce
     nickname: gabari
     twitter: gabari___
-    bio: Former head of communication for a top 3 DAO, Member of Developer DAO
+    bio: Sponsor & Speaker seeker | Former head of communication for a top 3 DAO, Member of Developer DAO
     roles: [ volunteer ]
 
   - id: hazae41
@@ -292,7 +301,13 @@ contributors:
   - id: juan-abia
     name: Juan Alberto Abia Alvarez
     twitter: juanabia99
-    bio: Software engineer with too many side hobbies
+    bio: General help | Software engineer with too many side hobbies
+    roles: [ volunteer ]
+
+  - id: ethan-clime
+    name: Ethan Clime
+    link: https://t.me/ethanclime
+    bio: Stage manager | Former DApp CEO and product manager
     roles: [ volunteer ]
 
   # ---- TEAM ----
