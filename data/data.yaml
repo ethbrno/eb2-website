@@ -289,7 +289,7 @@ contributors:
     name: Hugo
     nickname: Haz Æ 41
     twitter: hazae41
-    bio:  Sponsor & Speakers seeker | Software Engineer specialised in Privacy & Decentralized systems, member of Developer DAO
+    bio: Sponsor & Speakers seeker | Software Engineer specialised in Privacy & Decentralized systems, member of Developer DAO
     roles: [ volunteer ]
   
   - id: victor
@@ -308,6 +308,12 @@ contributors:
     name: Ethan Clime
     link: https://t.me/ethanclime
     bio: Stage manager | Former DApp CEO and product manager
+    roles: [ volunteer ]
+
+  - id: caner-budak
+    name: Caner Budak
+    twitter: caner_eth
+    bio: General help | Research & Data Analyst in Web3 ecoystem. Former Chairman of ITU Blockchain
     roles: [ volunteer ]
 
   # ---- TEAM ----
