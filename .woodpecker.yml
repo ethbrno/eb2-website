@@ -35,4 +35,4 @@ pipeline:
     secrets: [IPFS_CLUSTER_PASS]
     when:
       event: tag
-      branch: main
+      branch: [main]
